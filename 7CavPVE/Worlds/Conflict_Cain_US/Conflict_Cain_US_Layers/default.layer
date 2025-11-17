@@ -2358,8 +2358,6 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
           }
          }
         }
-        SCR_EntityCatalogEntry "{66DAF33B17CFA357}" {
-        }
         SCR_EntityCatalogEntry "{61DE270BD8D5AB40}" {
          m_aEntityDataList {
           SCR_ArsenalItem "{61DE270C05633A98}" {
@@ -2389,6 +2387,8 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
           SCR_ArsenalItem "{62E49625BA68F5B5}" {
           }
          }
+        }
+        SCR_EntityCatalogEntry "{66DAF33B17CFA357}" {
         }
         SCR_EntityCatalogInventoryItem "{66E03E9D415F8625}" {
          m_aEntityDataList {
@@ -4070,8 +4070,12 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
    }
   }
   SCR_CampaignFaction "{66E04C648CB9EF06}" : "{C3C8730223A0688E}Configs/Factions/RHS_RF_MSV_Campaign.conf" {
+   FactionKey "RHS_AFRF"
    m_bIsPlayable 0
    m_bShowInWelcomeScreenIfNonPlayable 0
+   m_aFriendlyFactionsIds +{
+    "FIA"
+   }
   }
  }
  m_aRanks {
