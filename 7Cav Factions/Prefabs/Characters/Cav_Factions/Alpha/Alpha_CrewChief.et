@@ -2,6 +2,9 @@ SCR_ChimeraCharacter : "{816708334423BE88}Prefabs/Characters/Cav_Factions/Alpha/
  ID "520EC961A090BBD5"
  components {
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   AttachType InventoryStorageSlot "{416B67397BB4F7EE}" {
+    Prefab "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+   }
    WeaponTemplate "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et"
   }
   CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
