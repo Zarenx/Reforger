@@ -924,56 +924,6 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
         SCR_EntityCatalogEntry "{652B36FB5FB2E3EF}" {
          m_bEnabled 0
         }
-        SCR_EntityCatalogEntry "{64D864B37C6E985E}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{64D864B35B794DA8}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{64D864B34A80BE73}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{64D864B3B985E7F4}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{64D864B3891197CB}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{64D864B3F269410A}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{65476AD90942633A}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{65476AD909ECF658}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{65476AD916455A23}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{65476AD9145C0E0B}" {
-         m_sEntityPrefab "{83C6FE37C44E4EE0}Prefabs/Vehicles/Tracked/M1A2/M1A2_SEPV2_TUSK2.et"
-         m_aEntityDataList {
-          SCR_EntityCatalogEditorData "{65476AD9145C01FE}" {
-          }
-          SCR_EntityCatalogSpawnerData "{65476AD9145C01F1}" {
-           m_eSlotTypes VEHICLE_MEDIUM
-          }
-         }
-        }
-        SCR_EntityCatalogEntry "{65476AD915D182EC}" {
-         m_sEntityPrefab "{DD009448F2936A27}Prefabs/Vehicles/Tracked/M1A2/SEPV2/M1A2_SEPV2_TUSK2_MERDC.et"
-         m_aEntityDataList {
-          SCR_EntityCatalogEditorData "{65476AD915D18258}" {
-          }
-          SCR_EntityCatalogSpawnerData "{65476AD915D1825A}" {
-           m_eSlotTypes VEHICLE_MEDIUM
-          }
-         }
-        }
-        SCR_EntityCatalogEntry "{65476AD912A0D9B2}" {
-         m_bEnabled 0
-        }
         SCR_EntityCatalogEntry "{63106176246E1DCA}" {
          m_bEnabled 0
         }
@@ -1047,6 +997,56 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
            m_eSlotTypes VEHICLE_MEDIUM
           }
          }
+        }
+        SCR_EntityCatalogEntry "{64D864B37C6E985E}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64D864B35B794DA8}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64D864B34A80BE73}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64D864B3B985E7F4}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64D864B3891197CB}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{64D864B3F269410A}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{65476AD90942633A}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{65476AD909ECF658}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{65476AD916455A23}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{65476AD9145C0E0B}" {
+         m_sEntityPrefab "{83C6FE37C44E4EE0}Prefabs/Vehicles/Tracked/M1A2/M1A2_SEPV2_TUSK2.et"
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{65476AD9145C01FE}" {
+          }
+          SCR_EntityCatalogSpawnerData "{65476AD9145C01F1}" {
+           m_eSlotTypes VEHICLE_MEDIUM
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{65476AD915D182EC}" {
+         m_sEntityPrefab "{DD009448F2936A27}Prefabs/Vehicles/Tracked/M1A2/SEPV2/M1A2_SEPV2_TUSK2_MERDC.et"
+         m_aEntityDataList {
+          SCR_EntityCatalogEditorData "{65476AD915D18258}" {
+          }
+          SCR_EntityCatalogSpawnerData "{65476AD915D1825A}" {
+           m_eSlotTypes VEHICLE_MEDIUM
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{65476AD912A0D9B2}" {
+         m_bEnabled 0
         }
        }
       }
@@ -2014,6 +2014,7 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
       SCR_EntityCatalogMultiListEntry "{5C68AD59AB9FBDDC}" {
        m_aEntities {
         SCR_EntityCatalogInventoryItem "{5C62F7D8ECAFAAA3}" {
+         m_sEntityPrefab "{E998FA484B0C4BFF}Prefabs/Weapons/Handguns/Glock/Handgun_Glock17.et"
         }
         SCR_EntityCatalogInventoryItem "{606084A38DD832AB}" {
         }
@@ -2097,6 +2098,11 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
         }
         SCR_EntityCatalogInventoryItem "{65F876B728F0F63C}" {
          m_bEnabled 0
+         m_aEntityDataList {
+          SCR_ArsenalItem "{65F876B728F0F6AA}" {
+           m_eRequiredRank PRIVATE
+          }
+         }
         }
         SCR_EntityCatalogInventoryItem "{5C62F7D81660D0B9}" {
         }
@@ -2168,6 +2174,9 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
         }
         SCR_EntityCatalogEntry "{623E85C4CD5BFD19}" {
         }
+        SCR_EntityCatalogInventoryItem "{6709313549A29E17}" {
+         m_sEntityPrefab "{8069A3DF6410FDDF}Prefabs/Weapons/Handguns/M17/Handgun_M17.et"
+        }
        }
       }
       SCR_EntityCatalogMultiListEntry "{5C68AD59AA6FA1B8}" {
@@ -2186,6 +2195,7 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
          }
         }
         SCR_EntityCatalogInventoryItem "{5C62F7D8EBC8251B}" {
+         m_sEntityPrefab "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
          m_aEntityDataList {
           SCR_ArsenalItem "{5C62F7D848E8A152}" {
            m_bUseMilitarySupplyAllocation 0
@@ -2450,6 +2460,36 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
           }
          }
         }
+        SCR_EntityCatalogInventoryItem "{67093134B108696B}" {
+         m_sEntityPrefab "{8FF49793853DB2F9}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd_M1152.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D848E8A152}" {
+           m_eItemType PISTOL
+           m_eItemMode AMMUNITION
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{67093134B0CE7207}" {
+         m_sEntityPrefab "{6BF76E1E3BDC44F0}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd_M1153.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D848E8A152}" {
+           m_eItemType PISTOL
+           m_eItemMode AMMUNITION
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{67093134AFB8E745}" {
+         m_sEntityPrefab "{A62799F16443E356}Prefabs/Weapons/Magazines/m17_magazines/Magazine_9x19_m17_17rnd_M882.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D848E8A152}" {
+           m_eItemType PISTOL
+           m_eItemMode AMMUNITION
+           m_bUseMilitarySupplyAllocation 0
+          }
+         }
+        }
         SCR_EntityCatalogEntry "{66DAF33B17CFA357}" {
         }
         SCR_EntityCatalogInventoryItem "{66E03E9D415F8625}" {
@@ -2564,39 +2604,69 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
          }
         }
         SCR_EntityCatalogInventoryItem "{5C62F7D8FE0A9CB5}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{C41C60EA0CD22C53}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_MC.et"
         }
         SCR_EntityCatalogInventoryItem "{5C62F7D8FD5EAE87}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{9E6B8BFB0BFBEC2E}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_MC2.et"
         }
         SCR_EntityCatalogInventoryItem "{5C62F7D8FD9369EA}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{7BF7C702071E7B45}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_MC3.et"
         }
         SCR_EntityCatalogInventoryItem "{5C62F7D8FCFEFCF5}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{46C3E23A7272F272}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_MC4.et"
         }
         SCR_EntityCatalogInventoryItem "{5C62F7D8FB311996}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{31F74414C617CAB2}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_Coy.et"
         }
         SCR_EntityCatalogInventoryItem "{6114C2A1451D39D2}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{A8866A9389018D3B}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_Coy2.et"
         }
         SCR_EntityCatalogInventoryItem "{6114E3DC564F3A76}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{4D1A266A85E41A50}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_Coy3.et"
         }
         SCR_EntityCatalogInventoryItem "{5D7ED94FA6257638}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{702E0352F0889367}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_Coy4.et"
         }
         SCR_EntityCatalogInventoryItem "{5D7ED94F1F59FA1D}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{95B24FABFC6D040C}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_Coy5.et"
         }
         SCR_EntityCatalogInventoryItem "{5E108065FD19CF98}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{1C7A37B24C4C1C49}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_Coy7.et"
+        }
+        SCR_EntityCatalogInventoryItem "{6112B109C529D452}" {
+         m_sEntityPrefab "{F9E67B4B40A98B22}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_Coy6.et"
         }
         SCR_EntityCatalogInventoryItem "{66E431CDDBF7481B}" {
-         m_sEntityPrefab "{59E0D9B5B6967152}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP.et"
+         m_sEntityPrefab "{9A9555D10664B8CB}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14_WP.et"
          m_aEntityDataList {
           SCR_ArsenalItem "{5C62F7D82341C942}" {
+           m_eItemType HEADWEAR
+           m_eItemMode ATTACHMENT
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{67072D5BD584B8B6}" {
+         m_sEntityPrefab "{B7BA7694F821F556}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14Dual.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{67072D5BD584B8E3}" {
+           m_eItemType HEADWEAR
+           m_eItemMode ATTACHMENT
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{67072D5BD098CDF3}" {
+         m_sEntityPrefab "{B385064A383A384B}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14Dual_WP.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{67072D5BD098CC36}" {
+           m_eItemType HEADWEAR
+           m_eItemMode ATTACHMENT
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{67072D5BDED542B7}" {
+         m_sEntityPrefab "{59E0D9B5B6967152}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{67072D5BDED542DD}" {
            m_eItemType HEADWEAR
            m_eItemMode ATTACHMENT
           }
@@ -2629,10 +2699,47 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
           }
          }
         }
+        SCR_EntityCatalogInventoryItem "{67072D5B06119E85}" {
+         m_sEntityPrefab "{5F7EF7FEBC39B874}Prefabs/Items/Equipment/Nightvision/HelstarStrobe/Helstar.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{67072D5B06119EC5}" {
+           m_eItemType HEADWEAR
+           m_eItemMode ATTACHMENT
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{67072D5B7C49A729}" {
+         m_sEntityPrefab "{643AB339663E92F7}Prefabs/Items/Equipment/Nightvision/MS2000/Marker_MS2000.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{67072D5B7C49A76E}" {
+           m_eItemType HEADWEAR
+           m_eItemMode ATTACHMENT
+          }
+         }
+        }
         SCR_EntityCatalogInventoryItem "{66E431CDF7281577}" {
          m_sEntityPrefab "{46D824AAD12330B2}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_Coy.et"
          m_aEntityDataList {
           SCR_ArsenalItem "{61349B64ACD01D53}" {
+           m_eItemType BACKPACK
+           m_eRequiredRank PRIVATE
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6709362FAD91AAA2}" {
+         m_sEntityPrefab "{4A93B3F0B33FF104}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_MC.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{6709362FAD91AAFE}" {
+           m_eItemType BACKPACK
+           m_eRequiredRank PRIVATE
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6709362FA4EAB6B9}" {
+         m_sEntityPrefab "{99B347D92F16A6D3}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_od.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{6709362FA4EAB6F9}" {
+           m_eItemType BACKPACK
            m_eRequiredRank PRIVATE
           }
          }
@@ -2642,37 +2749,37 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
       SCR_EntityCatalogMultiListEntry "{5C68AD59AA1A6D59}" {
        m_aEntities {
         SCR_EntityCatalogInventoryItem "{5C62F7D8F08416A5}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{85ADC5E1BE7FACDB}Prefabs/Characters/HeadGear/Helmet_CVC_01/Helmet_CVC_Shroud_0.et"
         }
         SCR_EntityCatalogInventoryItem "{5C72EDE237C6A672}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{E3C280AEAE6A4272}Prefabs/Characters/HeadGear/Helmet_Gentex_HGU56P/Helmet_Gentex_HGU56P_base.et"
         }
         SCR_EntityCatalogInventoryItem "{5C72EDE2398E8A30}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{E2F3C74458168302}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_ACH_SHROUD_base.et"
         }
         SCR_EntityCatalogInventoryItem "{607EC073FF880E3F}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{C52A9FD1C91DF7B9}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_LBH_AOR2_Liberator.et"
         }
         SCR_EntityCatalogInventoryItem "{607EC073E2969C57}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{BE9D3BFE3682D196}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_LBH_AOR1_Liberator.et"
         }
         SCR_EntityCatalogInventoryItem "{60F6F34DA790B15C}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{92405C6F3EA91DC8}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_MID_MC_AMP.et"
         }
         SCR_EntityCatalogInventoryItem "{60F6F34DA89F4E9F}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{13AD09FB14041481}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_MT_MARPAT_Liberator.et"
         }
         SCR_EntityCatalogInventoryItem "{60F6F34DA9ED3BE1}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{F4EA5339BC3DA620}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_MT_MC_Liberator.et"
         }
         SCR_EntityCatalogInventoryItem "{5D7ED94F860FDEBF}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{144F85C6489875B7}Prefabs/Characters/HeadGear/Helmet_OPSCORE/Helmet_OPSCORE_SF_Coy_Peltor.et"
         }
         SCR_EntityCatalogInventoryItem "{6594BAA6FCEE70E1}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{4A5D91D707E3852B}Prefabs/Characters/HeadGear/Helmet_Spartan3/Helmet_Spartan3_MC_Peltor.et"
         }
         SCR_EntityCatalogInventoryItem "{62D8F15A92106064}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{FDA7DCB260C871CF}Prefabs/Characters/HeadGear/Helmet_Spartan3/Helmet_Spartan3_FG_Peltor.et"
         }
         SCR_EntityCatalogInventoryItem "{5C62F7D8FFD78690}" {
          m_bEnabled 0
@@ -2681,37 +2788,57 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
          m_bEnabled 0
         }
         SCR_EntityCatalogInventoryItem "{6576D347F3B10786}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{CB379AD8EC48690C}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/Balaclava_v1_BLK.et"
         }
         SCR_EntityCatalogInventoryItem "{5D8CD428AC1F9A3D}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{F666F01271F1BCC3}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/Balaclava_v1_Multicam.et"
         }
         SCR_EntityCatalogInventoryItem "{6118DED9AB8B3280}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{10D0A70AB04770B7}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_AOR2.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{6118DED999A569AD}" {
+           m_eItemType TORSO
+          }
+         }
         }
         SCR_EntityCatalogInventoryItem "{65D481822E6D55F3}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{A18238B56E378F4B}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_ATACS.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{65D481821E97E8F6}" {
+           m_eItemType TORSO
+          }
+         }
         }
         SCR_EntityCatalogInventoryItem "{6120944188213139}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{13C41E9932685FAC}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_CoyoteBrown.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{612094418E1DB5E5}" {
+           m_eItemType TORSO
+          }
+         }
         }
         SCR_EntityCatalogInventoryItem "{5C62F7D8F03CE9CD}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{59671155DDBAD871}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_M81.et"
         }
         SCR_EntityCatalogInventoryItem "{6576D347E0B546DB}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{BCC6A98B87FC466A}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_MARPAT.et"
         }
         SCR_EntityCatalogInventoryItem "{6584D1AA253DF27A}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{7BA7FF3E9F68960E}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_MC.et"
         }
         SCR_EntityCatalogInventoryItem "{5D7297FBE74B83B3}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{6BA22E620438183F}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_MT.et"
         }
         SCR_EntityCatalogInventoryItem "{5C62F7D8F1E3408D}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{82C659FB6237E828}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_OD.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D820A620D1}" {
+           m_eItemType TORSO
+          }
+         }
         }
         SCR_EntityCatalogInventoryItem "{6576D347E49B4B41}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{5B2078D4EAA62DA1}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_AOR2.et"
         }
         SCR_EntityCatalogInventoryItem "{6118DED9DDA6F639}" {
          m_bEnabled 0
@@ -2729,22 +2856,168 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
          m_bEnabled 0
         }
         SCR_EntityCatalogInventoryItem "{6114D276A6FBF194}" {
-         m_bEnabled 0
         }
         SCR_EntityCatalogInventoryItem "{5C62F7D8F298E84E}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{934C7275AC865817}Prefabs/Characters/Footwear/Boots_BCT/Footwear_BCT.et"
         }
         SCR_EntityCatalogInventoryItem "{6112B109A79C0955}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{24F6795DC36C79D7}Prefabs/Characters/Footwear/Boots_Luma/Footwear_Luma.et"
         }
         SCR_EntityCatalogInventoryItem "{62D8F15CB43C6E00}" {
-         m_bEnabled 0
+         m_sEntityPrefab "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
         }
         SCR_EntityCatalogInventoryItem "{66487D149D0D7FF5}" {
          m_bEnabled 0
         }
         SCR_EntityCatalogInventoryItem "{66487D14F309F13F}" {
          m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{67072D59163FB9E1}" {
+         m_sEntityPrefab "{738817B8BFA36DE6}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_AOR2.et"
+        }
+        SCR_EntityCatalogInventoryItem "{67072D590ADF7E4A}" {
+         m_sEntityPrefab "{285C5B6CBBBBAF0F}Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_Rolled_ATACS.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5C62F7D820A620D1}" {
+           m_eItemType TORSO
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{67072D59724FE749}" {
+         m_sEntityPrefab "{DE2F0A4C83BD3A6F}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_atacs.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{6709313581168B7A}" {
+           m_eItemType LEGS
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{67093135F0BA24CF}" {
+         m_sEntityPrefab "{5B2078D4EAA62DA1}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_AOR2.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{67093135F0BA2B71}" {
+           m_eItemType LEGS
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{67093135EA1B84FA}" {
+         m_sEntityPrefab "{ECCC7BDEA2F3D3A5}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_CoyoteBrown.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{67093135EA1B8B33}" {
+           m_eItemType LEGS
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{67093135D4029E2C}" {
+         m_sEntityPrefab "{204D956087CD1047}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_frogskin.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{67093135D4029E6A}" {
+           m_eItemType LEGS
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{67093135D02DB2B4}" {
+         m_sEntityPrefab "{4F860E576E2D4E28}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_m81.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{67093135D02DB2C7}" {
+           m_eItemType LEGS
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{67093135CC73823C}" {
+         m_sEntityPrefab "{7DF25380BEFEA3A0}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_marpat.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{67093135CC738273}" {
+           m_eItemType LEGS
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{67093135C8CD00E4}" {
+         m_sEntityPrefab "{2FDEBA2FF1B7759E}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_mc.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{67093135C8CD00DB}" {
+           m_eItemType LEGS
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{67093135C2C109B5}" {
+         m_sEntityPrefab "{159A399F0B91D25E}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_MT.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{67093135C2C109F7}" {
+           m_eItemType LEGS
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{670931353A8DFF9A}" {
+         m_sEntityPrefab "{FCFE4E066D9E2249}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_od.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{670931353A8DFE29}" {
+           m_eItemType LEGS
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{67072D5AF174E531}" {
+         m_sEntityPrefab "{8D4A4DF9111F0682}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Blk.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{67093135310686EC}" {
+           m_eItemType HANDWEAR
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6709313510A81274}" {
+         m_sEntityPrefab "{1E991CD19C6F7659}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Brown.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{6709313510A812A8}" {
+           m_eItemType HANDWEAR
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{670931350E45AC40}" {
+         m_sEntityPrefab "{ABB779CFC2E11E89}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Covert.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{670931350E45AC85}" {
+           m_eItemType HANDWEAR
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{670931350B4CDB8C}" {
+         m_sEntityPrefab "{4E37FE174E8C266C}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_Coyote.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{670931350B4CDBC9}" {
+           m_eItemType HANDWEAR
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{670931350993D6CB}" {
+         m_sEntityPrefab "{B9FA26F5990CDEDD}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_MC.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{670931350993D502}" {
+           m_eItemType HANDWEAR
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{6709313507792156}" {
+         m_sEntityPrefab "{974EA340B1751B24}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_WolfGrey.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{6709313507792192}" {
+           m_eItemType HANDWEAR
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{67072D5A295F63D0}" {
+         m_sEntityPrefab "{057E63449502EBCA}Prefabs/Characters/Footwear/Boots_Salomon/Footwear_Salomon.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{6709313524425839}" {
+           m_eItemType FOOTWEAR
+          }
+         }
+        }
+        SCR_EntityCatalogInventoryItem "{67072D5A1DA61B23}" {
+         m_sEntityPrefab "{320FA1CD5B1D5601}Prefabs/Characters/Footwear/Boots_USMC_Combat/Footwear_USMC_Combat.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{670931351CD99805}" {
+           m_eItemType FOOTWEAR
+          }
+         }
         }
        }
       }
@@ -2893,7 +3166,28 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
         SCR_EntityCatalogInventoryItem "{64CEC9D0E1295112}" {
          m_bEnabled 0
         }
+        SCR_EntityCatalogInventoryItem "{62A546A2D8361F6D}" {
+        }
         SCR_EntityCatalogInventoryItem "{62A8B1E7E3974C65}" {
+         m_bEnabled 0
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{65620701AE1FEA66}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{65769BB816F6E215}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{65769BB8202BDC6C}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{65769BB811B1AB25}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{65C81342542F0807}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{65C84DB66C67BA23}" {
          m_bEnabled 0
         }
        }
