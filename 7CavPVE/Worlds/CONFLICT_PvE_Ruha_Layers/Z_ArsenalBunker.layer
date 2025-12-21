@@ -1,0 +1,727 @@
+$grp SCR_DestructibleBuildingEntity {
+ {
+  coords 1821.909 65.617 6655.376
+  angles 0 -16.703 0
+  {
+   $grp GenericEntity : "{0089B23327C9B8CA}Prefabs/Props/Furniture/TableLong_01/TableLong_01.et" {
+    {
+     coords 3.27 0.132 -16.146
+     angles 0 91.026 0
+    }
+    {
+     coords 3.183 0.132 -18.558
+     angles 0 91.174 0
+    }
+    {
+     coords 3.184 0.132 -20.95
+     angles 0 91.026 0
+    }
+   }
+   GenericEntity : "{080E381B512E1B01}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x15x3.et" {
+    coords -3.411 0.136 -10.391
+   }
+   GenericEntity : "{0FC1D6E9B592F75D}Prefabs/Systems/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Equipment_US.et" {
+    coords 3.38 1.032 -15.529
+    angles 0 -114.574 0
+   }
+   GenericEntity : "{1286001E44F1E530}Prefabs/Structures/Signs/Military/Supplies/Sign_SupplyStorage_01_Ammo_US.et" {
+    coords -1.883 0.04 -1.504
+   }
+   GenericEntity : "{157E18D526C3A7E6}Prefabs/Compositions/Misc/SubCompositions/CrateWooden_Stacked_02.et" {
+    coords -1.857 0.135 -11.012
+    angles 0.088 -90.05 -0.016
+   }
+   GenericEntity : "{19632F112985ED4B}Prefabs/Compositions/Misc/CustomEntities/InteractionPoints/AmmoBoxArsenal_Weapons_US_Pistols.et" {
+    coords 3.195 1.032 -19.285
+    angles 0 -107.334 0
+   }
+   GenericEntity : "{1A942A9E6D0CD0F2}Prefabs/Systems/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Explosives_US.et" {
+    coords 2.765 0.132 -21.729
+    angles -0.009 -44.327 0.009
+   }
+   GenericEntity : "{2F17BFBCDB329CCA}Prefabs/Props/Military/Compositions/US/ArsenalBox_US_Weapons.et" {
+    components {
+     ActionsManagerComponent "{56F2C6D1431ADB12}" {
+      additionalActions {
+       SCR_SaveArsenalLoadout "{58EE8EA3E73F1F6A}" {
+        m_eFactionUsageCheck 0
+       }
+      }
+     }
+    }
+    coords -3.181 0.135 -16.64
+    angles -0.06 53.053 0.065
+   }
+   GenericEntity : "{36D873BC68DC0215}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_3_NoDecal.et" {
+    coords -2.99 0.134 -19.49
+   }
+   GenericEntity : "{3DFA7F32B1C56399}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V3_storage_FIA_covered.et" {
+    coords -3.02 0.137 -8.035
+    angles 0 84.341 0
+   }
+   GenericEntity : "{4557C927E8D72EA5}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Ammunition_HQ_US.et" {
+    coords 3.194 1.032 -20.513
+    angles 0 -66.856 0
+   }
+   $grp GenericEntity : "{4757ED104D5989CE}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V3.et" {
+    {
+     coords -3.138 0.138 -5.559
+    }
+    {
+     coords -3.138 0.138 -6.732
+     angles 0 87.649 0
+    }
+   }
+   $grp GameEntity : "{50E6A3845C9F20FD}Prefabs/Props/Military/Camps/LanternMilitary_US_01.et" {
+    {
+     coords -2.619 0.862 -19.284
+    }
+    {
+     coords -2.742 1.755 -12.878
+    }
+    {
+     coords 2.907 1.739 -7.873
+    }
+    {
+     coords -1.664 0.559 -4.091
+    }
+    {
+     coords -3.01 1.122 -25.104
+     angles 0 -6.187 0
+    }
+    {
+     coords 2.971 1.122 -25.073
+     angles 0 -6.187 0
+    }
+    {
+     coords 1.884 0.642 -3.119
+     angles 0 -6.187 0
+    }
+    {
+     coords -1.42 1.141 -8.255
+     angles 0 -6.187 0
+    }
+   }
+   $grp GenericEntity : "{571F3532D1177DA1}Prefabs/Props/Military/Arsenal/WeaponRacks/US/WeaponRackStandArsenal_US.et" {
+    {
+     coords -0.009 0.133 -20.621
+     angles 0 -88.569 0
+    }
+    {
+     coords -0.046 0.133 -23.044
+     angles 0 -88.569 0
+    }
+   }
+   GenericEntity : "{6511EA5E7DD4C149}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_3_base.et" {
+    coords -1.84 0.137 -3.717
+    angles 0 -93.736 0
+   }
+   GenericEntity : "{6796EA08CB53CAEB}Prefabs/MP/Campaign/RequestTable_US.et" {
+    coords 2.738 0.131 -13.447
+    angles 0.013 179.15 0
+   }
+   GenericEntity : "{6C57BFFFA642C60C}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_04.et" {
+    coords 2.582 0.13 -11.843
+    angles 0 143.514 0
+   }
+   GenericEntity : "{7A63C828383500F9}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V5.et" {
+    coords -2 0.136 -5.657
+    angles 0 83.027 0
+   }
+   $grp GenericEntity : "{7D87D495790DE4A3}Prefabs/Props/Naval/Buoy_01_lightsource_red.et" {
+    {
+     coords 1.511 2.811 -1.737
+    }
+    {
+     coords -1.444 2.81 -1.737
+    }
+   }
+   GenericEntity : "{891EF8A5FB7162F1}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Medical_US.et" {
+    coords 3.269 1.032 -17.895
+    angles 0 -104.402 0
+   }
+   GenericEntity : "{93B2511EFB2B6A51}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_grey.et" {
+    coords -3.089 0.134 -18.274
+    angles 0 -89.284 0
+   }
+   GenericEntity : "{A28E5D231A74D95D}Prefabs/Props/Military/Compositions/US/ArsenalBox_US_Equipment.et" {
+    components {
+     ActionsManagerComponent "{56F2C6D1431ADB12}" {
+      additionalActions {
+       SCR_SaveArsenalLoadout "{58EE8EA3E73F1F6A}" {
+        m_eFactionUsageCheck 0
+       }
+      }
+     }
+    }
+    coords -3.216 0.136 -14.446
+    angles 0.089 -77.435 0.004
+   }
+   $grp GenericEntity : "{AE0FFC699F429214}Prefabs/Props/Military/Camps/PalletAmmo_01_US.et" {
+    {
+     coords 2.06 0.134 -25.341
+     angles 0 -87.734 0
+    }
+    {
+     coords 3.127 0.134 -24.237
+     angles 0 -178.735 0
+    }
+   }
+   GenericEntity : "{B1017A36B1F2229E}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V6_storage.et" {
+    coords -2.021 0.136 -6.82
+   }
+   GenericEntity : "{B4FFD63EDFCBD850}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_02.et" {
+    coords 2.755 0.13 -9.738
+    angles 0 174.311 0
+   }
+   $grp GenericEntity : "{BF01609BADFB3B42}Prefabs/Props/Military/Arsenal/WeaponRacks/US/WeaponRackCabinetArsenal_US.et" {
+    {
+     coords 0.164 0.133 -23.052
+     angles 0 91.207 0
+    }
+    {
+     coords 0.209 0.133 -20.787
+     angles 0 91.207 0
+    }
+    {
+     coords -3.617 0.134 -23.494
+     angles 0 89.914 0
+    }
+    {
+     coords -3.616 0.134 -21.184
+     angles 0 89.914 0
+    }
+   }
+   GenericEntity : "{C026AEDDA55DB43C}Prefabs/Systems/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Launcher_US.et" {
+    coords 3.195 1.033 -21.633
+    angles 0.04 -56.322 0.025
+   }
+   $grp GenericEntity : "{D8ABE2DE630F577E}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_01.et" {
+    {
+     coords 3.104 0.13 -8.089
+     angles -0.013 0 0
+    }
+    {
+     coords -3.169 0.136 -11.729
+    }
+   }
+   $grp GenericEntity : "{E1AED4C5182AA514}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_2_decal_01.et" {
+    {
+     coords -2.872 0.138 -3.114
+    }
+    {
+     coords -2.944 0.138 -4.386
+     angles 0 -95.788 0
+    }
+    {
+     coords -3.127 0.136 -13.179
+    }
+   }
+   $grp GenericEntity : "{E4416C4C6938BEEE}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x1x1.et" {
+    {
+     coords -1.858 0.135 -7.938
+    }
+    {
+     coords 3.223 0.136 -25.404
+     angles 0 1.548 0
+    }
+    {
+     coords -3.268 0.136 -25.228
+     angles 0 1.548 0
+    }
+   }
+   GenericEntity : "{F0B225D7CD87D140}Prefabs/Compositions/Misc/CustomEntities/Systems/AmmoBoxArsenal_Equipment_US_Radios.et" {
+    coords 3.345 1.032 -16.778
+    angles 0 -75.182 0
+   }
+  }
+ }
+ {
+  coords 7898.69 85.571 4796.591
+  angles 0 -49.905 0
+  {
+   $grp GenericEntity : "{0089B23327C9B8CA}Prefabs/Props/Furniture/TableLong_01/TableLong_01.et" {
+    {
+     coords 3.27 0.132 -16.146
+     angles 0 91.026 0
+    }
+    {
+     coords 3.183 0.132 -18.558
+     angles 0 91.174 0
+    }
+    {
+     coords 3.184 0.132 -20.95
+     angles 0 91.026 0
+    }
+   }
+   GenericEntity : "{080E381B512E1B01}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x15x3.et" {
+    coords -3.411 0.136 -10.391
+   }
+   GenericEntity : "{0FC1D6E9B592F75D}Prefabs/Systems/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Equipment_US.et" {
+    coords 3.38 1.032 -15.529
+    angles 0 -114.574 0
+   }
+   GenericEntity : "{1286001E44F1E530}Prefabs/Structures/Signs/Military/Supplies/Sign_SupplyStorage_01_Ammo_US.et" {
+    coords -1.883 0.04 -1.504
+   }
+   GenericEntity : "{157E18D526C3A7E6}Prefabs/Compositions/Misc/SubCompositions/CrateWooden_Stacked_02.et" {
+    coords -1.857 0.135 -11.012
+    angles 0.088 -90.05 -0.016
+   }
+   GenericEntity : "{19632F112985ED4B}Prefabs/Compositions/Misc/CustomEntities/InteractionPoints/AmmoBoxArsenal_Weapons_US_Pistols.et" {
+    coords 3.195 1.032 -19.285
+    angles 0 -107.334 0
+   }
+   GenericEntity : "{1A942A9E6D0CD0F2}Prefabs/Systems/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Explosives_US.et" {
+    coords 2.765 0.132 -21.729
+    angles -0.009 -44.327 0.009
+   }
+   GenericEntity : "{2F17BFBCDB329CCA}Prefabs/Props/Military/Compositions/US/ArsenalBox_US_Weapons.et" {
+    components {
+     ActionsManagerComponent "{56F2C6D1431ADB12}" {
+      additionalActions {
+       SCR_SaveArsenalLoadout "{58EE8EA3E73F1F6A}" {
+        m_eFactionUsageCheck 0
+       }
+      }
+     }
+    }
+    coords -3.181 0.135 -16.64
+    angles -0.06 53.053 0.065
+   }
+   GenericEntity : "{36D873BC68DC0215}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_3_NoDecal.et" {
+    coords -2.99 0.134 -19.49
+   }
+   GenericEntity : "{3DFA7F32B1C56399}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V3_storage_FIA_covered.et" {
+    coords -3.02 0.137 -8.035
+    angles 0 84.341 0
+   }
+   GenericEntity : "{4557C927E8D72EA5}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Ammunition_HQ_US.et" {
+    coords 3.194 1.032 -20.513
+    angles 0 -66.856 0
+   }
+   $grp GenericEntity : "{4757ED104D5989CE}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V3.et" {
+    {
+     coords -3.138 0.138 -5.559
+    }
+    {
+     coords -3.138 0.138 -6.732
+     angles 0 87.649 0
+    }
+   }
+   $grp GameEntity : "{50E6A3845C9F20FD}Prefabs/Props/Military/Camps/LanternMilitary_US_01.et" {
+    {
+     coords -2.619 0.862 -19.284
+    }
+    {
+     coords -2.742 1.755 -12.878
+    }
+    {
+     coords 2.907 1.739 -7.873
+    }
+    {
+     coords -1.664 0.559 -4.091
+    }
+    {
+     coords -3.01 1.122 -25.104
+     angles 0 -6.187 0
+    }
+    {
+     coords 2.971 1.122 -25.073
+     angles 0 -6.187 0
+    }
+    {
+     coords 1.884 0.642 -3.119
+     angles 0 -6.187 0
+    }
+    {
+     coords -1.42 1.141 -8.255
+     angles 0 -6.187 0
+    }
+   }
+   $grp GenericEntity : "{571F3532D1177DA1}Prefabs/Props/Military/Arsenal/WeaponRacks/US/WeaponRackStandArsenal_US.et" {
+    {
+     coords -0.009 0.133 -20.621
+     angles 0 -88.569 0
+    }
+    {
+     coords -0.046 0.133 -23.044
+     angles 0 -88.569 0
+    }
+   }
+   GenericEntity : "{6511EA5E7DD4C149}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_3_base.et" {
+    coords -1.84 0.137 -3.717
+    angles 0 -93.736 0
+   }
+   GenericEntity : "{6796EA08CB53CAEB}Prefabs/MP/Campaign/RequestTable_US.et" {
+    coords 2.738 0.131 -13.447
+    angles 0.013 179.15 0
+   }
+   GenericEntity : "{6C57BFFFA642C60C}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_04.et" {
+    coords 2.582 0.13 -11.843
+    angles 0 143.514 0
+   }
+   GenericEntity : "{7A63C828383500F9}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V5.et" {
+    coords -2 0.136 -5.657
+    angles 0 83.027 0
+   }
+   $grp GenericEntity : "{7D87D495790DE4A3}Prefabs/Props/Naval/Buoy_01_lightsource_red.et" {
+    {
+     coords 1.511 2.811 -1.737
+    }
+    {
+     coords -1.444 2.81 -1.737
+    }
+   }
+   GenericEntity : "{891EF8A5FB7162F1}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Medical_US.et" {
+    coords 3.269 1.032 -17.895
+    angles 0 -104.402 0
+   }
+   GenericEntity : "{93B2511EFB2B6A51}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_grey.et" {
+    coords -3.089 0.134 -18.274
+    angles 0 -89.284 0
+   }
+   GenericEntity : "{A28E5D231A74D95D}Prefabs/Props/Military/Compositions/US/ArsenalBox_US_Equipment.et" {
+    components {
+     ActionsManagerComponent "{56F2C6D1431ADB12}" {
+      additionalActions {
+       SCR_SaveArsenalLoadout "{58EE8EA3E73F1F6A}" {
+        m_eFactionUsageCheck 0
+       }
+      }
+     }
+    }
+    coords -3.216 0.136 -14.446
+    angles 0.089 -77.435 0.004
+   }
+   $grp GenericEntity : "{AE0FFC699F429214}Prefabs/Props/Military/Camps/PalletAmmo_01_US.et" {
+    {
+     coords 2.06 0.134 -25.341
+     angles 0 -87.734 0
+    }
+    {
+     coords 3.127 0.134 -24.237
+     angles 0 -178.735 0
+    }
+   }
+   GenericEntity : "{B1017A36B1F2229E}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V6_storage.et" {
+    coords -2.021 0.136 -6.82
+   }
+   GenericEntity : "{B4FFD63EDFCBD850}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_02.et" {
+    coords 2.755 0.13 -9.738
+    angles 0 174.311 0
+   }
+   $grp GenericEntity : "{BF01609BADFB3B42}Prefabs/Props/Military/Arsenal/WeaponRacks/US/WeaponRackCabinetArsenal_US.et" {
+    {
+     coords 0.164 0.133 -23.052
+     angles 0 91.207 0
+    }
+    {
+     coords 0.209 0.133 -20.787
+     angles 0 91.207 0
+    }
+    {
+     coords -3.617 0.134 -23.494
+     angles 0 89.914 0
+    }
+    {
+     coords -3.616 0.134 -21.184
+     angles 0 89.914 0
+    }
+   }
+   GenericEntity : "{C026AEDDA55DB43C}Prefabs/Systems/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Launcher_US.et" {
+    coords 3.195 1.033 -21.633
+    angles 0.04 -56.322 0.025
+   }
+   $grp GenericEntity : "{D8ABE2DE630F577E}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_01.et" {
+    {
+     coords 3.104 0.13 -8.089
+     angles -0.013 0 0
+    }
+    {
+     coords -3.169 0.136 -11.729
+    }
+   }
+   $grp GenericEntity : "{E1AED4C5182AA514}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_2_decal_01.et" {
+    {
+     coords -2.872 0.138 -3.114
+    }
+    {
+     coords -2.944 0.138 -4.386
+     angles 0 -95.788 0
+    }
+    {
+     coords -3.127 0.136 -13.179
+    }
+   }
+   $grp GenericEntity : "{E4416C4C6938BEEE}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x1x1.et" {
+    {
+     coords -1.858 0.135 -7.938
+    }
+    {
+     coords 3.223 0.136 -25.404
+     angles 0 1.548 0
+    }
+    {
+     coords -3.268 0.136 -25.228
+     angles 0 1.548 0
+    }
+   }
+   GenericEntity : "{F0B225D7CD87D140}Prefabs/Compositions/Misc/CustomEntities/Systems/AmmoBoxArsenal_Equipment_US_Radios.et" {
+    coords 3.345 1.032 -16.778
+    angles 0 -75.182 0
+   }
+  }
+ }
+ {
+  coords 1965.097 58.93 497.543
+  angles 0 78.635 0
+  {
+   $grp GenericEntity : "{0089B23327C9B8CA}Prefabs/Props/Furniture/TableLong_01/TableLong_01.et" {
+    {
+     coords 3.27 0.132 -16.146
+     angles 0 91.026 0
+    }
+    {
+     coords 3.183 0.132 -18.558
+     angles 0 91.174 0
+    }
+    {
+     coords 3.184 0.132 -20.95
+     angles 0 91.026 0
+    }
+   }
+   GenericEntity : "{080E381B512E1B01}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x15x3.et" {
+    coords -3.411 0.136 -10.391
+   }
+   GenericEntity : "{0FC1D6E9B592F75D}Prefabs/Systems/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Equipment_US.et" {
+    coords 3.38 1.032 -15.529
+    angles 0 -114.574 0
+   }
+   GenericEntity : "{1286001E44F1E530}Prefabs/Structures/Signs/Military/Supplies/Sign_SupplyStorage_01_Ammo_US.et" {
+    coords -1.883 0.04 -1.504
+   }
+   GenericEntity : "{157E18D526C3A7E6}Prefabs/Compositions/Misc/SubCompositions/CrateWooden_Stacked_02.et" {
+    coords -1.857 0.135 -11.012
+    angles 0.088 -90.05 -0.016
+   }
+   GenericEntity : "{19632F112985ED4B}Prefabs/Compositions/Misc/CustomEntities/InteractionPoints/AmmoBoxArsenal_Weapons_US_Pistols.et" {
+    coords 3.195 1.032 -19.285
+    angles 0 -107.334 0
+   }
+   GenericEntity : "{1A942A9E6D0CD0F2}Prefabs/Systems/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Explosives_US.et" {
+    coords 2.765 0.132 -21.729
+    angles -0.009 -44.327 0.009
+   }
+   GenericEntity : "{2F17BFBCDB329CCA}Prefabs/Props/Military/Compositions/US/ArsenalBox_US_Weapons.et" {
+    components {
+     ActionsManagerComponent "{56F2C6D1431ADB12}" {
+      additionalActions {
+       SCR_SaveArsenalLoadout "{58EE8EA3E73F1F6A}" {
+        m_eFactionUsageCheck 0
+       }
+      }
+     }
+    }
+    coords -3.181 0.135 -16.64
+    angles -0.06 53.053 0.065
+   }
+   GenericEntity : "{36D873BC68DC0215}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_3_NoDecal.et" {
+    coords -2.99 0.134 -19.49
+   }
+   GenericEntity : "{3DFA7F32B1C56399}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V3_storage_FIA_covered.et" {
+    coords -3.02 0.137 -8.035
+    angles 0 84.341 0
+   }
+   GenericEntity : "{4557C927E8D72EA5}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Ammunition_HQ_US.et" {
+    coords 3.194 1.032 -20.513
+    angles 0 -66.856 0
+   }
+   $grp GenericEntity : "{4757ED104D5989CE}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V3.et" {
+    {
+     coords -3.138 0.138 -5.559
+    }
+    {
+     coords -3.138 0.138 -6.732
+     angles 0 87.649 0
+    }
+   }
+   $grp GameEntity : "{50E6A3845C9F20FD}Prefabs/Props/Military/Camps/LanternMilitary_US_01.et" {
+    {
+     coords -2.619 0.862 -19.284
+    }
+    {
+     coords -2.742 1.755 -12.878
+    }
+    {
+     coords 2.907 1.739 -7.873
+    }
+    {
+     coords -1.664 0.559 -4.091
+    }
+    {
+     coords -3.01 1.122 -25.104
+     angles 0 -6.187 0
+    }
+    {
+     coords 2.971 1.122 -25.073
+     angles 0 -6.187 0
+    }
+    {
+     coords 1.884 0.642 -3.119
+     angles 0 -6.187 0
+    }
+    {
+     coords -1.42 1.141 -8.255
+     angles 0 -6.187 0
+    }
+   }
+   $grp GenericEntity : "{571F3532D1177DA1}Prefabs/Props/Military/Arsenal/WeaponRacks/US/WeaponRackStandArsenal_US.et" {
+    {
+     coords -0.009 0.133 -20.621
+     angles 0 -88.569 0
+    }
+    {
+     coords -0.046 0.133 -23.044
+     angles 0 -88.569 0
+    }
+   }
+   GenericEntity : "{6511EA5E7DD4C149}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_3_base.et" {
+    coords -1.84 0.137 -3.717
+    angles 0 -93.736 0
+   }
+   GenericEntity : "{6796EA08CB53CAEB}Prefabs/MP/Campaign/RequestTable_US.et" {
+    coords 2.738 0.131 -13.447
+    angles 0.013 179.15 0
+   }
+   GenericEntity : "{6C57BFFFA642C60C}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_04.et" {
+    coords 2.582 0.13 -11.843
+    angles 0 143.514 0
+   }
+   GenericEntity : "{7A63C828383500F9}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V5.et" {
+    coords -2 0.136 -5.657
+    angles 0 83.027 0
+   }
+   $grp GenericEntity : "{7D87D495790DE4A3}Prefabs/Props/Naval/Buoy_01_lightsource_red.et" {
+    {
+     coords 1.511 2.811 -1.737
+    }
+    {
+     coords -1.444 2.81 -1.737
+    }
+   }
+   GenericEntity : "{891EF8A5FB7162F1}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Medical_US.et" {
+    coords 3.269 1.032 -17.895
+    angles 0 -104.402 0
+   }
+   GenericEntity : "{93B2511EFB2B6A51}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_grey.et" {
+    coords -3.089 0.134 -18.274
+    angles 0 -89.284 0
+   }
+   GenericEntity : "{A28E5D231A74D95D}Prefabs/Props/Military/Compositions/US/ArsenalBox_US_Equipment.et" {
+    components {
+     ActionsManagerComponent "{56F2C6D1431ADB12}" {
+      additionalActions {
+       SCR_SaveArsenalLoadout "{58EE8EA3E73F1F6A}" {
+        m_eFactionUsageCheck 0
+       }
+      }
+     }
+    }
+    coords -3.216 0.136 -14.446
+    angles 0.089 -77.435 0.004
+   }
+   $grp GenericEntity : "{AE0FFC699F429214}Prefabs/Props/Military/Camps/PalletAmmo_01_US.et" {
+    {
+     coords 2.06 0.134 -25.341
+     angles 0 -87.734 0
+    }
+    {
+     coords 3.127 0.134 -24.237
+     angles 0 -178.735 0
+    }
+   }
+   GenericEntity : "{B1017A36B1F2229E}Prefabs/Props/Military/SupplyBox/SupplyStack/SupplyStack_01/SupplyStack_01_V6_storage.et" {
+    coords -2.021 0.136 -6.82
+   }
+   GenericEntity : "{B4FFD63EDFCBD850}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_02.et" {
+    coords 2.755 0.13 -9.738
+    angles 0 174.311 0
+   }
+   $grp GenericEntity : "{BF01609BADFB3B42}Prefabs/Props/Military/Arsenal/WeaponRacks/US/WeaponRackCabinetArsenal_US.et" {
+    {
+     coords 0.164 0.133 -23.052
+     angles 0 91.207 0
+    }
+    {
+     coords 0.209 0.133 -20.787
+     angles 0 91.207 0
+    }
+    {
+     coords -3.617 0.134 -23.494
+     angles 0 89.914 0
+    }
+    {
+     coords -3.616 0.134 -21.184
+     angles 0 89.914 0
+    }
+   }
+   GenericEntity : "{C026AEDDA55DB43C}Prefabs/Systems/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Launcher_US.et" {
+    coords 3.195 1.033 -21.633
+    angles 0.04 -56.322 0.025
+   }
+   $grp GenericEntity : "{D8ABE2DE630F577E}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_01.et" {
+    {
+     coords 3.104 0.13 -8.089
+     angles -0.013 0 0
+    }
+    {
+     coords -3.169 0.136 -11.729
+    }
+   }
+   $grp GenericEntity : "{E1AED4C5182AA514}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_Dst_2_decal_01.et" {
+    {
+     coords -2.872 0.138 -3.114
+    }
+    {
+     coords -2.944 0.138 -4.386
+     angles 0 -95.788 0
+    }
+    {
+     coords -3.127 0.136 -13.179
+    }
+   }
+   $grp GenericEntity : "{E4416C4C6938BEEE}Prefabs/Props/Crates/CrateWooden_02/CrateWooden_02_1x1x1.et" {
+    {
+     coords -1.858 0.135 -7.938
+    }
+    {
+     coords 3.223 0.136 -25.404
+     angles 0 1.548 0
+    }
+    {
+     coords -3.268 0.136 -25.228
+     angles 0 1.548 0
+    }
+   }
+   GenericEntity : "{F0B225D7CD87D140}Prefabs/Compositions/Misc/CustomEntities/Systems/AmmoBoxArsenal_Equipment_US_Radios.et" {
+    coords 3.345 1.032 -16.778
+    angles 0 -75.182 0
+   }
+  }
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{BE248D0B31D3B097}Prefabs/Structures/Military/Bunkers/AmmoDump_E_02/AmmoDump_E_02.et" {
+ {
+  coords 1821.958 65.601 6655.274
+  angles 0 -16.724 0
+ }
+ {
+  coords 7898.76 85.576 4796.568
+  angles 0 -50.314 0
+ }
+ {
+  coords 1965.017 58.929 497.527
+  angles 0 78.747 0
+ }
+}

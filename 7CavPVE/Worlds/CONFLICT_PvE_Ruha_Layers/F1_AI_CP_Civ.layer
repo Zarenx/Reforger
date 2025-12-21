@@ -1,0 +1,212 @@
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ AI_CIV {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_CIV_MEDIUM
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 4526.612 69.117 5531.894
+  {
+   SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ AI_CIV2 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_CIV_MEDIUM
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 4220.847 55.107 4670.027
+  {
+   SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ AI_CIV3 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_CIV_MEDIUM
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 4378.405 54.431 4478.964
+  {
+   SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ AI_CIV4 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_CIV_MEDIUM
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 4559.05 54.39 4313.025
+  {
+   SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ AI_CIV5 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_CIV_MEDIUM
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 5175.864 56.988 4120.703
+  {
+   SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ AI_CIV6 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_CIV_MEDIUM
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 6088.323 57.959 4976.283
+  {
+   SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ AI_CIV7 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_CIV_MEDIUM
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 6168.952 58.532 5733.075
+  {
+   SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ AI_CIV8 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_CIV_MEDIUM
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 6127.765 56.813 6893.776
+  {
+   SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ AI_CIV9 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_CIV_MEDIUM
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 5998.976 56.938 6935.563
+  {
+   SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ AI_CIV10 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_CIV_MEDIUM
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 5992.749 57.073 7436.606
+  {
+   SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ AI_CIV11 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_CIV_MEDIUM
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 5240.693 68.8 7825.023
+  {
+   SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ AI_CIV12 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_CIV_MEDIUM
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 2893.429 70.09 852.548
+  {
+   SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ AI_CIV13 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_CIV_MEDIUM
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 3437.84 55.724 1937.314
+  {
+   SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ AI_CIV14 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_CIV_MEDIUM
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 3587.02 57.23 2013.066
+  {
+   SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+    coords 0 0 0
+   }
+  }
+ }
+ AI_CIV15 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType TEAM_CIV_MEDIUM
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 3178.529 64.095 3354.377
+  {
+   SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+    coords 0 0 0
+   }
+  }
+ }
+}

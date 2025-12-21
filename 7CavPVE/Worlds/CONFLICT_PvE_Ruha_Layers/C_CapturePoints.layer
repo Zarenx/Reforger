@@ -1,0 +1,1829 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ CP_BASE_Huhtamaki {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Huhtamaki"
+    m_sBaseNameUpper "Huhtamaki"
+    m_sMapLocationName "Huhtamaki"
+   }
+  }
+  coords 2954.262 71.133 6564.655
+  angles 1.771 98.354 0.26
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_Pihlajamaki {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Pihlajamaki"
+    m_sBaseNameUpper "Pihlajamaki"
+    m_sMapLocationName "Pihlajamaki"
+   }
+  }
+  coords 3469.13 69.381 6238.049
+  angles 0.116 176.275 1.786
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_LansikylaSawmill {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Lansikyla Sawmill"
+    m_sBaseNameUpper "Lansikyla Sawmill"
+    m_sMapLocationName "Lansikyla Sawmill"
+   }
+  }
+  coords 3453.195 82.781 7129.21
+  angles 0.517 16.784 -1.714
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+   GenericEntity QRF_Sawmill : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType TEAM_COUNTER_USSR
+      m_iRespawnPeriod 30
+      m_fAILimitThreshold 0.95
+      m_iRespawnWaves 1
+      m_bIsCounterGroup 1
+      m_iGroupMultiplier 4
+     }
+    }
+    coords -442.47 13.065 -113.141
+    angles 3.579 99.26 -1.229
+    {
+     SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+      components {
+       Hierarchy "{5CD0765889102122}" {
+       }
+      }
+      coords -168.311 -36.795 432.783
+      angles -2.734 -53.551 4.431
+      AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
+      CompletionRadius 200
+     }
+    }
+   }
+  }
+ }
+ CP_BASE_Isomaki {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Isomaki"
+    m_sBaseNameUpper "Isomaki"
+    m_sMapLocationName "Isomaki"
+   }
+  }
+  coords 4536.482 68.236 5520.031
+  angles -1.486 -56.126 -0.998
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_Nyrhilanmaki {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 200
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 200
+    m_bIsControlPoint 1
+    m_sBaseName "Nyrhilanmaki"
+    m_sBaseNameUpper "Nyrhilanmaki"
+    m_sMapLocationName "Nyrhilanmaki"
+   }
+  }
+  coords 5254.578 59.863 5274.368
+  angles 1.13 39.143 -1.388
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_Muilunkayla {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 200
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 200
+    m_bIsControlPoint 1
+    m_sBaseName "Muilunkayla"
+    m_sBaseNameUpper "Muilunkayla"
+    m_sMapLocationName "Muilunkayla"
+   }
+  }
+  coords 5060.609 56.885 4047.618
+  angles 0.101 3.234 -1.787
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+   GenericEntity QRF_Mui : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType TEAM_COUNTER_USSR
+      m_iRespawnPeriod 30
+      m_fAILimitThreshold 0.95
+      m_iRespawnWaves 1
+      m_bIsCounterGroup 1
+      m_iGroupMultiplier 4
+     }
+    }
+    coords 447.756 -10.438 79.68
+    angles 3.734 141.154 0.616
+    {
+     SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+      components {
+       Hierarchy "{5CD0765889102122}" {
+       }
+      }
+      coords 372.819 31.159 -249.296
+      angles -3.568 -53.616 -0.056
+      AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
+      CompletionRadius 200
+     }
+    }
+   }
+  }
+ }
+ CP_BASE_Ruha {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 200
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 300
+    m_bIsControlPoint 1
+    m_sBaseName "Ruha"
+    m_sBaseNameUpper "Ruha"
+    m_sMapLocationName "Ruha"
+   }
+  }
+  coords 4338.969 54.056 4663.244
+  angles -1.439 -53.497 -1.065
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+   GenericEntity QRF_Ruha : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType TEAM_COUNTER_USSR
+      m_iRespawnPeriod 30
+      m_fAILimitThreshold 0.95
+      m_iRespawnWaves 1
+      m_bIsCounterGroup 1
+      m_iGroupMultiplier 4
+     }
+    }
+    coords 353.61 4.735 312.206
+    angles -0.913 107.201 1.781
+    {
+     SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+      components {
+       Hierarchy "{5CD0765889102122}" {
+       }
+      }
+      coords 478.623 5.456 -314.963
+      angles -7.993 -53.442 -6.229
+      AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
+      CompletionRadius 200
+     }
+    }
+   }
+  }
+ }
+ CP_BASE_Ohmenluoma {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 200
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 200
+    m_bIsControlPoint 1
+    m_sBaseName "Ohmenluoma"
+    m_sBaseNameUpper "Ohmenluoma"
+    m_sMapLocationName "Ohmenluoma"
+   }
+  }
+  coords 3412.201 59.047 4056.838
+  angles 0.381 117.484 1.207
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+   GenericEntity QRF_Ohmen : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType TEAM_COUNTER_USSR
+      m_iRespawnPeriod 30
+      m_fAILimitThreshold 0.95
+      m_iRespawnWaves 1
+      m_bIsCounterGroup 1
+      m_iGroupMultiplier 4
+     }
+    }
+    coords -69.868 2.603 -569.166
+    angles -0.895 -117.093 -0.006
+    {
+     SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+      components {
+       Hierarchy "{5CD0765889102122}" {
+       }
+      }
+      coords 478.787 -7.559 -315.083
+      angles 0.33 -54.347 -1.973
+      AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
+      CompletionRadius 200
+     }
+    }
+   }
+  }
+ }
+ CP_BASE_Hietalanmaki {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 200
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 200
+    m_bIsControlPoint 1
+    m_sBaseName "Hietalanmaki"
+    m_sBaseNameUpper "Hietalanmaki"
+    m_sMapLocationName "Hietalanmaki"
+   }
+  }
+  coords 3164.16 65.138 3362.949
+  angles 0.381 117.484 1.207
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_Virpimaki {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Virpimaki"
+    m_sBaseNameUpper "Virpimaki"
+    m_sMapLocationName "Virpimaki"
+   }
+  }
+  coords 5172.399 65.02 2183.433
+  angles 1.771 100.446 0.26
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_MetsalaOffice {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Metsala Office"
+    m_sBaseNameUpper "Metsala Office"
+    m_sMapLocationName "Metsala Office"
+   }
+  }
+  coords 6626.189 96.156 1579.545
+  angles 1.771 15.235 0.26
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_Valimaki {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Valimaki"
+    m_sBaseNameUpper "Valimaki"
+    m_sMapLocationName "Valimaki"
+   }
+  }
+  coords 6962.138 61.595 4527.235
+  angles -1.474 -53.343 -1.015
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_Lehto {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Lehto"
+    m_sBaseNameUpper "Lehto"
+    m_sMapLocationName "Lehto"
+   }
+  }
+  coords 6731.404 66.772 3717.828
+  angles -1.628 -112.515 0.745
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_Kontolanmaki {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Kontolanmaki"
+    m_sBaseNameUpper "Kontolanmaki"
+    m_sMapLocationName "Kontolanmaki"
+   }
+  }
+  coords 6253.183 67.083 3287.063
+  angles 1.068 38.726 -1.436
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.165 0.303 -0.631
+    angles 0.052 0 0.04
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -0.013 -0.501 13.99
+    angles -1.343 0.025 -1.08
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_Latvamuilu {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Latvamuilu"
+    m_sBaseNameUpper "Latvamuilu"
+    m_sMapLocationName "Latvamuilu"
+   }
+  }
+  coords 5612.302 66.621 3108.913
+  angles -1.923 -79.461 0.552
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_Farmstead {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Farmstead"
+    m_sBaseNameUpper "Farmstead"
+    m_sMapLocationName "Farmstead"
+   }
+  }
+  coords 4031.791 55.719 3057.142
+  angles 1.719 108.326 0.5
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_Koskelankyla {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 250
+    m_bIsControlPoint 1
+    m_sBaseName "Koskelankyla"
+    m_sBaseNameUpper "Koskelankyla"
+    m_sMapLocationName "Koskelankyla"
+   }
+  }
+  coords 3493.029 56.378 1987.596
+  angles -1.678 -108.291 0.623
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+   GenericEntity QRF_Kosk : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType TEAM_COUNTER_USSR
+      m_iRespawnPeriod 30
+      m_fAILimitThreshold 0.95
+      m_iRespawnWaves 1
+      m_bIsCounterGroup 1
+      m_iGroupMultiplier 4
+     }
+    }
+    coords 284.907 25.956 493.507
+    angles -3.307 90.455 -1.747
+    {
+     SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+      components {
+       Hierarchy "{5CD0765889102122}" {
+       }
+      }
+      coords 457.245 -55.369 -285.765
+      angles 2.533 -53.524 0.859
+      AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
+      CompletionRadius 200
+     }
+    }
+   }
+  }
+ }
+ CP_BASE_Jarvela {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Jarvela"
+    m_sBaseNameUpper "Jarvela"
+    m_sMapLocationName "Jarvela"
+   }
+  }
+  coords 2346.278 61.315 1560.368
+  angles -1.773 -80.016 -0.246
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_JarvelaFarm {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Jarvela Farm"
+    m_sBaseNameUpper "Jarvela Farm"
+    m_sMapLocationName "Jarvela Farm"
+   }
+  }
+  coords 1737.82 63.562 1750.821
+  angles 0.037 -179.105 1.79
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_Makela {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Makela"
+    m_sBaseNameUpper "Makela"
+    m_sMapLocationName "Makela"
+   }
+  }
+  coords 803.273 75.999 1869.475
+  angles -1.79 -86.751 -0.036
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_Vuorenmaanloukko {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Vuorenmaanloukko"
+    m_sBaseNameUpper "Vuorenmaanloukko"
+    m_sMapLocationName "Vuorenmaanloukko"
+   }
+  }
+  coords 849.188 70.387 3221.004
+  angles -1.763 -78.035 -0.307
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_Mikinneva {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Mikinneva"
+    m_sBaseNameUpper "Mikinneva"
+    m_sMapLocationName "Mikinneva"
+   }
+  }
+  coords 746.188 68.873 5107.696
+  angles 0.561 20.343 -1.7
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_Marshlands {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 250
+    m_bIsControlPoint 1
+    m_sBaseName "Marshlands"
+    m_sBaseNameUpper "Marshlands"
+    m_sMapLocationName "Marshlands"
+   }
+  }
+  coords 1764.673 50.92 5820.467
+  angles -1.619 -62.625 -0.764
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_MarjasaloFarms {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Marjasalo Farms"
+    m_sBaseNameUpper "Marjasalo Farms"
+    m_sMapLocationName "Marjasalo Farms"
+   }
+  }
+  coords 1931.96 64.231 4995.565
+  angles -1.226 -134.681 1.304
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_Ojalankyla {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Ojalankyla"
+    m_sBaseNameUpper "Ojalankyla"
+    m_sMapLocationName "Ojalankyla"
+   }
+  }
+  coords 2304.875 68.373 2689.253
+  angles -0.525 -20.506 1.152
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -28.522 -0.036 -11.154
+    angles 1.363 -0.035 -1.466
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords -33.435 0.737 34.295
+    angles 0.525 0.002 -1.152
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_MetsalaAirport {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 200
+    m_bIsControlPoint 1
+    m_sBaseName "Metsala Airport"
+    m_sBaseNameUpper "Metsala Airport"
+    m_sMapLocationName "Metsala Airport"
+   }
+  }
+  coords 6603.444 96.719 1120.274
+  angles 0 -2.243 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+   GenericEntity QRF_Airport : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType TEAM_COUNTER_USSR
+      m_iRespawnPeriod 30
+      m_fAILimitThreshold 0.95
+      m_iRespawnWaves 1
+      m_bIsCounterGroup 1
+      m_iGroupMultiplier 4
+     }
+    }
+    coords -268.194 -0.966 -242.267
+    angles 5.187 -69.145 -0.44
+    {
+     SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+      components {
+       Hierarchy "{5CD0765889102122}" {
+       }
+      }
+      coords 355.08 14.772 -182.769
+      angles -2.734 -53.551 4.431
+      AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
+      CompletionRadius 200
+     }
+    }
+   }
+  }
+ }
+ CP_BASE_Korvenoja {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Korvenoja"
+    m_sBaseNameUpper "Korvenoja"
+    m_sMapLocationName "Korvenoja"
+   }
+  }
+  coords 4896.25 70.26 1258.471
+  angles 1.414 54.285 -1.097
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_RuhaCamping {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Ruha Camping"
+    m_sBaseNameUpper "Ruha Camping"
+    m_sMapLocationName "Ruha Camping"
+   }
+  }
+  coords 3585.367 84.066 423.797
+  angles -0.085 -0.618 -1.788
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_Hipinmaki {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Hipinmaki"
+    m_sBaseNameUpper "Hipinmaki"
+    m_sMapLocationName "Hipinmaki"
+   }
+  }
+  coords 2912.717 70.375 854.448
+  angles 0.447 167.65 1.733
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_Martikkalankyla {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Martikkalankyla"
+    m_sBaseNameUpper "Martikkalankyla"
+    m_sMapLocationName "Martikkalankyla"
+   }
+  }
+  coords 1319.657 61.071 220.199
+  angles -1.145 -37.656 -1.376
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_Tervasmaki {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Tervasmaki"
+    m_sBaseNameUpper "Tervasmaki"
+    m_sMapLocationName "Tervasmaki"
+   }
+  }
+  coords 5255.565 68.913 7686.709
+  angles 0.016 2.598 -1.79
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_Kelloja {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Kelloja"
+    m_sBaseNameUpper "Kelloja"
+    m_sMapLocationName "Kelloja"
+   }
+  }
+  coords 6005.943 56.687 7466.091
+  angles -1.681 -108.043 0.616
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_Muurimaki {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Muurimaki"
+    m_sBaseNameUpper "Muurimaki"
+    m_sMapLocationName "Muurimaki"
+   }
+  }
+  coords 6748.864 55.992 7053.356
+  angles -0.623 -18.266 -1.678
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_Joutkallio {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Joutkallio"
+    m_sBaseNameUpper "Joutkallio"
+    m_sMapLocationName "Joutkallio"
+   }
+  }
+  coords 7917.363 87.802 7946.812
+  angles 0.023 2.843 -1.79
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_Kivimaki {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Kivimaki"
+    m_sBaseNameUpper "Kivimaki"
+    m_sMapLocationName "Kivimaki"
+   }
+  }
+  coords 7694.604 79.37 6509.045
+  angles -1.744 -74.826 -0.405
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_Karranmannikko {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 200
+    m_bIsControlPoint 1
+    m_sBaseName "Karranmannikko"
+    m_sBaseNameUpper "Karranmannikko"
+    m_sMapLocationName "Karranmannikko"
+   }
+  }
+  coords 6105.839 56.625 7011.234
+  angles 0 88.426 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+   GenericEntity QRF_Kaar : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType TEAM_COUNTER_USSR
+      m_iRespawnPeriod 30
+      m_fAILimitThreshold 0.95
+      m_iRespawnWaves 1
+      m_bIsCounterGroup 1
+      m_iGroupMultiplier 4
+     }
+    }
+    coords -195.634 5.245 395.386
+    angles 5.187 27.686 -0.44
+    {
+     SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+      components {
+       Hierarchy "{5CD0765889102122}" {
+       }
+      }
+      coords 344.991 17.103 -275.564
+      angles -2.734 -53.551 4.431
+      AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
+      CompletionRadius 200
+     }
+    }
+   }
+  }
+ }
+ CP_BASE_Hietala {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 200
+    m_bIsControlPoint 1
+    m_sBaseName "Farmstead"
+    m_sBaseNameUpper "Farmstead"
+    m_sMapLocationName "Farmstead"
+   }
+  }
+  coords 6163.513 58.499 5773.586
+  angles -1.252 -53.376 0.184
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_Woodland {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Woodland"
+    m_sBaseNameUpper "Woodland"
+    m_sMapLocationName "Woodland"
+   }
+  }
+  coords 7515.428 104.79 2422.532
+  angles 0.133 -59.635 -1.997
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_HorseTrack {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Horse Track"
+    m_sBaseNameUpper "Horse Track"
+    m_sMapLocationName "Horse Track"
+   }
+  }
+  coords 6036.477 59.5 4199.633
+  angles 0 35.474 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_Jouttiluoma {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Jouttiluoma"
+    m_sBaseNameUpper "Jouttiluoma"
+    m_sMapLocationName "Jouttiluoma"
+   }
+  }
+  coords 4316.502 71.297 815.488
+  angles -1.537 30.845 -0.918
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_PowerPlant {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 200
+    m_bIsControlPoint 1
+    m_sBaseName "Power Plant"
+    m_sBaseNameUpper "Power Plant"
+    m_sMapLocationName "Power Plant"
+   }
+  }
+  coords 1803.005 64.344 3532.538
+  angles 1.784 96.759 0.145
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -18.948 -0.026 -0.715
+    angles -1.784 0.004 -0.145
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords 0.001 -0.436 13.986
+    angles -1.784 0.004 -0.145
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+   GenericEntity QRF_PowerPlant : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType TEAM_COUNTER_USSR
+      m_iRespawnPeriod 30
+      m_fAILimitThreshold 0.95
+      m_iRespawnWaves 1
+      m_bIsCounterGroup 1
+      m_iGroupMultiplier 4
+     }
+    }
+    coords -4.393 -12.257 428.523
+    angles 6.882 -165.841 0.139
+    {
+     SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+      components {
+       Hierarchy "{5CD0765889102122}" {
+       }
+      }
+      coords -137.977 -35.467 390.174
+      angles -2.734 -53.551 4.431
+      AIBehaviorTreeMoveTo "{A3755C1F88DED8D6}AI/BehaviorTrees/Waypoints/WP_Move.bt"
+      CompletionRadius 200
+     }
+    }
+   }
+  }
+ }
+ CP_BASE_ShootingRange {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "Shooting Range"
+    m_sBaseNameUpper "Shooting Range"
+    m_sMapLocationName "Shooting Range"
+   }
+  }
+  coords 7520.483 85.882 3541.585
+  angles 0.061 -93.904 0.893
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.259 -0.3 -0.676
+    angles -0.893 -0.001 0.061
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords 20.524 0.449 -7.187
+    angles -0.061 0.001 -0.893
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+ CP_BASE_ConstructionSite {
+  components {
+   SCR_CampaignBuildingProviderComponent "{5CA897160F09AA9F}" {
+    m_fBuildingRadius 100
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_iRadius 100
+    m_fMaximumSeizingTime 120
+    m_fMinimumSeizingTime 120
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+     }
+    }
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 250
+    m_bIsControlPoint 1
+    m_sBaseName "Construction Site"
+    m_sBaseNameUpper "Construction Site"
+    m_sMapLocationName "Construction Site"
+   }
+  }
+  coords 4582.976 60.875 2030.596
+  angles 0 130.731 0
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords -54.229 -2.25 -0.678
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0 -0.001 0
+   }
+  }
+ }
+}
+$grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
+ CP_RELAY_Tower {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Radio Tower"
+    m_sBaseNameUpper "Radio Tower"
+    m_sMapLocationName "Radio Tower"
+   }
+  }
+  coords 6475.082 80.593 2393.786
+  angles 0 66.484 0
+ }
+ CP_RELAY_MarshlandRadio {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Marshland Radio"
+    m_sBaseNameUpper "Marshland Radio"
+    m_sMapLocationName "Marshland Radio"
+   }
+  }
+  coords 4122.092 100.744 7695.402
+  angles 0 -153.516 0
+ }
+ CP_RELAY_Tower2 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "Radio Tower"
+    m_sBaseNameUpper "Radio Tower"
+    m_sMapLocationName "Radio Tower"
+   }
+  }
+  coords 1970.401 71.676 3036.388
+  angles 0 -0.369 0
+ }
+}

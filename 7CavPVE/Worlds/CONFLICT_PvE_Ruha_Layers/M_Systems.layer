@@ -1,0 +1,48 @@
+GenericEntity AP_AREA : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Components/Area.et" {
+ components {
+  SCR_ScenarioFrameworkArea "{59E8CDC50969206E}" {
+   m_SpawnChildren RANDOM_MULTIPLE
+   m_bShowDebugShapesInWorkbench 1
+   m_iDynamicDespawnRange 100000
+   m_sTriggerResource "{9DB5EBFFEC1A54B4}Prefabs/Systems/ScenarioFramework/Triggers/TriggerAnyPlayerSlow.et"
+   m_fAreaRadius 100000
+   m_aTriggerActions {
+    SCR_ScenarioFrameworkActionSpawnObjects "{650C3D580A8BA809}" {
+     m_aNameOfObjectsToSpawnOnActivation {
+      "AP_Mines"
+     }
+    }
+    SCR_ScenarioFrameworkActionSpawnObjects "{66F506EDC5EC1F05}" {
+     m_aNameOfObjectsToSpawnOnActivation {
+      "AT_Mines"
+     }
+    }
+   }
+  }
+ }
+ coords 2668.907 65.58 3077.354
+ angles 2.683 0.042 0.896
+ {
+  $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+   AP_Mines {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_MULTIPLE
+      m_iRandomPercent 30
+      m_eActivationType ON_TRIGGER_ACTIVATION
+     }
+    }
+    coords 0 0 0
+   }
+   AT_Mines {
+    components {
+     SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
+      m_SpawnChildren RANDOM_MULTIPLE
+      m_iRandomPercent 30
+     }
+    }
+    coords 0 0 0
+   }
+  }
+ }
+}

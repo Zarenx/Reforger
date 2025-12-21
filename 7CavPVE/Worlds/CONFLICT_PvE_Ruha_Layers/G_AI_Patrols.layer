@@ -1,0 +1,617 @@
+$grp GenericEntity : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+ AI_Patrol {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 2556.689 78.355 7303.303
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol2 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 4601.942 78.509 7080.438
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol3 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 4016.755 97.237 7484.962
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol4 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 7208.339 66.884 4828.917
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol5 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 6147.028 58.219 5079.1
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol6 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 6088.386 57.937 4979.181
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol7 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 4909.572 67.391 5699.007
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol8 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 3555.08 61.625 5843.646
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol9 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 2692.07 61.299 4358.52
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol10 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 3213.145 56.75 2794.644
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol11 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 2950.072 66.752 612.935
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol12 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 1884.848 63.518 892.667
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol13 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 1879.53 64.066 1076.209
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol14 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 1393.355 68.788 4850.423
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol15 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 2271.004 70.74 6997.112
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol16 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 4077.798 68.109 5646.457
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol17 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 6197.995 57.673 6216.269
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol18 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 7071.95 56.834 7369.723
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol19 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 5329.945 57.127 4370.587
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol20 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 5143.298 53.733 4706.475
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol21 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 4677.329 51.186 4904.937
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol22 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 4216.507 92.116 6828.001
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol23 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 1942.41 70.226 3055.564
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol24 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 2017.573 70.281 3044.224
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol25 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 1848.324 70.145 3067.371
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol26 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 2259.337 66.562 3037.74
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol27 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 7402.397 76.625 3966.136
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol28 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 7345.39 74.937 4137.738
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol29 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 6453.173 62.267 3904.933
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol30 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 6307.443 61.375 3961.975
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol31 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 5330.854 57.626 3511.448
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol32 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 4515.311 58.312 2848.05
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol33 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 4431.126 59.804 2664.956
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol34 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 3825.468 57.813 2419.473
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol35 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 3721.969 51.875 2510.016
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol36 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 2258.523 68.156 2448.434
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol37 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 1997.092 66.412 2068.278
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol38 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 1000.876 73.874 2808.572
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol39 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 3246.79 64.388 6041.165
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol40 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 5334.109 65.948 6173.205
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+ AI_Patrol41 {
+  components {
+   SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+    m_eGroupType SQUAD_RIFLE
+    m_iGroupMultiplier 2
+   }
+  }
+  coords 5509.076 65.533 6469.374
+  {
+   SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+    coords 0 0 0
+    CompletionRadius 100
+   }
+  }
+ }
+}

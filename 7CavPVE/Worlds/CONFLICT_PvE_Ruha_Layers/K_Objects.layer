@@ -1,0 +1,5464 @@
+GenericEntity : "{00EC57C047FB8AE9}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Wall_Light_USSR_01.et" {
+ coords 1837.898 63.349 5334.828
+ angles 0 70.355 0
+}
+SCR_DestructibleBuildingEntity : "{02EEB16EF56CA2E7}Prefabs/Structures/Military/Bunkers/ReinforcedFueltank_E_01/ReinforcedFueltank_E_01.et" {
+ coords 1926.499 1.006 5330.98
+ angles 0 -65.179 0
+}
+$grp GenericEntity : "{07D58C64654F71A3}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_03.et" {
+ {
+  coords 4212.56 54.992 4674.507
+  angles 0 -120 0
+ }
+ {
+  coords 4298.98 55.237 4559.229
+  angles 5 50 0
+ }
+ {
+  coords 4217.958 54.374 4619.523
+  angles 0 52.5 0
+ }
+}
+GenericEntity : "{084825E68F0FAF86}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_Scoped_S_USSR_01.et" {
+ coords 1864.188 62.906 5334.182
+ angles 0 -154.69 0
+}
+SCR_DestructibleBuildingEntity : "{0DF5A32A3727BFAE}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Small.et" {
+ coords 4272.508 -0.008 4556.275
+ angles -0.63 135.315 -0.636
+ scale 1.761
+}
+$grp GenericEntity : "{16148BF23770F1D3}Prefabs/Compositions/Slotted/SlotFlatSmall/MachineGunNest_S_USSR_02.et" {
+ {
+  coords 4103.894 55.009 4763.168
+  angles 0 -82.5 0
+ }
+ {
+  coords 4119.996 54.972 4785.801
+  angles 0 -55 0
+ }
+ {
+  coords 4136.589 54.233 4722.948
+  angles 0 -175 0
+ }
+ {
+  coords 6145.308 56.875 6894.766
+  angles 0 157.673 0
+ }
+ {
+  coords 3422.182 82.92 7090.757
+  angles 1.996 -112.495 0.142
+ }
+ {
+  coords 3426.65 82.855 7063.828
+  angles 1.55 -59.976 0.896
+ }
+ {
+  coords 1845.041 63.236 5333.368
+  angles 0.551 161.342 -3.959
+ }
+ {
+  coords 1896.978 62.938 5427.729
+  angles 0 37.431 0
+ }
+ {
+  coords 1909.202 62.875 5380.631
+  angles 0 120.188 0
+ }
+}
+$grp GenericEntity : "{1666078C5157E508}Prefabs/Compositions/Misc/SubCompositions/CanvasCover_Cluttered_USSR_02.et" {
+ {
+  coords 6471.773 79.982 2402.36
+  angles -1.788 0.056 -1.791
+ }
+ {
+  coords 3484.608 82.781 7123.922
+  angles 0 23.941 0
+ }
+ {
+  coords 6145.262 56.906 6904.402
+  angles -1.76 55.017 -0.953
+ }
+ {
+  coords 1899.462 62.875 5389.97
+  angles 0 -14.595 0
+ }
+}
+GenericEntity : "{25861AD07CEE719A}Prefabs/Compositions/Misc/SubCompositions/Sandbag_MG_USSR_01_PKM.et" {
+ coords 1828.272 63.257 5400.228
+ angles 0 -59.986 0
+}
+$grp GenericEntity : "{25861AD07CEE719B}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_MG_USSR_01_PKM.et" {
+ Bunker_Large {
+  coords 4773.956 74.194 1223.233
+  angles -8.239 64.824 -0.974
+  {
+   $grp StaticModelEntity : "{18822FB3F0D2ED00}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Long.et" {
+    {
+     coords -6.589 2.177 -3.861
+     scale 0.83
+    }
+    {
+     coords -6.568 2.177 -5.99
+     scale 0.83
+    }
+    {
+     coords 6.527 2.177 -5.99
+     scale 0.83
+    }
+    {
+     coords 6.506 2.177 -3.861
+     scale 0.83
+    }
+   }
+   GenericEntity : "{37F035D9CDAD9A15}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Desk_USSR_01.et" {
+    coords 3.164 -0.044 -6.584
+    angles 0 180 0
+   }
+   $grp StaticModelEntity : "{55A3DA68E58453A1}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v2.et" {
+    {
+     coords 1.62 0 -7.331
+     angles 0 -90 0
+    }
+    {
+     coords 0.08 0 -8.871
+     angles 0 180 0
+    }
+    {
+     coords -5.669 0 -10.575
+     angles 0 180 0
+    }
+    {
+     coords 5.569 0 -10.765
+     angles 0 180 0
+    }
+   }
+   $grp StaticModelEntity : "{5B5D8AEA342E1AAB}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/Sandbag_01_bunker_burlap_camonet_CompositionDestruction.et" {
+    {
+     coords 4.837 -0.044 -0.326
+    }
+    {
+     coords -4.628 -0.044 -0.326
+    }
+   }
+   StaticModelEntity : "{732A335C72D8ADE2}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_burlap_foundation.et" {
+    coords -0.121 0.687 -7.167
+   }
+   $grp GenericEntity : "{78A930FB0825AA9F}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Camo_long_high_USSR.et" {
+    {
+     coords 6.516 -0.044 -9.312
+     angles 0 -90 0
+    }
+    {
+     coords 5.327 -0.044 -10.416
+     angles 0 0 0
+    }
+    {
+     coords -5.454 -0.044 -10.302
+     angles 0 0 0
+    }
+    {
+     coords -6.558 -0.044 -9.113
+     angles 0 90 0
+    }
+   }
+   GenericEntity AI_Fort10 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 30
+      m_iGroupMultiplier 2
+     }
+    }
+    coords 0.093 -0.044 -3.218
+    angles 0 180 0
+    {
+     SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+      coords 0 0 0
+      CompletionRadius 10
+     }
+    }
+   }
+   GenericEntity : "{A379A364A095CA77}Prefabs/Compositions/Misc/SubCompositions/Decorations/BarbedCoil_Light_USSR_02.et" {
+    coords -2.926 -0.056 -6.517
+    angles 0 -90 0
+   }
+   $grp StaticModelEntity : "{B03F9691E961C4CA}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v3.et" {
+    {
+     coords 4.783 -0.057 1.765
+     scale 1.21
+    }
+    {
+     coords -4.609 -0.057 1.695
+     angles 0 180 0
+     scale 1.21
+    }
+    {
+     coords -6.82 -0.057 -0.202
+     angles 0 90 0
+     scale 1.21
+    }
+    {
+     coords -6.866 -0.057 -3.819
+     angles 0 -90 0
+     scale 1.21
+    }
+    {
+     coords -6.955 -0.057 -7.557
+     angles 0 -90 0
+     scale 1.21
+    }
+    {
+     coords 6.79 -0.057 -7.557
+     angles 0 -90 0
+     scale 1.21
+    }
+    {
+     coords 6.879 -0.057 -3.819
+     angles 0 -90 0
+     scale 1.21
+    }
+    {
+     coords 6.925 -0.057 -0.202
+     angles 0 90 0
+     scale 1.21
+    }
+   }
+   $grp GenericEntity : "{C56ED190635B0129}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Camo_wall_high_USSR.et" {
+    {
+     coords 2.545 -0.281 -5.325
+     angles 0 180 0
+    }
+    {
+     coords 6.517 -0.044 -3.621
+     angles 0 -90 0
+    }
+    {
+     coords 6.517 -0.044 -6.198
+     angles 0 -90 0
+    }
+    {
+     coords -0.134 -0.298 -5.325
+     angles 0 180 0
+    }
+    {
+     coords -2.761 -0.225 -5.325
+     angles 0 180 0
+    }
+    {
+     coords -6.425 -0.044 -3.621
+     angles 0 -90 0
+    }
+    {
+     coords -6.425 -0.044 -6.198
+     angles 0 -90 0
+    }
+   }
+   $grp GenericEntity : "{D82A0B2502D9CB14}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_06.et" {
+    {
+     coords 0.043 -0.044 -2.709
+     angles 0 -90 0
+     scale 2.92
+    }
+    {
+     coords 3.736 -0.044 -4.165
+     angles 0 -125 0
+     scale 2.92
+    }
+    {
+     coords -4.377 -0.044 -5.156
+     angles 0 -30 0
+     scale 2.92
+    }
+   }
+  }
+ }
+ Bunker_Large2 {
+  coords 4959.468 61.892 2263.334
+  angles 2.5 125 0
+  {
+   $grp StaticModelEntity : "{18822FB3F0D2ED00}Prefabs/Structures/Walls/BarbedWire/BarbedTape_01/BarbedTape_01_Long.et" {
+    {
+     coords -6.589 2.177 -3.861
+     scale 0.83
+    }
+    {
+     coords -6.568 2.177 -5.99
+     scale 0.83
+    }
+    {
+     coords 6.527 2.177 -5.99
+     scale 0.83
+    }
+    {
+     coords 6.506 2.177 -3.861
+     scale 0.83
+    }
+   }
+   GenericEntity : "{37F035D9CDAD9A15}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Desk_USSR_01.et" {
+    coords 3.164 -0.044 -6.584
+    angles 0 180 0
+   }
+   $grp StaticModelEntity : "{55A3DA68E58453A1}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v2.et" {
+    {
+     coords 1.62 0 -7.331
+     angles 0 -90 0
+    }
+    {
+     coords 0.08 0 -8.871
+     angles 0 180 0
+    }
+    {
+     coords -5.669 0 -10.575
+     angles 0 180 0
+    }
+    {
+     coords 5.569 0 -10.765
+     angles 0 180 0
+    }
+   }
+   $grp StaticModelEntity : "{5B5D8AEA342E1AAB}Prefabs/Compositions/Misc/CustomEntities/DestructionEntities/Sandbag_01_bunker_burlap_camonet_CompositionDestruction.et" {
+    {
+     coords 4.837 -0.044 -0.326
+    }
+    {
+     coords -4.628 -0.044 -0.326
+    }
+   }
+   StaticModelEntity : "{732A335C72D8ADE2}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_burlap_foundation.et" {
+    coords -0.121 0.687 -7.167
+   }
+   $grp GenericEntity : "{78A930FB0825AA9F}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Camo_long_high_USSR.et" {
+    {
+     coords 6.516 -0.044 -9.312
+     angles 0 -90 0
+    }
+    {
+     coords 5.327 -0.044 -10.416
+     angles 0 0 0
+    }
+    {
+     coords -5.454 -0.044 -10.302
+     angles 0 0 0
+    }
+    {
+     coords -6.558 -0.044 -9.113
+     angles 0 90 0
+    }
+   }
+   GenericEntity AI_Fort11 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 30
+      m_iGroupMultiplier 2
+     }
+    }
+    coords 0.093 -0.044 -3.218
+    angles 0 180 0
+    {
+     SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+      coords 0 0 0
+      CompletionRadius 10
+     }
+    }
+   }
+   GenericEntity : "{A379A364A095CA77}Prefabs/Compositions/Misc/SubCompositions/Decorations/BarbedCoil_Light_USSR_02.et" {
+    coords -2.926 -0.056 -6.517
+    angles 0 -90 0
+   }
+   $grp StaticModelEntity : "{B03F9691E961C4CA}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v3.et" {
+    {
+     coords 4.783 -0.057 1.765
+     scale 1.21
+    }
+    {
+     coords -4.609 -0.057 1.695
+     angles 0 180 0
+     scale 1.21
+    }
+    {
+     coords -6.82 -0.057 -0.202
+     angles 0 90 0
+     scale 1.21
+    }
+    {
+     coords -6.866 -0.057 -3.819
+     angles 0 -90 0
+     scale 1.21
+    }
+    {
+     coords -6.955 -0.057 -7.557
+     angles 0 -90 0
+     scale 1.21
+    }
+    {
+     coords 6.79 -0.057 -7.557
+     angles 0 -90 0
+     scale 1.21
+    }
+    {
+     coords 6.879 -0.057 -3.819
+     angles 0 -90 0
+     scale 1.21
+    }
+    {
+     coords 6.925 -0.057 -0.202
+     angles 0 90 0
+     scale 1.21
+    }
+   }
+   $grp GenericEntity : "{C56ED190635B0129}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Camo_wall_high_USSR.et" {
+    {
+     coords 2.545 -0.281 -5.325
+     angles 0 180 0
+    }
+    {
+     coords 6.517 -0.044 -3.621
+     angles 0 -90 0
+    }
+    {
+     coords 6.517 -0.044 -6.198
+     angles 0 -90 0
+    }
+    {
+     coords -0.134 -0.298 -5.325
+     angles 0 180 0
+    }
+    {
+     coords -2.761 -0.225 -5.325
+     angles 0 180 0
+    }
+    {
+     coords -6.425 -0.044 -3.621
+     angles 0 -90 0
+    }
+    {
+     coords -6.425 -0.044 -6.198
+     angles 0 -90 0
+    }
+   }
+   $grp GenericEntity : "{D82A0B2502D9CB14}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_06.et" {
+    {
+     coords 0.043 -0.044 -2.709
+     angles 0 -90 0
+     scale 2.92
+    }
+    {
+     coords 3.736 -0.044 -4.165
+     angles 0 -125 0
+     scale 2.92
+    }
+    {
+     coords -4.377 -0.044 -5.156
+     angles 0 -30 0
+     scale 2.92
+    }
+   }
+  }
+ }
+}
+DecalEntity : "{25AB7FF81B8EDEF9}Prefabs/Decals/Dirt/Decal_Dirt_Tracks_01.et" {
+ coords 1855.005 0.013 5365.788
+ angles -90 -180 -180
+ scale 10
+}
+$grp GenericEntity : "{25F3D3F3BD413CA5}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Barracks_USSR_02.et" {
+ {
+  coords 6493.109 80.574 2402.369
+  angles 1.102 164.463 0.623
+ }
+ {
+  coords 3446.381 82.781 7101.283
+  angles 0 -160.4 0
+ }
+ {
+  coords 3443.989 69.531 6231.673
+  angles 0 -138.006 0
+ }
+ {
+  coords 5925.188 55.758 6969.056
+  angles 0 87.549 0
+ }
+ {
+  coords 6136.173 56.937 6908.545
+  angles 0 152.592 0
+ }
+}
+DecalEntity : "{28DBB1C4928B9FB6}Prefabs/Decals/Dirt/Decal_Dirt_Tracks_03.et" {
+ coords 1860.711 0.125 5372.79
+ angles -90 -48.314 0
+ scale 5
+}
+$grp GenericEntity : "{2A1F2B440ECF8725}Prefabs/Compositions/Misc/SubCompositions/Storage/Misc/Storage_CanvasCover_Small_USSR_01.et" {
+ {
+  coords 5925.994 56.185 6977.938
+  angles 0 0 0
+ }
+ {
+  coords 5925.093 56.087 6974.48
+  angles 0 -93.183 0
+ }
+}
+GenericEntity : "{2B24356C351A2538}Prefabs/Props/Wrecks/M113_wreck/M113_wreck.et" {
+ coords 4273.296 53.676 4554.783
+}
+$grp GenericEntity : "{3001B0C35F835714}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Wall_BarbedWire_USSR_01.et" {
+ {
+  coords 1832.233 63.207 5402.272
+  angles 0 148.671 0
+ }
+ {
+  coords 1828.237 63.207 5394.47
+  angles 0 77.766 0
+ }
+}
+$grp GenericEntity : "{388B774519BD6294}Prefabs/Props/Wrecks/T62_wreck/T62_wreck.et" {
+ {
+  coords 4285.416 53.989 4555.967
+  angles 0 -100.206 0
+ }
+ {
+  coords 4263.425 53.196 4542.224
+  angles 0 128.731 0
+ }
+ WRECK_T62 {
+  coords 3948.893 56.006 4579.658
+  angles 0 81.231 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T2 {
+  coords 3959.851 57.042 4598.933
+  angles 2.5 128.731 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T3 {
+  coords 3997.232 57.54 4598.228
+  angles 0 66.231 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T4 {
+  coords 3993.901 54.993 4511.924
+  angles 0 56.231 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T5 {
+  coords 4040.236 54.969 4507.764
+  angles 0 128.731 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T6 {
+  coords 4028.51 55.532 4587.771
+  angles 0 128.731 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T7 {
+  coords 4072.919 53.242 4586.517
+  angles 0 128.731 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T8 {
+  coords 4088.095 52.546 4563.853
+  angles 7.5 23.731 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T9 {
+  coords 4499.897 57.585 5097.434
+  angles 0 -136.269 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T10 {
+  coords 4505 58.494 5127.169
+  angles 0 171.231 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T11 {
+  coords 4454.62 57.005 5064.076
+  angles 0 128.731 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T12 {
+  coords 4275.916 53.936 4769.007
+  angles -0.019 -151.288 0.435
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T13 {
+  coords 4277.551 55.146 4712.166
+  angles 0 161.231 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T14 {
+  coords 5952.858 56.776 7012.289
+  angles 0 38.591 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T15 {
+  coords 5936.417 56.409 7037.472
+  angles 0 136.737 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T16 {
+  coords 6114.713 56.674 6962.712
+  angles 0 126.149 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T17 {
+  coords 6127.521 56.644 6906.401
+  angles 0 -77.213 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T18 {
+  coords 6144.964 56.734 6873.127
+  angles 0 8.969 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T19 {
+  coords 1899.368 57.316 6161.223
+  angles 0 -178.837 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T20 {
+  coords 1924.067 54.751 6115.209
+  angles -7.635 -110.407 -6.461
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T21 {
+  coords 1846.22 49.801 6016.463
+  angles 0 56.231 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T22 {
+  coords 1951.001 52.078 5878.526
+  angles 0 -113.397 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T23 {
+  coords 1760.752 51.259 6008.851
+  angles -0.031 148.958 0.645
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T24 {
+  coords 1837.577 55.137 6129.729
+  angles -13.676 -124.564 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T25 {
+  coords 1606.897 52.35 6123.229
+  angles 0 56.231 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T26 {
+  coords 1727.552 54.467 6208.114
+  angles 0 -172.585 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T27 {
+  coords 1864.41 55.96 6128.596
+  angles -11.288 146.561 -2.895
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T28 {
+  coords 1751.228 57.618 5699.861
+  angles -3.359 18.212 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T29 {
+  coords 1729.31 56.981 5716.08
+  angles 0 56.231 -2.448
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T30 {
+  coords 1706.204 55.895 5780.352
+  angles -4.809 10.341 4.942
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T31 {
+  coords 1738.381 50.921 5998.614
+  angles 0 56.231 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T32 {
+  coords 1909.763 51.348 5780.95
+  angles 0 56.231 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T33 {
+  coords 1527.139 50.414 6199.63
+  angles 0 56.231 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T34 {
+  coords 1935.464 53.465 6070.562
+  angles -3.023 -135.184 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T35 {
+  coords 1922.439 63.858 4962.286
+  angles 0 -10.87 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T36 {
+  coords 2152.52 61.116 4290.067
+  angles 0 56.231 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T37 {
+  coords 2712.665 60.514 4281.146
+  angles 0 144.771 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T38 {
+  coords 3477.635 59.542 4091.945
+  angles 0 56.231 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T39 {
+  coords 3460.73 59.495 4073.183
+  angles 0 -25.645 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T40 {
+  coords 4266.006 54.131 4570.367
+  angles 0 56.231 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T41 {
+  coords 4208.072 54.889 4716.661
+  angles 0 -149.098 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T42 {
+  coords 4155.999 55.946 4796.273
+  angles 0 56.231 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T43 {
+  coords 3889.738 55.835 4587.435
+  angles 0 56.231 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T44 {
+  coords 3367.627 58.962 4128.992
+  angles 0 56.231 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T45 {
+  coords 3453.152 58.732 4182.045
+  angles 0 -173.642 0
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T46 {
+  coords 3480.617 58.418 4207.563
+  angles 0 -178.246 -3.05
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+ WRECK_T47 {
+  coords 3503.514 58.018 4181.313
+  angles -1.258 -137.012 -4.298
+  {
+   ParticleEffectEntity {
+    coords 1.687 -0.033 -0.69
+    angles 0 -128.731 0
+    EffectPath "{5B99024CB1D6A63C}Particles/Vehicle/Vehicle_smoke_Ural_damaged_black_02.ptc"
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.837 -0.059 -2.633
+     angles 2.792 -42.371 1.613
+     scale 1.1
+    }
+    {
+     coords 1.665 -0.04 1.078
+     angles 1.233 -139.943 -2.98
+     scale 1.1
+    }
+    {
+     coords -0.364 0.085 2.053
+     angles -1.103 177.618 -3.03
+     scale 1.562
+    }
+    {
+     coords -1.076 0.07 -1.111
+     angles -3.075 90.063 0.971
+     scale 1.078
+    }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{38E750A0E7C3B350}Prefabs/Props/Wrecks/Mi8MT_wreck/Mi8MT_wreck.et" {
+ Wreck_MI2 {
+  coords 4206.888 54.759 4781.277
+  angles -8.92 0.314 -0.895
+  {
+   $grp ParticleEffectEntity {
+    {
+     coords 0.632 2.945 3.156
+     angles 9.935 0.991 7.608
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+    {
+     coords -0.991 3.546 -0.181
+     angles 9.935 0.991 7.608
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{0DF5A32A3727BFAE}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Small.et" {
+    {
+     coords 0.855 0.353 -3.088
+     angles 10.345 -2.253 7.036
+     scale 1.731
+    }
+    {
+     coords -2.063 1.276 -0.066
+     angles 12.109 -22.346 3.085
+     scale 1.036
+    }
+    {
+     coords -1.852 1.655 2.229
+     angles 12.109 -22.346 3.085
+     scale 1.036
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{720E5074722834BF}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_WoodPile.et" {
+    {
+     coords -1.295 0.799 -2.183
+     angles -2.026 62.437 12.327
+     scale 1.099
+    }
+    {
+     coords -1.084 1.892 4.562
+     angles -11.836 162.147 -4.017
+     scale 0.906
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.018 1.609 3.363
+     angles -6.004 81.591 10.973
+     scale 0.941
+    }
+    {
+     coords 0.542 1.015 0.408
+     angles 12.46 -32.737 0.868
+     scale 1.562
+    }
+   }
+  }
+ }
+ Wreck_MI {
+  coords 1851.2 49.88 5826.646
+  angles -10.023 -28.596 2.52
+  {
+   $grp ParticleEffectEntity {
+    {
+     coords 0.632 2.945 3.156
+     angles 9.935 0.991 7.608
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+    {
+     coords -0.991 3.546 -0.181
+     angles 9.935 0.991 7.608
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{0DF5A32A3727BFAE}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Small.et" {
+    {
+     coords 0.855 0.353 -3.088
+     angles 10.345 -2.253 7.036
+     scale 1.731
+    }
+    {
+     coords -2.063 1.276 -0.066
+     angles 12.109 -22.346 3.085
+     scale 1.036
+    }
+    {
+     coords -1.852 1.655 2.229
+     angles 12.109 -22.346 3.085
+     scale 1.036
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{720E5074722834BF}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_WoodPile.et" {
+    {
+     coords -1.295 0.799 -2.183
+     angles -2.026 62.437 12.327
+     scale 1.099
+    }
+    {
+     coords -1.084 1.892 4.562
+     angles -11.836 162.147 -4.017
+     scale 0.906
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.018 1.609 3.363
+     angles -6.004 81.591 10.973
+     scale 0.941
+    }
+    {
+     coords 0.542 1.015 0.408
+     angles 12.46 -32.737 0.868
+     scale 1.562
+    }
+   }
+  }
+ }
+ Wreck_MI3 {
+  coords 1392.55 48.964 6078.288
+  angles -9.509 -134.418 -3.387
+  {
+   $grp ParticleEffectEntity {
+    {
+     coords 0.632 2.945 3.156
+     angles 9.935 0.991 7.608
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+    {
+     coords -0.991 3.546 -0.181
+     angles 9.935 0.991 7.608
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{0DF5A32A3727BFAE}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Small.et" {
+    {
+     coords 0.855 0.353 -3.088
+     angles 10.345 -2.253 7.036
+     scale 1.731
+    }
+    {
+     coords -2.063 1.276 -0.066
+     angles 12.109 -22.346 3.085
+     scale 1.036
+    }
+    {
+     coords -1.852 1.655 2.229
+     angles 12.109 -22.346 3.085
+     scale 1.036
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{720E5074722834BF}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_WoodPile.et" {
+    {
+     coords -1.295 0.799 -2.183
+     angles -2.026 62.437 12.327
+     scale 1.099
+    }
+    {
+     coords -1.084 1.892 4.562
+     angles -11.836 162.147 -4.017
+     scale 0.906
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.018 1.609 3.363
+     angles -6.004 81.591 10.973
+     scale 0.941
+    }
+    {
+     coords 0.542 1.015 0.408
+     angles 12.46 -32.737 0.868
+     scale 1.562
+    }
+   }
+  }
+ }
+ Wreck_MI4 {
+  coords 4234.292 54.354 4733.142
+  angles -8.92 0.314 -7.682
+  {
+   $grp ParticleEffectEntity {
+    {
+     coords 0.632 2.945 3.156
+     angles 9.935 0.991 7.608
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+    {
+     coords -0.991 3.546 -0.181
+     angles 9.935 0.991 7.608
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{0DF5A32A3727BFAE}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Small.et" {
+    {
+     coords 0.855 0.353 -3.088
+     angles 10.345 -2.253 7.036
+     scale 1.731
+    }
+    {
+     coords -2.063 1.276 -0.066
+     angles 12.109 -22.346 3.085
+     scale 1.036
+    }
+    {
+     coords -1.852 1.655 2.229
+     angles 12.109 -22.346 3.085
+     scale 1.036
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{720E5074722834BF}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_WoodPile.et" {
+    {
+     coords -1.295 0.799 -2.183
+     angles -2.026 62.437 12.327
+     scale 1.099
+    }
+    {
+     coords -1.084 1.892 4.562
+     angles -11.836 162.147 -4.017
+     scale 0.906
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.018 1.609 3.363
+     angles -6.004 81.591 10.973
+     scale 0.941
+    }
+    {
+     coords 0.542 1.015 0.408
+     angles 12.46 -32.737 0.868
+     scale 1.562
+    }
+   }
+  }
+ }
+ Wreck_MI5 {
+  coords 6184.868 55.372 7110.305
+  angles -16.356 -70.603 -2.36
+  {
+   $grp ParticleEffectEntity {
+    {
+     coords 0.632 2.945 3.156
+     angles 9.935 0.991 7.608
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+    {
+     coords -0.991 3.546 -0.181
+     angles 9.935 0.991 7.608
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{0DF5A32A3727BFAE}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Small.et" {
+    {
+     coords 0.855 0.353 -3.088
+     angles 10.345 -2.253 7.036
+     scale 1.731
+    }
+    {
+     coords -2.063 1.276 -0.066
+     angles 12.109 -22.346 3.085
+     scale 1.036
+    }
+    {
+     coords -1.852 1.655 2.229
+     angles 12.109 -22.346 3.085
+     scale 1.036
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{720E5074722834BF}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_WoodPile.et" {
+    {
+     coords -1.295 0.799 -2.183
+     angles -2.026 62.437 12.327
+     scale 1.099
+    }
+    {
+     coords -1.084 1.892 4.562
+     angles -11.836 162.147 -4.017
+     scale 0.906
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.018 1.609 3.363
+     angles -6.004 81.591 10.973
+     scale 0.941
+    }
+    {
+     coords 0.542 1.015 0.408
+     angles 12.46 -32.737 0.868
+     scale 1.562
+    }
+   }
+  }
+ }
+ Wreck_MI6 {
+  coords 1834.253 63.161 3308.56
+  angles -9.463 46.344 -3.808
+  {
+   $grp ParticleEffectEntity {
+    {
+     coords 0.632 2.945 3.156
+     angles 9.935 0.991 7.608
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+    {
+     coords -0.991 3.546 -0.181
+     angles 9.935 0.991 7.608
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{0DF5A32A3727BFAE}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Small.et" {
+    {
+     coords 0.855 0.353 -3.088
+     angles 10.345 -2.253 7.036
+     scale 1.731
+    }
+    {
+     coords -2.063 1.276 -0.066
+     angles 12.109 -22.346 3.085
+     scale 1.036
+    }
+    {
+     coords -1.852 1.655 2.229
+     angles 12.109 -22.346 3.085
+     scale 1.036
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{720E5074722834BF}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_WoodPile.et" {
+    {
+     coords -1.295 0.799 -2.183
+     angles -2.026 62.437 12.327
+     scale 1.099
+    }
+    {
+     coords -1.084 1.892 4.562
+     angles -11.836 162.147 -4.017
+     scale 0.906
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.018 1.609 3.363
+     angles -6.004 81.591 10.973
+     scale 0.941
+    }
+    {
+     coords 0.542 1.015 0.408
+     angles 12.46 -32.737 0.868
+     scale 1.562
+    }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{3AE1A95C1023F894}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_04.et" {
+ {
+  coords 4289.762 55.562 4570.113
+  angles 0 47.5 0
+ }
+ {
+  coords 4126.254 53.421 4642.423
+  angles 0 67.5 0
+ }
+ {
+  coords 4106.445 53.338 4648.416
+  angles 0 -22.5 0
+ }
+}
+SCR_IndestructibleEnvironmentalEntity : "{3CB20A890FB1B6F5}Prefabs/Rocks/Granite/GraniteSurfaceStone_02.et" {
+ coords 1941.156 57.471 5327.295
+ angles 0 135.371 0
+ scale 3.339
+}
+GenericEntity : "{49ADEF17D3D91B4F}Prefabs/Structures/Military/Camps/Canvas_Covers/Soviet/CanvasCover_Medium_A_Soviet.et" {
+ coords 5926.626 56.924 6976.586
+}
+$grp GenericEntity : "{4EF68238FE2FC26B}Prefabs/Compositions/Misc/SubCompositions/CanvasCover_Cluttered_USSR_04.et" {
+ {
+  coords 6475.693 80.24 2394.287
+  angles 0 66.716 0
+ }
+ {
+  coords 1887.335 62.947 5402.212
+  angles 0.424 -28.236 0.789
+ }
+}
+$grp StaticModelEntity : "{55A3DA68E58453A1}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v2.et" {
+ {
+  coords 1864.971 0.021 5387.898
+  angles 0 67.371 0
+ }
+ {
+  coords 1865.984 0.08 5385.145
+  angles 0 67.371 0
+ }
+ {
+  coords 1867.635 0.098 5382.874
+  angles 0 38.682 0
+ }
+ {
+  coords 1870.177 0.098 5381.528
+  angles 0 12.073 0
+ }
+ {
+  coords 1864.464 -0.019 5390.752
+  angles 0 87.615 0
+ }
+ {
+  coords 1865.061 -0.041 5393.545
+  angles 0 112.824 0
+ }
+}
+GenericEntity : "{5D4A25C9B60B581E}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Barracks_USSR_06.et" {
+ coords 5951.653 55.689 6956.229
+ angles -1.816 -178.275 0.84
+}
+$grp StaticModelEntity : "{605A7848CB4D361A}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Bunker_Camouflaged_USSR_01.et" {
+ {
+  coords 6141.175 56.662 7118.051
+  angles 0 -146.352 0
+ }
+ {
+  coords 6100.185 56.625 7122.41
+  angles 0 162.482 0
+ }
+ {
+  coords 6062.582 56.625 7122.063
+  angles 0 -57.868 0
+ }
+ {
+  coords 6128.948 57.708 7135.233
+  angles 0 -12.407 0
+ }
+ {
+  coords 6190.421 56.615 7129.782
+  angles 0 57.457 0
+ }
+ {
+  coords 1851.688 63.039 5409.478
+  angles 0 -54.169 0
+ }
+ {
+  coords 1910.065 62.875 5389.815
+  angles 0 75.267 0
+ }
+ {
+  coords 1878.053 63.252 5430.198
+  angles 0 -12.739 0
+ }
+}
+$grp GenericEntity : "{607E00F1C367D129}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Barracks_USSR_01.et" {
+ {
+  coords 6454.326 79.356 2389.506
+  angles 3.631 91.195 -2.603
+ }
+ {
+  coords 6461.187 79.449 2399.142
+  angles 1.236 135.677 2.545
+ }
+ {
+  coords 3438.423 82.781 7103.878
+  angles 0 -161.636 0
+ }
+ {
+  coords 3434.502 69.482 6222.254
+  angles 0 47.879 0
+ }
+}
+$grp StaticModelEntity : "{61A1055D397072A5}Prefabs/Compositions/Misc/SubCompositions/Tent_Barrack_Cluttered_USSR_01.et" {
+ {
+  coords 1841.548 64.344 3367.79
+  angles 0 -136.846 0
+ }
+ {
+  coords 1848.739 64.344 3361.069
+  angles 0 -133.117 0
+ }
+ {
+  coords 1855.806 64.344 3353.155
+  angles 0 -124.72 0
+ }
+}
+GenericEntity : "{621AD664E58BC26B}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Supply_Small_USSR_01.et" {
+ coords 1856.868 65.063 3222.786
+ angles 0 -85.824 0
+}
+SCR_DestructibleBuildingEntity : "{720E5074722834BF}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_WoodPile.et" {
+ coords 4261.763 0.004 4543.875
+ angles 1.483 96.355 2.863
+ scale 1.073
+}
+$grp GenericEntity : "{73C2A7008B434B5C}Prefabs/Compositions/Misc/SubCompositions/CanvasCover_Cluttered_USSR_03.et" {
+ {
+  coords 3439.02 82.781 7091.827
+  angles 0 108.86 0
+ }
+ {
+  coords 5941.03 56.241 6977.704
+  angles 0.038 -88.767 -1.789
+ }
+ {
+  coords 1885.538 63 5409.238
+  angles 0 -23.921 0
+ }
+ {
+  coords 1853.555 62.913 5381.989
+  angles 1.026 -9.135 0.742
+ }
+}
+$grp GenericEntity : "{75FEF1CA582431F3}Prefabs/Props/Wrecks/BTR70_Wreck/BTR70_wreck.et" {
+ Wreck_BTR2 {
+  coords 4264.516 54.234 4644.12
+  angles -2.5 0 2.5
+  {
+   $grp ParticleEffectEntity {
+    {
+     coords 0.31 1.627 -3.046
+     angles 2.498 -0.109 -2.502
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+    {
+     coords -0.39 1.4 2.712
+     angles 2.498 -0.109 -2.502
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{0DF5A32A3727BFAE}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Small.et" {
+    {
+     coords 2.298 0.412 -2.025
+     angles 3.11 16.555 -1.681
+     scale 0.954
+    }
+    {
+     coords 2.689 0.572 1.258
+     angles 3.11 16.555 -1.681
+     scale 0.954
+    }
+    {
+     coords -2.169 0.391 1.95
+     angles -1.158 154.067 3.34
+     scale 0.954
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 1.282 0.616 2.654
+     angles -1.266 155.931 3.301
+     scale 1.085
+    }
+    {
+     coords -0.596 0.527 2.497
+     angles 2.859 81.019 2.079
+     scale 1.085
+    }
+    {
+     coords -1.307 0.346 -0.94
+     angles 2.432 -1.587 -2.566
+     scale 1.085
+    }
+    {
+     coords 1.805 0.513 -0.217
+     angles -2.224 -83.98 -2.748
+     scale 1.085
+    }
+    {
+     coords 0.568 0.34 -2.95
+     angles -3.496 -126.517 -0.523
+     scale 1.085
+    }
+   }
+  }
+ }
+ Wreck_BTR3 {
+  coords 3444.262 59.193 4092.379
+  angles -1.633 -17.49 3.136
+  {
+   $grp ParticleEffectEntity {
+    {
+     coords 0.31 1.627 -3.046
+     angles 2.498 -0.109 -2.502
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+    {
+     coords -0.39 1.4 2.712
+     angles 2.498 -0.109 -2.502
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{0DF5A32A3727BFAE}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Small.et" {
+    {
+     coords 2.298 0.412 -2.025
+     angles 3.11 16.555 -1.681
+     scale 0.954
+    }
+    {
+     coords 2.689 0.572 1.258
+     angles 3.11 16.555 -1.681
+     scale 0.954
+    }
+    {
+     coords -2.169 0.391 1.95
+     angles -1.158 154.067 3.34
+     scale 0.954
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 1.282 0.616 2.654
+     angles -1.266 155.931 3.301
+     scale 1.085
+    }
+    {
+     coords -0.596 0.527 2.497
+     angles 2.859 81.019 2.079
+     scale 1.085
+    }
+    {
+     coords -1.307 0.346 -0.94
+     angles 2.432 -1.587 -2.566
+     scale 1.085
+    }
+    {
+     coords 1.805 0.513 -0.217
+     angles -2.224 -83.98 -2.748
+     scale 1.085
+    }
+    {
+     coords 0.568 0.34 -2.95
+     angles -3.496 -126.517 -0.523
+     scale 1.085
+    }
+   }
+  }
+ }
+ Wreck_BTR {
+  coords 6659.7 96.218 1112.608
+  angles -3.505 37.541 0.46
+  {
+   $grp ParticleEffectEntity {
+    {
+     coords 0.31 1.627 -3.046
+     angles 2.498 -0.109 -2.502
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+    {
+     coords -0.39 1.4 2.712
+     angles 2.498 -0.109 -2.502
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{0DF5A32A3727BFAE}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Small.et" {
+    {
+     coords 2.298 0.412 -2.025
+     angles 3.11 16.555 -1.681
+     scale 0.954
+    }
+    {
+     coords 2.689 0.572 1.258
+     angles 3.11 16.555 -1.681
+     scale 0.954
+    }
+    {
+     coords -2.169 0.391 1.95
+     angles -1.158 154.067 3.34
+     scale 0.954
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 1.282 0.616 2.654
+     angles -1.266 155.931 3.301
+     scale 1.085
+    }
+    {
+     coords -0.596 0.527 2.497
+     angles 2.859 81.019 2.079
+     scale 1.085
+    }
+    {
+     coords -1.307 0.346 -0.94
+     angles 2.432 -1.587 -2.566
+     scale 1.085
+    }
+    {
+     coords 1.805 0.513 -0.217
+     angles -2.224 -83.98 -2.748
+     scale 1.085
+    }
+    {
+     coords 0.568 0.34 -2.95
+     angles -3.496 -126.517 -0.523
+     scale 1.085
+    }
+   }
+  }
+ }
+ Wreck_BTR4 {
+  coords 6678.199 96.159 1136.123
+  angles -1.519 -124.98 0.615
+  {
+   $grp ParticleEffectEntity {
+    {
+     coords 0.31 1.627 -3.046
+     angles 2.498 -0.109 -2.502
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+    {
+     coords -0.39 1.4 2.712
+     angles 2.498 -0.109 -2.502
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{0DF5A32A3727BFAE}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Small.et" {
+    {
+     coords 2.298 0.412 -2.025
+     angles 3.11 16.555 -1.681
+     scale 0.954
+    }
+    {
+     coords 2.689 0.572 1.258
+     angles 3.11 16.555 -1.681
+     scale 0.954
+    }
+    {
+     coords -2.169 0.391 1.95
+     angles -1.158 154.067 3.34
+     scale 0.954
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 1.282 0.616 2.654
+     angles -1.266 155.931 3.301
+     scale 1.085
+    }
+    {
+     coords -0.596 0.527 2.497
+     angles 2.859 81.019 2.079
+     scale 1.085
+    }
+    {
+     coords -1.307 0.346 -0.94
+     angles 2.432 -1.587 -2.566
+     scale 1.085
+    }
+    {
+     coords 1.805 0.513 -0.217
+     angles -2.224 -83.98 -2.748
+     scale 1.085
+    }
+    {
+     coords 0.568 0.34 -2.95
+     angles -3.496 -126.517 -0.523
+     scale 1.085
+    }
+   }
+  }
+ }
+ Wreck_BTR5 {
+  coords 4428.513 53.752 4443.273
+  angles 0.913 -59.918 3.415
+  {
+   $grp ParticleEffectEntity {
+    {
+     coords 0.31 1.627 -3.046
+     angles 2.498 -0.109 -2.502
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+    {
+     coords -0.39 1.4 2.712
+     angles 2.498 -0.109 -2.502
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{0DF5A32A3727BFAE}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Small.et" {
+    {
+     coords 2.298 0.412 -2.025
+     angles 3.11 16.555 -1.681
+     scale 0.954
+    }
+    {
+     coords 2.689 0.572 1.258
+     angles 3.11 16.555 -1.681
+     scale 0.954
+    }
+    {
+     coords -2.169 0.391 1.95
+     angles -1.158 154.067 3.34
+     scale 0.954
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 1.282 0.616 2.654
+     angles -1.266 155.931 3.301
+     scale 1.085
+    }
+    {
+     coords -0.596 0.527 2.497
+     angles 2.859 81.019 2.079
+     scale 1.085
+    }
+    {
+     coords -1.307 0.346 -0.94
+     angles 2.432 -1.587 -2.566
+     scale 1.085
+    }
+    {
+     coords 1.805 0.513 -0.217
+     angles -2.224 -83.98 -2.748
+     scale 1.085
+    }
+    {
+     coords 0.568 0.34 -2.95
+     angles -3.496 -126.517 -0.523
+     scale 1.085
+    }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{7783AE4B44D3CF29}Prefabs/Props/Wrecks/M923A1_wreck/M923A1_wreck.et" {
+ Wreck_Truck2 {
+  coords 3448.602 59.564 4052.217
+  angles -0.977 70.06 -1.983
+  {
+   ParticleEffectEntity {
+    coords -0.122 1.901 2.687
+    angles 1.343 5.025 2.109
+    EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+   }
+   SCR_DestructibleBuildingEntity : "{0DF5A32A3727BFAE}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Small.et" {
+    coords -1.376 0.17 1.096
+    angles -2.491 122.663 0.211
+    scale 1.317
+   }
+   $grp SCR_DestructibleBuildingEntity : "{720E5074722834BF}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_WoodPile.et" {
+    {
+     coords 1.913 0.032 0.182
+     angles 2.392 -69.428 -0.728
+     scale 0.748
+    }
+    {
+     coords -0.51 0.019 -3.447
+     angles -0.727 -159.398 -2.392
+     scale 0.748
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.389 0.133 2.01
+     angles 1.466 1.62 2.025
+     scale 1.258
+    }
+    {
+     coords 0.015 0.056 -1.38
+     angles 2.473 -60.914 -0.366
+     scale 1.258
+    }
+   }
+  }
+ }
+ Wreck_Truck {
+  coords 1937.168 65.063 6594.758
+  angles -1.522 -4.974 -1.984
+  {
+   ParticleEffectEntity {
+    coords -0.122 1.901 2.687
+    angles 1.343 5.025 2.109
+    EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+   }
+   SCR_DestructibleBuildingEntity : "{0DF5A32A3727BFAE}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Small.et" {
+    coords -1.376 0.17 1.096
+    angles -2.491 122.663 0.211
+    scale 1.317
+   }
+   $grp SCR_DestructibleBuildingEntity : "{720E5074722834BF}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_WoodPile.et" {
+    {
+     coords 1.913 0.032 0.182
+     angles 2.392 -69.428 -0.728
+     scale 0.748
+    }
+    {
+     coords -0.51 0.019 -3.447
+     angles -0.727 -159.398 -2.392
+     scale 0.748
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.389 0.133 2.01
+     angles 1.466 1.62 2.025
+     scale 1.258
+    }
+    {
+     coords 0.015 0.056 -1.38
+     angles 2.473 -60.914 -0.366
+     scale 1.258
+    }
+   }
+  }
+ }
+ Wreck_Truck3 {
+  coords 2991.249 69.747 6561.347
+  angles -1.522 -4.974 -1.984
+  {
+   ParticleEffectEntity {
+    coords -0.122 1.901 2.687
+    angles 1.343 5.025 2.109
+    EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+   }
+   SCR_DestructibleBuildingEntity : "{0DF5A32A3727BFAE}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Small.et" {
+    coords -1.376 0.17 1.096
+    angles -2.491 122.663 0.211
+    scale 1.317
+   }
+   $grp SCR_DestructibleBuildingEntity : "{720E5074722834BF}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_WoodPile.et" {
+    {
+     coords 1.913 0.032 0.182
+     angles 2.392 -69.428 -0.728
+     scale 0.748
+    }
+    {
+     coords -0.51 0.019 -3.447
+     angles -0.727 -159.398 -2.392
+     scale 0.748
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.389 0.133 2.01
+     angles 1.466 1.62 2.025
+     scale 1.258
+    }
+    {
+     coords 0.015 0.056 -1.38
+     angles 2.473 -60.914 -0.366
+     scale 1.258
+    }
+   }
+  }
+ }
+ Wreck_Truck4 {
+  coords 4221.757 55.034 4725.539
+  angles 1.261 62.766 -2.159
+  {
+   ParticleEffectEntity {
+    coords -0.122 1.901 2.687
+    angles 1.343 5.025 2.109
+    EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+   }
+   SCR_DestructibleBuildingEntity : "{0DF5A32A3727BFAE}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Small.et" {
+    coords -1.376 0.17 1.096
+    angles -2.491 122.663 0.211
+    scale 1.317
+   }
+   $grp SCR_DestructibleBuildingEntity : "{720E5074722834BF}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_WoodPile.et" {
+    {
+     coords 1.913 0.032 0.182
+     angles 2.392 -69.428 -0.728
+     scale 0.748
+    }
+    {
+     coords -0.51 0.019 -3.447
+     angles -0.727 -159.398 -2.392
+     scale 0.748
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.389 0.133 2.01
+     angles 1.466 1.62 2.025
+     scale 1.258
+    }
+    {
+     coords 0.015 0.056 -1.38
+     angles 2.473 -60.914 -0.366
+     scale 1.258
+    }
+   }
+  }
+ }
+ Wreck_Truck5 {
+  coords 4261.429 54.507 4657.932
+  angles -2.439 -70.177 0.549
+  {
+   ParticleEffectEntity {
+    coords -0.122 1.901 2.687
+    angles 1.343 5.025 2.109
+    EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+   }
+   SCR_DestructibleBuildingEntity : "{0DF5A32A3727BFAE}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Small.et" {
+    coords -1.376 0.17 1.096
+    angles -2.491 122.663 0.211
+    scale 1.317
+   }
+   $grp SCR_DestructibleBuildingEntity : "{720E5074722834BF}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_WoodPile.et" {
+    {
+     coords 1.913 0.032 0.182
+     angles 2.392 -69.428 -0.728
+     scale 0.748
+    }
+    {
+     coords -0.51 0.019 -3.447
+     angles -0.727 -159.398 -2.392
+     scale 0.748
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.389 0.133 2.01
+     angles 1.466 1.62 2.025
+     scale 1.258
+    }
+    {
+     coords 0.015 0.056 -1.38
+     angles 2.473 -60.914 -0.366
+     scale 1.258
+    }
+   }
+  }
+ }
+ Wreck_Truck6 {
+  coords 4237.576 54.062 4594.986
+  angles -2.114 -25.187 -1.336
+  {
+   ParticleEffectEntity {
+    coords -0.122 1.901 2.687
+    angles 1.343 5.025 2.109
+    EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+   }
+   SCR_DestructibleBuildingEntity : "{0DF5A32A3727BFAE}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Small.et" {
+    coords -1.376 0.17 1.096
+    angles -2.491 122.663 0.211
+    scale 1.317
+   }
+   $grp SCR_DestructibleBuildingEntity : "{720E5074722834BF}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_WoodPile.et" {
+    {
+     coords 1.913 0.032 0.182
+     angles 2.392 -69.428 -0.728
+     scale 0.748
+    }
+    {
+     coords -0.51 0.019 -3.447
+     angles -0.727 -159.398 -2.392
+     scale 0.748
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.389 0.133 2.01
+     angles 1.466 1.62 2.025
+     scale 1.258
+    }
+    {
+     coords 0.015 0.056 -1.38
+     angles 2.473 -60.914 -0.366
+     scale 1.258
+    }
+   }
+  }
+ }
+ Wreck_Truck7 {
+  coords 4423.282 54.32 4446.562
+  angles 1.843 79.973 -1.69
+  {
+   ParticleEffectEntity {
+    coords -0.122 1.901 2.687
+    angles 1.343 5.025 2.109
+    EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+   }
+   SCR_DestructibleBuildingEntity : "{0DF5A32A3727BFAE}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Small.et" {
+    coords -1.376 0.17 1.096
+    angles -2.491 122.663 0.211
+    scale 1.317
+   }
+   $grp SCR_DestructibleBuildingEntity : "{720E5074722834BF}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_WoodPile.et" {
+    {
+     coords 1.913 0.032 0.182
+     angles 2.392 -69.428 -0.728
+     scale 0.748
+    }
+    {
+     coords -0.51 0.019 -3.447
+     angles -0.727 -159.398 -2.392
+     scale 0.748
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.389 0.133 2.01
+     angles 1.466 1.62 2.025
+     scale 1.258
+    }
+    {
+     coords 0.015 0.056 -1.38
+     angles 2.473 -60.914 -0.366
+     scale 1.258
+    }
+   }
+  }
+ }
+ Wreck_Truck8 {
+  coords 1841.92 64.644 3270.575
+  angles -1.86 -15.538 -1.671
+  {
+   ParticleEffectEntity {
+    coords -0.122 1.901 2.687
+    angles 1.343 5.025 2.109
+    EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+   }
+   SCR_DestructibleBuildingEntity : "{0DF5A32A3727BFAE}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Small.et" {
+    coords -1.376 0.17 1.096
+    angles -2.491 122.663 0.211
+    scale 1.317
+   }
+   $grp SCR_DestructibleBuildingEntity : "{720E5074722834BF}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_WoodPile.et" {
+    {
+     coords 1.913 0.032 0.182
+     angles 2.392 -69.428 -0.728
+     scale 0.748
+    }
+    {
+     coords -0.51 0.019 -3.447
+     angles -0.727 -159.398 -2.392
+     scale 0.748
+    }
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords 0.389 0.133 2.01
+     angles 1.466 1.62 2.025
+     scale 1.258
+    }
+    {
+     coords 0.015 0.056 -1.38
+     angles 2.473 -60.914 -0.366
+     scale 1.258
+    }
+   }
+  }
+ }
+}
+StaticModelEntity : "{79120CE2B844B975}Prefabs/Compositions/Misc/SubCompositions/DirtPile_Cluttered_01.et" {
+ coords 1895.216 0.142 5390.605
+}
+$grp GenericEntity : "{795D20A26B62F82F}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Barracks_FIA_01.et" {
+ {
+  coords 1830.305 62.88 5384.025
+  angles 0.876 78.067 -0.185
+ }
+ {
+  coords 1832.892 62.917 5373.514
+  angles -1.984 70.957 -0.262
+ }
+ {
+  coords 1836.699 63.028 5362.917
+  angles -5.206 58.651 0.035
+ }
+ {
+  coords 1886.745 63.063 5424.832
+  angles -0.513 -158.903 -1.157
+ }
+ {
+  coords 1896.401 63.025 5415.004
+  angles 0.832 -111.627 -0.33
+ }
+ {
+  coords 1899.196 62.906 5403.596
+  angles 0 -87.428 0
+ }
+ {
+  coords 1867.315 62.844 5365.227
+  angles 0 -16.932 0
+ }
+ {
+  coords 1877.73 62.848 5368.105
+  angles 0.261 -16.928 0.856
+ }
+ {
+  coords 1888.052 62.843 5371.907
+  angles 0.261 -16.928 0.856
+ }
+ {
+  coords 1874.772 63.031 5419.666
+  angles 0 129.634 0
+ }
+ {
+  coords 1844.844 63.018 5402.177
+  angles 0.261 124.645 0.856
+ }
+ {
+  coords 1835.806 63.191 5393.833
+  angles -0.262 162.997 -0.856
+ }
+}
+GenericEntity : "{7A32336CED936A26}Prefabs/Compositions/Misc/SubCompositions/CanvasCover_Cluttered_USSR_01.et" {
+ coords 1892.974 62.844 5384.798
+ angles 0 78.118 0
+}
+GenericEntity : "{7B6EDBC3E88ECD97}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Tracks_03.et" {
+ coords 1854.531 62.767 5333.453
+ angles 0 -93.024 0
+}
+StaticModelEntity : "{7E2380494811A5FB}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_medium.et" {
+ coords 6480.493 80.359 2396.204
+ angles 0 65.021 0
+}
+$grp StaticModelEntity : "{82B378151A9AEF2F}Prefabs/Structures/Military/Fortifications/DirtPile_01/DirtPile_01_large.et" {
+ {
+  coords 1893.078 1.191 5392.367
+  scale 2.19
+ }
+ {
+  coords 1891.544 1.2 5391.481
+  scale 1.423
+ }
+ {
+  coords 1861.244 1.357 5416.911
+  scale 1.423
+ }
+ {
+  coords 1864.058 1.36 5416.754
+  angles 0 -59.136 0
+  scale 1.423
+ }
+ {
+  coords 1867.204 1.384 5419.159
+  angles 0 -59.136 0
+  scale 1.423
+ }
+ {
+  coords 1865.556 1.363 5419.3
+  angles 0 152.972 0
+  scale 1.423
+ }
+ {
+  coords 1854.23 1.057 5398.631
+  angles 0 -59.136 0
+  scale 1.423
+ }
+ {
+  coords 1854.45 1.054 5395.607
+  angles 0 -117.972 0
+  scale 1.423
+ }
+ {
+  coords 1853.51 0.778 5395.429
+  angles 0 139.711 0
+  scale 1.423
+ }
+}
+$grp StaticModelEntity : "{9A6B7E1F874E5C0F}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Bunker_Cluttered_USSR_01.et" {
+ Fortification_Large {
+  coords 5071.217 61.923 2193.743
+  angles 0 -85 0
+  {
+   $grp GenericEntity : "{20D02D188D3E883F}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Camo_wall_high_USSR.et" {
+    {
+     coords 0.274 0 -5.861
+     angles 0 180 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.1 0 0.142
+      }
+     }
+    }
+    {
+     coords -2.308 0 -5.861
+     angles 0 0 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.1 0 0.142
+      }
+     }
+    }
+    {
+     coords 2.927 0 -5.861
+     angles 0 180 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.1 0 0.142
+      }
+     }
+    }
+   }
+   $grp GenericEntity : "{25861AD07CEE719B}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_MG_USSR_01_PKM.et" {
+    {
+     coords -5.483 0 -0.274
+     angles 0 0 0
+    }
+    {
+     coords 5.98 0 -0.274
+     angles 0 0 0
+    }
+   }
+   GenericEntity : "{542995995488B456}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_AmmoCache_Soviet.et" {
+    coords 0.311 1.709 -3.711
+    angles 0 -175 0
+    scale 3.13
+   }
+   $grp GenericEntity : "{78A930FB0825AA9F}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Camo_long_high_USSR.et" {
+    {
+     coords -7.243 -0.029 -3.221
+     angles 0 -90 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.023 0.029 -0.014
+      }
+     }
+    }
+    {
+     coords 8.003 -0.029 -3.221
+     angles 0 -90 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.023 0.029 -0.014
+      }
+     }
+    }
+   }
+   GenericEntity AI_Fort : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 30
+      m_iGroupMultiplier 2
+     }
+    }
+    coords 0.137 0.055 -3.679
+    angles 0 -90 0
+    {
+     SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+      coords 0 0 0
+      CompletionRadius 10
+     }
+    }
+   }
+   $grp GenericEntity : "{B47E3FC5BE1D443A}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_05.et" {
+    {
+     coords 0.384 0.118 -15.288
+     angles 0 -90 0
+    }
+    {
+     coords -5.336 0.118 -5.316
+     angles 0 -90 0
+     scale 1.56
+    }
+    {
+     coords 6.057 0.118 -5.332
+     angles 0 90 0
+     scale 1.56
+    }
+   }
+   $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+    {
+     coords 5.958 -0.053 -2.01
+     angles 0 -90 0
+    }
+    {
+     coords -5.362 -0.053 -2.097
+     angles 0 -90 0
+    }
+    {
+     coords -3.267 -0.053 -3.364
+     angles 0 -65 0
+    }
+    {
+     coords 0.185 -0.085 -3.518
+     angles 0 -90 0
+     scale 1.53
+    }
+    {
+     coords 3.764 -0.02 -3.31
+     angles 0 -110 0
+    }
+   }
+   $grp GenericEntity : "{D82A0B2502D9CB14}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_06.et" {
+    {
+     coords 3.095 0.044 -4.056
+     angles 0 -130 0
+     scale 2.61
+    }
+    {
+     coords -1.653 0.044 -4.057
+     angles 0 -55 0
+     scale 2.61
+    }
+    {
+     coords -2.054 0.044 -14.798
+     angles 0 -55 0
+     scale 2.61
+    }
+    {
+     coords 3.098 0.044 -15.342
+     angles 0 -135 0
+     scale 2.61
+    }
+   }
+   GenericEntity : "{FDA26BF2F4CF5977}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Barracks_USSR_05.et" {
+    coords 0.345 0 -10.503
+    angles 0 180 0
+   }
+  }
+ }
+ Fortification_Large2 {
+  coords 6252.094 68.456 3219.495
+  angles 0 -80.052 0
+  {
+   $grp GenericEntity : "{20D02D188D3E883F}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Camo_wall_high_USSR.et" {
+    {
+     coords 0.274 0 -5.861
+     angles 0 180 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.1 0 0.142
+      }
+     }
+    }
+    {
+     coords -2.308 0 -5.861
+     angles 0 0 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.1 0 0.142
+      }
+     }
+    }
+    {
+     coords 2.927 0 -5.861
+     angles 0 180 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.1 0 0.142
+      }
+     }
+    }
+   }
+   $grp GenericEntity : "{25861AD07CEE719B}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_MG_USSR_01_PKM.et" {
+    {
+     coords -5.483 0 -0.274
+     angles 0 0 0
+    }
+    {
+     coords 5.98 0 -0.274
+     angles 0 0 0
+    }
+   }
+   GenericEntity : "{542995995488B456}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_AmmoCache_Soviet.et" {
+    coords 0.311 1.709 -3.711
+    angles 0 -175 0
+    scale 3.13
+   }
+   $grp GenericEntity : "{78A930FB0825AA9F}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Camo_long_high_USSR.et" {
+    {
+     coords -7.243 -0.029 -3.221
+     angles 0 -90 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.023 0.029 -0.014
+      }
+     }
+    }
+    {
+     coords 8.003 -0.029 -3.221
+     angles 0 -90 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.023 0.029 -0.014
+      }
+     }
+    }
+   }
+   GenericEntity AI_Fort2 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 30
+      m_iGroupMultiplier 2
+     }
+    }
+    coords 0.137 0.055 -3.679
+    angles 0 -90 0
+    {
+     SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+      coords 0 0 0
+      CompletionRadius 10
+     }
+    }
+   }
+   $grp GenericEntity : "{B47E3FC5BE1D443A}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_05.et" {
+    {
+     coords 0.384 0.118 -15.288
+     angles 0 -90 0
+    }
+    {
+     coords -5.336 0.118 -5.316
+     angles 0 -90 0
+     scale 1.56
+    }
+    {
+     coords 6.057 0.118 -5.332
+     angles 0 90 0
+     scale 1.56
+    }
+   }
+   $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+    {
+     coords 5.958 -0.053 -2.01
+     angles 0 -90 0
+    }
+    {
+     coords -5.362 -0.053 -2.097
+     angles 0 -90 0
+    }
+    {
+     coords -3.267 -0.053 -3.364
+     angles 0 -65 0
+    }
+    {
+     coords 0.185 -0.085 -3.518
+     angles 0 -90 0
+     scale 1.53
+    }
+    {
+     coords 3.764 -0.02 -3.31
+     angles 0 -110 0
+    }
+   }
+   $grp GenericEntity : "{D82A0B2502D9CB14}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_06.et" {
+    {
+     coords 3.095 0.044 -4.056
+     angles 0 -130 0
+     scale 2.61
+    }
+    {
+     coords -1.653 0.044 -4.057
+     angles 0 -55 0
+     scale 2.61
+    }
+    {
+     coords -2.054 0.044 -14.798
+     angles 0 -55 0
+     scale 2.61
+    }
+    {
+     coords 3.098 0.044 -15.342
+     angles 0 -135 0
+     scale 2.61
+    }
+   }
+   GenericEntity : "{FDA26BF2F4CF5977}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Barracks_USSR_05.et" {
+    coords 0.345 0 -10.503
+    angles 0 180 0
+   }
+  }
+ }
+ Fortification_Large3 {
+  coords 4083.871 54.765 4542.952
+  angles 0 -90 0
+  {
+   $grp GenericEntity : "{20D02D188D3E883F}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Camo_wall_high_USSR.et" {
+    {
+     coords 0.274 0 -5.861
+     angles 0 180 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.1 0 0.142
+      }
+     }
+    }
+    {
+     coords -2.308 0 -5.861
+     angles 0 0 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.1 0 0.142
+      }
+     }
+    }
+    {
+     coords 2.927 0 -5.861
+     angles 0 180 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.1 0 0.142
+      }
+     }
+    }
+   }
+   $grp GenericEntity : "{25861AD07CEE719B}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_MG_USSR_01_PKM.et" {
+    {
+     coords -5.483 0 -0.274
+     angles 0 0 0
+    }
+    {
+     coords 5.98 0 -0.274
+     angles 0 0 0
+    }
+   }
+   GenericEntity : "{542995995488B456}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_AmmoCache_Soviet.et" {
+    coords 0.311 1.709 -3.711
+    angles 0 -175 0
+    scale 3.13
+   }
+   $grp GenericEntity : "{78A930FB0825AA9F}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Camo_long_high_USSR.et" {
+    {
+     coords -7.243 -0.029 -3.221
+     angles 0 -90 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.023 0.029 -0.014
+      }
+     }
+    }
+    {
+     coords 8.003 -0.029 -3.221
+     angles 0 -90 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.023 0.029 -0.014
+      }
+     }
+    }
+   }
+   GenericEntity AI_Fort3 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 30
+      m_iGroupMultiplier 2
+     }
+    }
+    coords 0.137 0.055 -3.679
+    angles 0 -90 0
+    {
+     SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+      coords 0 0 0
+      CompletionRadius 10
+     }
+    }
+   }
+   $grp GenericEntity : "{B47E3FC5BE1D443A}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_05.et" {
+    {
+     coords 0.384 0.118 -15.288
+     angles 0 -90 0
+    }
+    {
+     coords -5.336 0.118 -5.316
+     angles 0 -90 0
+     scale 1.56
+    }
+    {
+     coords 6.057 0.118 -5.332
+     angles 0 90 0
+     scale 1.56
+    }
+   }
+   $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+    {
+     coords 5.958 -0.053 -2.01
+     angles 0 -90 0
+    }
+    {
+     coords -5.362 -0.053 -2.097
+     angles 0 -90 0
+    }
+    {
+     coords -3.267 -0.053 -3.364
+     angles 0 -65 0
+    }
+    {
+     coords 0.185 -0.085 -3.518
+     angles 0 -90 0
+     scale 1.53
+    }
+    {
+     coords 3.764 -0.02 -3.31
+     angles 0 -110 0
+    }
+   }
+   $grp GenericEntity : "{D82A0B2502D9CB14}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_06.et" {
+    {
+     coords 3.095 0.044 -4.056
+     angles 0 -130 0
+     scale 2.61
+    }
+    {
+     coords -1.653 0.044 -4.057
+     angles 0 -55 0
+     scale 2.61
+    }
+    {
+     coords -2.054 0.044 -14.798
+     angles 0 -55 0
+     scale 2.61
+    }
+    {
+     coords 3.098 0.044 -15.342
+     angles 0 -135 0
+     scale 2.61
+    }
+   }
+   GenericEntity : "{FDA26BF2F4CF5977}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Barracks_USSR_05.et" {
+    coords 0.345 0 -10.503
+    angles 0 180 0
+   }
+  }
+ }
+ Fortification_Large4 {
+  coords 4051.903 55.11 4610.788
+  angles 0 -140.048 0
+  {
+   $grp GenericEntity : "{20D02D188D3E883F}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Camo_wall_high_USSR.et" {
+    {
+     coords 0.274 0 -5.861
+     angles 0 180 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.1 0 0.142
+      }
+     }
+    }
+    {
+     coords -2.308 0 -5.861
+     angles 0 0 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.1 0 0.142
+      }
+     }
+    }
+    {
+     coords 2.927 0 -5.861
+     angles 0 180 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.1 0 0.142
+      }
+     }
+    }
+   }
+   $grp GenericEntity : "{25861AD07CEE719B}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_MG_USSR_01_PKM.et" {
+    {
+     coords -5.483 0 -0.274
+     angles 0 0 0
+    }
+    {
+     coords 5.98 0 -0.274
+     angles 0 0 0
+    }
+   }
+   GenericEntity : "{542995995488B456}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_AmmoCache_Soviet.et" {
+    coords 0.311 1.709 -3.711
+    angles 0 -175 0
+    scale 3.13
+   }
+   $grp GenericEntity : "{78A930FB0825AA9F}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Camo_long_high_USSR.et" {
+    {
+     coords -7.243 -0.029 -3.221
+     angles 0 -90 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.023 0.029 -0.014
+      }
+     }
+    }
+    {
+     coords 8.003 -0.029 -3.221
+     angles 0 -90 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.023 0.029 -0.014
+      }
+     }
+    }
+   }
+   GenericEntity AI_Fort4 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 30
+      m_iGroupMultiplier 2
+     }
+    }
+    coords 0.137 0.055 -3.679
+    angles 0 -90 0
+    {
+     SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+      coords 0 0 0
+      CompletionRadius 10
+     }
+    }
+   }
+   $grp GenericEntity : "{B47E3FC5BE1D443A}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_05.et" {
+    {
+     coords 0.384 0.118 -15.288
+     angles 0 -90 0
+    }
+    {
+     coords -5.336 0.118 -5.316
+     angles 0 -90 0
+     scale 1.56
+    }
+    {
+     coords 6.057 0.118 -5.332
+     angles 0 90 0
+     scale 1.56
+    }
+   }
+   $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+    {
+     coords 5.958 -0.053 -2.01
+     angles 0 -90 0
+    }
+    {
+     coords -5.362 -0.053 -2.097
+     angles 0 -90 0
+    }
+    {
+     coords -3.267 -0.053 -3.364
+     angles 0 -65 0
+    }
+    {
+     coords 0.185 -0.085 -3.518
+     angles 0 -90 0
+     scale 1.53
+    }
+    {
+     coords 3.764 -0.02 -3.31
+     angles 0 -110 0
+    }
+   }
+   $grp GenericEntity : "{D82A0B2502D9CB14}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_06.et" {
+    {
+     coords 3.095 0.044 -4.056
+     angles 0 -130 0
+     scale 2.61
+    }
+    {
+     coords -1.653 0.044 -4.057
+     angles 0 -55 0
+     scale 2.61
+    }
+    {
+     coords -2.054 0.044 -14.798
+     angles 0 -55 0
+     scale 2.61
+    }
+    {
+     coords 3.098 0.044 -15.342
+     angles 0 -135 0
+     scale 2.61
+    }
+   }
+   GenericEntity : "{FDA26BF2F4CF5977}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Barracks_USSR_05.et" {
+    coords 0.345 0 -10.503
+    angles 0 180 0
+   }
+  }
+ }
+ Fortification_Large5 {
+  coords 7966.269 89.096 8006.945
+  angles 0 -125.707 0
+  {
+   $grp GenericEntity : "{20D02D188D3E883F}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Camo_wall_high_USSR.et" {
+    {
+     coords 0.274 0 -5.861
+     angles 0 180 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.1 0 0.142
+      }
+     }
+    }
+    {
+     coords -2.308 0 -5.861
+     angles 0 0 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.1 0 0.142
+      }
+     }
+    }
+    {
+     coords 2.927 0 -5.861
+     angles 0 180 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.1 0 0.142
+      }
+     }
+    }
+   }
+   $grp GenericEntity : "{25861AD07CEE719B}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_MG_USSR_01_PKM.et" {
+    {
+     coords -5.483 0 -0.274
+     angles 0 0 0
+    }
+    {
+     coords 5.98 0 -0.274
+     angles 0 0 0
+    }
+   }
+   GenericEntity : "{542995995488B456}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_AmmoCache_Soviet.et" {
+    coords 0.311 1.709 -3.711
+    angles 0 -175 0
+    scale 3.13
+   }
+   $grp GenericEntity : "{78A930FB0825AA9F}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Camo_long_high_USSR.et" {
+    {
+     coords -7.243 -0.029 -3.221
+     angles 0 -90 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.023 0.029 -0.014
+      }
+     }
+    }
+    {
+     coords 8.003 -0.029 -3.221
+     angles 0 -90 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.023 0.029 -0.014
+      }
+     }
+    }
+   }
+   GenericEntity AI_Fort5 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 30
+      m_iGroupMultiplier 2
+     }
+    }
+    coords 0.137 0.055 -3.679
+    angles 0 -90 0
+    {
+     SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+      coords 0 0 0
+      CompletionRadius 10
+     }
+    }
+   }
+   $grp GenericEntity : "{B47E3FC5BE1D443A}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_05.et" {
+    {
+     coords 0.384 0.118 -15.288
+     angles 0 -90 0
+    }
+    {
+     coords -5.336 0.118 -5.316
+     angles 0 -90 0
+     scale 1.56
+    }
+    {
+     coords 6.057 0.118 -5.332
+     angles 0 90 0
+     scale 1.56
+    }
+   }
+   $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+    {
+     coords 5.958 -0.053 -2.01
+     angles 0 -90 0
+    }
+    {
+     coords -5.362 -0.053 -2.097
+     angles 0 -90 0
+    }
+    {
+     coords -3.267 -0.053 -3.364
+     angles 0 -65 0
+    }
+    {
+     coords 0.185 -0.085 -3.518
+     angles 0 -90 0
+     scale 1.53
+    }
+    {
+     coords 3.764 -0.02 -3.31
+     angles 0 -110 0
+    }
+   }
+   $grp GenericEntity : "{D82A0B2502D9CB14}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_06.et" {
+    {
+     coords 3.095 0.044 -4.056
+     angles 0 -130 0
+     scale 2.61
+    }
+    {
+     coords -1.653 0.044 -4.057
+     angles 0 -55 0
+     scale 2.61
+    }
+    {
+     coords -2.054 0.044 -14.798
+     angles 0 -55 0
+     scale 2.61
+    }
+    {
+     coords 3.098 0.044 -15.342
+     angles 0 -135 0
+     scale 2.61
+    }
+   }
+   GenericEntity : "{FDA26BF2F4CF5977}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Barracks_USSR_05.et" {
+    coords 0.345 0 -10.503
+    angles 0 180 0
+   }
+  }
+ }
+ Fortification_Large8 {
+  coords 1519.645 51.907 6106.298
+  angles 0 115.084 0
+  {
+   $grp GenericEntity : "{20D02D188D3E883F}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Camo_wall_high_USSR.et" {
+    {
+     coords 0.274 0 -5.861
+     angles 0 180 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.1 0 0.142
+      }
+     }
+    }
+    {
+     coords -2.308 0 -5.861
+     angles 0 0 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.1 0 0.142
+      }
+     }
+    }
+    {
+     coords 2.927 0 -5.861
+     angles 0 180 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.1 0 0.142
+      }
+     }
+    }
+   }
+   $grp GenericEntity : "{25861AD07CEE719B}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_MG_USSR_01_PKM.et" {
+    {
+     coords -5.483 0 -0.274
+     angles 0 0 0
+    }
+    {
+     coords 5.98 0 -0.274
+     angles 0 0 0
+    }
+   }
+   GenericEntity : "{542995995488B456}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_AmmoCache_Soviet.et" {
+    coords 0.311 1.709 -3.711
+    angles 0 -175 0
+    scale 3.13
+   }
+   $grp GenericEntity : "{78A930FB0825AA9F}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Camo_long_high_USSR.et" {
+    {
+     coords -7.243 -0.029 -3.221
+     angles 0 -90 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.023 0.029 -0.014
+      }
+     }
+    }
+    {
+     coords 8.003 -0.029 -3.221
+     angles 0 -90 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.023 0.029 -0.014
+      }
+     }
+    }
+   }
+   GenericEntity AI_Fort8 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 30
+      m_iGroupMultiplier 2
+     }
+    }
+    coords 0.137 0.055 -3.679
+    angles 0 -90 0
+    {
+     SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+      coords 0 0 0
+      CompletionRadius 10
+     }
+    }
+   }
+   $grp GenericEntity : "{B47E3FC5BE1D443A}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_05.et" {
+    {
+     coords 0.384 0.118 -15.288
+     angles 0 -90 0
+    }
+    {
+     coords -5.336 0.118 -5.316
+     angles 0 -90 0
+     scale 1.56
+    }
+    {
+     coords 6.057 0.118 -5.332
+     angles 0 90 0
+     scale 1.56
+    }
+   }
+   $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+    {
+     coords 5.958 -0.053 -2.01
+     angles 0 -90 0
+    }
+    {
+     coords -5.362 -0.053 -2.097
+     angles 0 -90 0
+    }
+    {
+     coords -3.267 -0.053 -3.364
+     angles 0 -65 0
+    }
+    {
+     coords 0.185 -0.085 -3.518
+     angles 0 -90 0
+     scale 1.53
+    }
+    {
+     coords 3.764 -0.02 -3.31
+     angles 0 -110 0
+    }
+   }
+   $grp GenericEntity : "{D82A0B2502D9CB14}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_06.et" {
+    {
+     coords 3.095 0.044 -4.056
+     angles 0 -130 0
+     scale 2.61
+    }
+    {
+     coords -1.653 0.044 -4.057
+     angles 0 -55 0
+     scale 2.61
+    }
+    {
+     coords -2.054 0.044 -14.798
+     angles 0 -55 0
+     scale 2.61
+    }
+    {
+     coords 3.098 0.044 -15.342
+     angles 0 -135 0
+     scale 2.61
+    }
+   }
+   GenericEntity : "{FDA26BF2F4CF5977}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Barracks_USSR_05.et" {
+    coords 0.345 0 -10.503
+    angles 0 180 0
+   }
+  }
+ }
+ Fortification_Large9 {
+  coords 1668.514 62.81 5735.615
+  angles 0 105.209 0
+  {
+   $grp GenericEntity : "{20D02D188D3E883F}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Camo_wall_high_USSR.et" {
+    {
+     coords 0.274 0 -5.861
+     angles 0 180 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.1 0 0.142
+      }
+     }
+    }
+    {
+     coords -2.308 0 -5.861
+     angles 0 0 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.1 0 0.142
+      }
+     }
+    }
+    {
+     coords 2.927 0 -5.861
+     angles 0 180 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.1 0 0.142
+      }
+     }
+    }
+   }
+   $grp GenericEntity : "{25861AD07CEE719B}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_MG_USSR_01_PKM.et" {
+    {
+     coords -5.483 0 -0.274
+     angles 0 0 0
+    }
+    {
+     coords 5.98 0 -0.274
+     angles 0 0 0
+    }
+   }
+   GenericEntity : "{542995995488B456}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_AmmoCache_Soviet.et" {
+    coords 0.311 1.709 -3.711
+    angles 0 -175 0
+    scale 3.13
+   }
+   $grp GenericEntity : "{78A930FB0825AA9F}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Camo_long_high_USSR.et" {
+    {
+     coords -7.243 -0.029 -3.221
+     angles 0 -90 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.023 0.029 -0.014
+      }
+     }
+    }
+    {
+     coords 8.003 -0.029 -3.221
+     angles 0 -90 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.023 0.029 -0.014
+      }
+     }
+    }
+   }
+   GenericEntity AI_Fort9 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 30
+      m_iGroupMultiplier 2
+     }
+    }
+    coords 0.137 0.055 -3.679
+    angles 0 -90 0
+    {
+     SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+      coords 0 0 0
+      CompletionRadius 10
+     }
+    }
+   }
+   $grp GenericEntity : "{B47E3FC5BE1D443A}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_05.et" {
+    {
+     coords 0.384 0.118 -15.288
+     angles 0 -90 0
+    }
+    {
+     coords -5.336 0.118 -5.316
+     angles 0 -90 0
+     scale 1.56
+    }
+    {
+     coords 6.057 0.118 -5.332
+     angles 0 90 0
+     scale 1.56
+    }
+   }
+   $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+    {
+     coords 5.958 -0.053 -2.01
+     angles 0 -90 0
+    }
+    {
+     coords -5.362 -0.053 -2.097
+     angles 0 -90 0
+    }
+    {
+     coords -3.267 -0.053 -3.364
+     angles 0 -65 0
+    }
+    {
+     coords 0.185 -0.085 -3.518
+     angles 0 -90 0
+     scale 1.53
+    }
+    {
+     coords 3.764 -0.02 -3.31
+     angles 0 -110 0
+    }
+   }
+   $grp GenericEntity : "{D82A0B2502D9CB14}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_06.et" {
+    {
+     coords 3.095 0.044 -4.056
+     angles 0 -130 0
+     scale 2.61
+    }
+    {
+     coords -1.653 0.044 -4.057
+     angles 0 -55 0
+     scale 2.61
+    }
+    {
+     coords -2.054 0.044 -14.798
+     angles 0 -55 0
+     scale 2.61
+    }
+    {
+     coords 3.098 0.044 -15.342
+     angles 0 -135 0
+     scale 2.61
+    }
+   }
+   GenericEntity : "{FDA26BF2F4CF5977}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Barracks_USSR_05.et" {
+    coords 0.345 0 -10.503
+    angles 0 180 0
+   }
+  }
+ }
+ Fortification_Large10 {
+  coords 1595.385 66.156 5813.585
+  angles 0 48.437 0
+  {
+   $grp GenericEntity : "{20D02D188D3E883F}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Camo_wall_high_USSR.et" {
+    {
+     coords 0.274 0 -5.861
+     angles 0 180 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.1 0 0.142
+      }
+     }
+    }
+    {
+     coords -2.308 0 -5.861
+     angles 0 0 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.1 0 0.142
+      }
+     }
+    }
+    {
+     coords 2.927 0 -5.861
+     angles 0 180 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.1 0 0.142
+      }
+     }
+    }
+   }
+   $grp GenericEntity : "{25861AD07CEE719B}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_MG_USSR_01_PKM.et" {
+    {
+     coords -5.483 0 -0.274
+     angles 0 0 0
+    }
+    {
+     coords 5.98 0 -0.274
+     angles 0 0 0
+    }
+   }
+   GenericEntity : "{542995995488B456}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_AmmoCache_Soviet.et" {
+    coords 0.311 1.709 -3.711
+    angles 0 -175 0
+    scale 3.13
+   }
+   $grp GenericEntity : "{78A930FB0825AA9F}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Camo_long_high_USSR.et" {
+    {
+     coords -7.243 -0.029 -3.221
+     angles 0 -90 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.023 0.029 -0.014
+      }
+     }
+    }
+    {
+     coords 8.003 -0.029 -3.221
+     angles 0 -90 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.023 0.029 -0.014
+      }
+     }
+    }
+   }
+   GenericEntity AI_Fort12 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 30
+      m_iGroupMultiplier 2
+     }
+    }
+    coords 0.137 0.055 -3.679
+    angles 0 -90 0
+    {
+     SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+      coords 0 0 0
+      CompletionRadius 10
+     }
+    }
+   }
+   $grp GenericEntity : "{B47E3FC5BE1D443A}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_05.et" {
+    {
+     coords 0.384 0.118 -15.288
+     angles 0 -90 0
+    }
+    {
+     coords -5.336 0.118 -5.316
+     angles 0 -90 0
+     scale 1.56
+    }
+    {
+     coords 6.057 0.118 -5.332
+     angles 0 90 0
+     scale 1.56
+    }
+   }
+   $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+    {
+     coords 5.958 -0.053 -2.01
+     angles 0 -90 0
+    }
+    {
+     coords -5.362 -0.053 -2.097
+     angles 0 -90 0
+    }
+    {
+     coords -3.267 -0.053 -3.364
+     angles 0 -65 0
+    }
+    {
+     coords 0.185 -0.085 -3.518
+     angles 0 -90 0
+     scale 1.53
+    }
+    {
+     coords 3.764 -0.02 -3.31
+     angles 0 -110 0
+    }
+   }
+   $grp GenericEntity : "{D82A0B2502D9CB14}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_06.et" {
+    {
+     coords 3.095 0.044 -4.056
+     angles 0 -130 0
+     scale 2.61
+    }
+    {
+     coords -1.653 0.044 -4.057
+     angles 0 -55 0
+     scale 2.61
+    }
+    {
+     coords -2.054 0.044 -14.798
+     angles 0 -55 0
+     scale 2.61
+    }
+    {
+     coords 3.098 0.044 -15.342
+     angles 0 -135 0
+     scale 2.61
+    }
+   }
+   GenericEntity : "{FDA26BF2F4CF5977}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Barracks_USSR_05.et" {
+    coords 0.345 0 -10.503
+    angles 0 180 0
+   }
+  }
+ }
+ Fortification_Large11 {
+  coords 1441.062 64.534 5889.955
+  angles 0 32.22 0
+  {
+   $grp GenericEntity : "{20D02D188D3E883F}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Camo_wall_high_USSR.et" {
+    {
+     coords 0.274 0 -5.861
+     angles 0 180 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.1 0 0.142
+      }
+     }
+    }
+    {
+     coords -2.308 0 -5.861
+     angles 0 0 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.1 0 0.142
+      }
+     }
+    }
+    {
+     coords 2.927 0 -5.861
+     angles 0 180 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.1 0 0.142
+      }
+     }
+    }
+   }
+   $grp GenericEntity : "{25861AD07CEE719B}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_MG_USSR_01_PKM.et" {
+    {
+     coords -5.483 0 -0.274
+     angles 0 0 0
+    }
+    {
+     coords 5.98 0 -0.274
+     angles 0 0 0
+    }
+   }
+   GenericEntity : "{542995995488B456}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_AmmoCache_Soviet.et" {
+    coords 0.311 1.709 -3.711
+    angles 0 -175 0
+    scale 3.13
+   }
+   $grp GenericEntity : "{78A930FB0825AA9F}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Camo_long_high_USSR.et" {
+    {
+     coords -7.243 -0.029 -3.221
+     angles 0 -90 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.023 0.029 -0.014
+      }
+     }
+    }
+    {
+     coords 8.003 -0.029 -3.221
+     angles 0 -90 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.023 0.029 -0.014
+      }
+     }
+    }
+   }
+   GenericEntity AI_Fort13 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 30
+      m_iGroupMultiplier 2
+     }
+    }
+    coords 0.137 0.055 -3.679
+    angles 0 -90 0
+    {
+     SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+      coords 0 0 0
+      CompletionRadius 10
+     }
+    }
+   }
+   $grp GenericEntity : "{B47E3FC5BE1D443A}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_05.et" {
+    {
+     coords 0.384 0.118 -15.288
+     angles 0 -90 0
+    }
+    {
+     coords -5.336 0.118 -5.316
+     angles 0 -90 0
+     scale 1.56
+    }
+    {
+     coords 6.057 0.118 -5.332
+     angles 0 90 0
+     scale 1.56
+    }
+   }
+   $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+    {
+     coords 5.958 -0.053 -2.01
+     angles 0 -90 0
+    }
+    {
+     coords -5.362 -0.053 -2.097
+     angles 0 -90 0
+    }
+    {
+     coords -3.267 -0.053 -3.364
+     angles 0 -65 0
+    }
+    {
+     coords 0.185 -0.085 -3.518
+     angles 0 -90 0
+     scale 1.53
+    }
+    {
+     coords 3.764 -0.02 -3.31
+     angles 0 -110 0
+    }
+   }
+   $grp GenericEntity : "{D82A0B2502D9CB14}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_06.et" {
+    {
+     coords 3.095 0.044 -4.056
+     angles 0 -130 0
+     scale 2.61
+    }
+    {
+     coords -1.653 0.044 -4.057
+     angles 0 -55 0
+     scale 2.61
+    }
+    {
+     coords -2.054 0.044 -14.798
+     angles 0 -55 0
+     scale 2.61
+    }
+    {
+     coords 3.098 0.044 -15.342
+     angles 0 -135 0
+     scale 2.61
+    }
+   }
+   GenericEntity : "{FDA26BF2F4CF5977}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Barracks_USSR_05.et" {
+    coords 0.345 0 -10.503
+    angles 0 180 0
+   }
+  }
+ }
+ Fortification_Large6 {
+  coords 1383.742 52.923 6111.77
+  angles 0 85.179 0
+  {
+   $grp GenericEntity : "{20D02D188D3E883F}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Camo_wall_high_USSR.et" {
+    {
+     coords 0.274 0 -5.861
+     angles 0 180 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.1 0 0.142
+      }
+     }
+    }
+    {
+     coords -2.308 0 -5.861
+     angles 0 0 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.1 0 0.142
+      }
+     }
+    }
+    {
+     coords 2.927 0 -5.861
+     angles 0 180 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.1 0 0.142
+      }
+     }
+    }
+   }
+   $grp GenericEntity : "{25861AD07CEE719B}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_MG_USSR_01_PKM.et" {
+    {
+     coords -5.483 0 -0.274
+     angles 0 0 0
+    }
+    {
+     coords 5.98 0 -0.274
+     angles 0 0 0
+    }
+   }
+   GenericEntity : "{542995995488B456}Prefabs/Structures/Military/CamoNets/Soviet/CamoNet_AmmoCache_Soviet.et" {
+    coords 0.311 1.709 -3.711
+    angles 0 -175 0
+    scale 3.13
+   }
+   $grp GenericEntity : "{78A930FB0825AA9F}Prefabs/Compositions/Misc/SubCompositions/Sandbag_Camo_long_high_USSR.et" {
+    {
+     coords -7.243 -0.029 -3.221
+     angles 0 -90 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.023 0.029 -0.014
+      }
+     }
+    }
+    {
+     coords 8.003 -0.029 -3.221
+     angles 0 -90 0
+     {
+      StaticModelEntity : "{39F7EE885940DC8F}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v1.et" {
+       coords -0.023 0.029 -0.014
+      }
+     }
+    }
+   }
+   GenericEntity AI_Fort6 : "{9273AB931008C271}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_FIA.et" {
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_iRespawnPeriod 30
+      m_iGroupMultiplier 2
+     }
+    }
+    coords 0.137 0.055 -3.679
+    angles 0 -90 0
+    {
+     SCR_DefendWaypoint : "{FAD1D789EE291964}Prefabs/AI/Waypoints/AIWaypoint_Defend_Large.et" {
+      coords 0 0 0
+      CompletionRadius 10
+     }
+    }
+   }
+   $grp GenericEntity : "{B47E3FC5BE1D443A}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_05.et" {
+    {
+     coords 0.384 0.118 -15.288
+     angles 0 -90 0
+    }
+    {
+     coords -5.336 0.118 -5.316
+     angles 0 -90 0
+     scale 1.56
+    }
+    {
+     coords 6.057 0.118 -5.332
+     angles 0 90 0
+     scale 1.56
+    }
+   }
+   $grp GenericEntity : "{CC66836BF4E211F9}Prefabs/Props/Military/Camps/Duckboard_01.et" {
+    {
+     coords 5.958 -0.053 -2.01
+     angles 0 -90 0
+    }
+    {
+     coords -5.362 -0.053 -2.097
+     angles 0 -90 0
+    }
+    {
+     coords -3.267 -0.053 -3.364
+     angles 0 -65 0
+    }
+    {
+     coords 0.185 -0.085 -3.518
+     angles 0 -90 0
+     scale 1.53
+    }
+    {
+     coords 3.764 -0.02 -3.31
+     angles 0 -110 0
+    }
+   }
+   $grp GenericEntity : "{D82A0B2502D9CB14}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Patch_06.et" {
+    {
+     coords 3.095 0.044 -4.056
+     angles 0 -130 0
+     scale 2.61
+    }
+    {
+     coords -1.653 0.044 -4.057
+     angles 0 -55 0
+     scale 2.61
+    }
+    {
+     coords -2.054 0.044 -14.798
+     angles 0 -55 0
+     scale 2.61
+    }
+    {
+     coords 3.098 0.044 -15.342
+     angles 0 -135 0
+     scale 2.61
+    }
+   }
+   GenericEntity : "{FDA26BF2F4CF5977}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Barracks_USSR_05.et" {
+    coords 0.345 0 -10.503
+    angles 0 180 0
+   }
+  }
+ }
+ {
+  coords 1847.996 62.937 5359.989
+  angles 0 162.953 0
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{9C489B3BE514B0C2}Prefabs/Structures/Infrastructure/Naval/Piers/PierWooden_01_25m_destroyed.et" {
+ {
+  coords 1584.084 -0.011 6099.595
+  angles 0 -76.239 0
+ }
+ {
+  coords 1561.456 -0.626 6105.136
+  angles 0 -76.239 0
+ }
+ {
+  coords 1538.771 -0.181 6110.691
+  angles 0 -76.239 0
+ }
+}
+$grp DecalEntity : "{9EE74738BD9E8CDB}Prefabs/Decals/Dirt/Decal_Dirt_Tracks_02.et" {
+ {
+  coords 1879.275 0.011 5376.946
+  angles -90 162.831 0
+  scale 5
+ }
+ {
+  coords 1886.693 0 5386.659
+  angles -89.966 99.708 0
+  scale 5
+ }
+}
+$grp GenericEntity : "{9EF2973AE46B5AFC}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Tracks_02.et" {
+ {
+  coords 1841.612 63.031 5373.717
+  angles 0 -82.244 0
+ }
+ {
+  coords 1869.836 63.009 5412.406
+  angles 0 27.247 0
+ }
+ {
+  coords 1860.243 63.03 5408.347
+  angles 0 -31.333 0
+  {
+   DecalEntity {
+    ID "56E0B29FD3B522B3"
+    coords 0 -0.188 0
+   }
+  }
+ }
+ {
+  coords 1854.723 62.913 5348.175
+  angles 0 -44.021 0
+  {
+   DecalEntity {
+    ID "56E0B29FD3B522B3"
+    coords -2.657 0 -1.578
+    angles -89.972 169.927 160
+   }
+  }
+ }
+ {
+  coords 1858.066 62.884 5359.338
+  angles 0 108.649 0
+ }
+}
+$grp StaticModelEntity : "{B03F9691E961C4CA}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_long_v3.et" {
+ {
+  coords 6487.031 0.13 2384.019
+  angles 0 -38.986 0
+ }
+ {
+  coords 6484.444 0.092 2382.256
+  angles 0 -38.986 0
+ }
+ {
+  coords 6481.797 0.016 2380.818
+  angles 0 -28.986 0
+ }
+ {
+  coords 6478.935 -0.136 2380.024
+  angles 0 -11.486 0
+ }
+ {
+  coords 6463.036 0.246 2383.589
+  angles 0 28.514 0
+ }
+ {
+  coords 6465.44 -0.013 2382.015
+  angles 0 28.514 0
+ }
+ {
+  coords 6467.814 -0.173 2381.126
+  angles 0 -1.486 0
+ }
+ {
+  coords 6470.779 -0.261 2381.507
+  angles 0 -26.486 0
+ }
+ {
+  coords 1868.656 -0.02 5418.853
+  scale 1.25
+ }
+ {
+  coords 1865.284 -0.059 5418.337
+  angles 0 -12.004 0
+  scale 1.25
+ }
+ {
+  coords 1861.954 -0.065 5417.104
+  angles 0 -26.021 0
+  scale 1.25
+ }
+ {
+  coords 1858.796 -0.054 5415.167
+  angles 0 -36.736 0
+  scale 1.25
+ }
+ {
+  coords 1856.16 -0.03 5412.935
+  angles 0 -45.465 0
+  scale 1.25
+ }
+}
+$grp GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et" {
+ {
+  coords 6487.212 81.09 2384.133
+  angles 0 -34.284 0
+ }
+ {
+  coords 6484.625 81.09 2382.369
+  angles 0 -34.284 0
+ }
+ {
+  coords 6481.995 81.09 2380.898
+  angles 0 -24.284 0
+ }
+ {
+  coords 6479.147 81.09 2380.041
+  angles 0 -6.784 0
+ }
+ {
+  coords 6463.211 81.09 2383.465
+  angles 0 33.216 0
+ }
+ {
+  coords 6465.615 81.09 2381.89
+  angles 0 33.216 0
+ }
+ {
+  coords 6468.03 81.09 2381.105
+  angles 0 3.216 0
+ }
+ {
+  coords 6470.983 81.09 2381.579
+  angles 0 -21.784 0
+ }
+}
+$grp StaticModelEntity : "{C1576E5555582214}Prefabs/Structures/Military/Fortifications/DirtCover_01/DirtCover_01_short.et" {
+ {
+  coords 1892.354 -0.004 5389.887
+  scale 1.87
+ }
+ {
+  coords 1890.902 -0.017 5391.498
+  angles 0 -78.126 0
+  scale 1.87
+ }
+ {
+  coords 1862.054 0.175 5415.316
+  scale 1.87
+ }
+ {
+  coords 1865.842 0.183 5416.631
+  angles 0 -59.136 0
+  scale 1.87
+ }
+ {
+  coords 1868.988 0.195 5419.037
+  angles 0 -59.136 0
+  scale 1.87
+ }
+ {
+  coords 1864.11 0.146 5420.352
+  angles 0 152.972 0
+  scale 1.87
+ }
+ {
+  coords 1856.014 -0.169 5398.509
+  angles 0 -59.136 0
+  scale 1.87
+ }
+ {
+  coords 1855.477 -0.169 5397.071
+  angles 0 -117.972 0
+  scale 1.87
+ }
+ {
+  coords 1851.861 -0.429 5396.122
+  angles 0 139.711 0
+  scale 1.87
+ }
+}
+$grp GenericEntity : "{C707F02B5A64AA08}Prefabs/Props/Wrecks/BRDM2_wreck/BRDM2_wreck.et" {
+ Wreck_BDRM2 {
+  coords 4305.179 54.845 4568.236
+  angles 2.724 -85.128 -2.711
+  {
+   $grp ParticleEffectEntity {
+    {
+     coords 0.542 1.867 0.935
+     angles -2.498 -0.109 2.502
+     scale 1.98
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+    {
+     coords -0.418 1.862 2.001
+     angles -2.498 -0.109 2.502
+     scale 1.98
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+   }
+   SCR_DestructibleBuildingEntity : "{0DF5A32A3727BFAE}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Small.et" {
+    coords 1.198 0.553 -1.467
+    angles 1.884 -77.209 2.991
+    scale 1.424
+   }
+   SCR_DestructibleBuildingEntity : "{720E5074722834BF}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_WoodPile.et" {
+    coords 0.987 0.472 0.61
+    angles -1.564 -18.797 3.171
+    scale 1.041
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords -0.567 0.494 1.649
+     angles -0.916 119.969 -3.414
+     scale 1.023
+    }
+    {
+     coords -0.82 0.614 -0.836
+     angles -2.803 7.389 2.155
+     scale 1.023
+    }
+   }
+  }
+ }
+ Wreck_BDRM {
+  coords 1723.971 53.07 5795.168
+  angles -7.013 40.837 0.573
+  {
+   $grp ParticleEffectEntity {
+    {
+     coords 0.542 1.867 0.935
+     angles -2.498 -0.109 2.502
+     scale 1.98
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+    {
+     coords -0.418 1.862 2.001
+     angles -2.498 -0.109 2.502
+     scale 1.98
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+   }
+   SCR_DestructibleBuildingEntity : "{0DF5A32A3727BFAE}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Small.et" {
+    coords 1.198 0.553 -1.467
+    angles 1.884 -77.209 2.991
+    scale 1.424
+   }
+   SCR_DestructibleBuildingEntity : "{720E5074722834BF}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_WoodPile.et" {
+    coords 0.987 0.472 0.61
+    angles -1.564 -18.797 3.171
+    scale 1.041
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords -0.567 0.494 1.649
+     angles -0.916 119.969 -3.414
+     scale 1.023
+    }
+    {
+     coords -0.82 0.614 -0.836
+     angles -2.803 7.389 2.155
+     scale 1.023
+    }
+   }
+  }
+ }
+ Wreck_BDRM3 {
+  coords 4254.22 53.576 4582.891
+  angles 2.724 -85.128 -2.711
+  {
+   $grp ParticleEffectEntity {
+    {
+     coords 0.542 1.867 0.935
+     angles -2.498 -0.109 2.502
+     scale 1.98
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+    {
+     coords -0.418 1.862 2.001
+     angles -2.498 -0.109 2.502
+     scale 1.98
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+   }
+   SCR_DestructibleBuildingEntity : "{0DF5A32A3727BFAE}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Small.et" {
+    coords 1.198 0.553 -1.467
+    angles 1.884 -77.209 2.991
+    scale 1.424
+   }
+   SCR_DestructibleBuildingEntity : "{720E5074722834BF}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_WoodPile.et" {
+    coords 0.987 0.472 0.61
+    angles -1.564 -18.797 3.171
+    scale 1.041
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords -0.567 0.494 1.649
+     angles -0.916 119.969 -3.414
+     scale 1.023
+    }
+    {
+     coords -0.82 0.614 -0.836
+     angles -2.803 7.389 2.155
+     scale 1.023
+    }
+   }
+  }
+ }
+ Wreck_BDRM4 {
+  coords 4249.328 53.597 4592.402
+  angles -2.308 -167.101 2.164
+  {
+   $grp ParticleEffectEntity {
+    {
+     coords 0.542 1.867 0.935
+     angles -2.498 -0.109 2.502
+     scale 1.98
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+    {
+     coords -0.418 1.862 2.001
+     angles -2.498 -0.109 2.502
+     scale 1.98
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+   }
+   SCR_DestructibleBuildingEntity : "{0DF5A32A3727BFAE}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Small.et" {
+    coords 1.198 0.553 -1.467
+    angles 1.884 -77.209 2.991
+    scale 1.424
+   }
+   SCR_DestructibleBuildingEntity : "{720E5074722834BF}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_WoodPile.et" {
+    coords 0.987 0.472 0.61
+    angles -1.564 -18.797 3.171
+    scale 1.041
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords -0.567 0.494 1.649
+     angles -0.916 119.969 -3.414
+     scale 1.023
+    }
+    {
+     coords -0.82 0.614 -0.836
+     angles -2.803 7.389 2.155
+     scale 1.023
+    }
+   }
+  }
+ }
+ Wreck_BDRM5 {
+  coords 6122.438 56.359 6885.821
+  angles -2.63 88.888 -2.068
+  {
+   $grp ParticleEffectEntity {
+    {
+     coords 0.542 1.867 0.935
+     angles -2.498 -0.109 2.502
+     scale 1.98
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+    {
+     coords -0.418 1.862 2.001
+     angles -2.498 -0.109 2.502
+     scale 1.98
+     EffectPath "{B35B15E2480258FF}Particles/Vehicle/Helicopter/Helicopter_Smoke_Avionics.ptc"
+    }
+   }
+   SCR_DestructibleBuildingEntity : "{0DF5A32A3727BFAE}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Small.et" {
+    coords 1.198 0.553 -1.467
+    angles 1.884 -77.209 2.991
+    scale 1.424
+   }
+   SCR_DestructibleBuildingEntity : "{720E5074722834BF}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_WoodPile.et" {
+    coords 0.987 0.472 0.61
+    angles -1.564 -18.797 3.171
+    scale 1.041
+   }
+   $grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+    {
+     coords -0.567 0.494 1.649
+     angles -0.916 119.969 -3.414
+     scale 1.023
+    }
+    {
+     coords -0.82 0.614 -0.836
+     angles -2.803 7.389 2.155
+     scale 1.023
+    }
+   }
+  }
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{CCB19FE7B8422989}PrefabLibrary/DefaultLibrary/Structures/Ruins/HouseRuin_01_BrickPile_Big.et" {
+ {
+  coords 4284.605 0.006 4557.334
+  angles 1.617 143.164 6.589
+  scale 1.044
+ }
+ {
+  coords 4287.54 0.088 4556.882
+  angles 1.641 -22.083 -6.785
+  scale 1.044
+ }
+ {
+  coords 4285.144 0.022 4555.106
+  angles -3.476 -65.356 -6.057
+  scale 1.044
+ }
+ {
+  coords 4273.591 -0.012 4555.765
+  angles 1.641 -22.083 -6.785
+  scale 1.044
+ }
+ {
+  coords 4273.772 -0.173 4552.866
+  angles -8.684 -90.256 -0.536
+  scale 1.044
+ }
+ {
+  coords 4265.896 -0.055 4541.564
+  angles 1.641 -22.083 -6.785
+  scale 1.044
+ }
+ {
+  coords 4264.639 -0.055 4543.212
+  angles -6.842 -137.068 1.383
+  scale 1.044
+ }
+ {
+  coords 4263.335 -0.042 4540.279
+  angles 0.025 1.589 -0.895
+  scale 1.259
+ }
+ {
+  coords 4273.95 0 4544.497
+  angles 0.669 41.61 0.594
+  scale 0.967
+ }
+ {
+  coords 4275.243 0 4542.612
+  angles 0.469 -58.397 -0.762
+  scale 0.967
+ }
+ {
+  coords 4276.431 0.007 4544.307
+  angles -0.493 -123.39 -0.747
+  scale 0.967
+ }
+}
+GenericEntity : "{D2FAA54116D41ABA}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Supply_Medium_A_USSR_01.et" {
+ coords 1846.433 63.024 5377.752
+ angles 0.169 -10.886 0.879
+}
+$grp GenericEntity : "{D4825DD0062A405B}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Barracks_USSR_04.et" {
+ {
+  coords 3465.242 82.781 7086.249
+  angles 0 -67.623 0
+ }
+ {
+  coords 5942.259 55.643 6957.896
+  angles 0 -81.22 0
+ }
+ {
+  coords 1856.987 65.006 3265.663
+  angles 0 -84.398 0
+ }
+ {
+  coords 1856.168 65.006 3257.315
+  angles 0 -84.398 0
+ }
+ {
+  coords 1855.387 65.006 3249.353
+  angles 0 -84.398 0
+ }
+ {
+  coords 1847.525 65.006 3243.045
+  angles 0 7.707 0
+ }
+ {
+  coords 1838.788 64.942 3244.467
+  angles -0.767 7.721 -1.007
+ }
+}
+StaticModelEntity : "{DBCDEC45DB834E8A}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01.et" {
+ coords 1970.542 70.219 3038.898
+ angles 0 93.218 0
+}
+$grp GenericEntity : "{DC82213D62A2F621}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Supply_Large_USSR_01.et" {
+ {
+  coords 1842.662 63.103 5385.836
+  angles 1.752 -101.813 -0.366
+ }
+ {
+  coords 1843.313 64.77 3257.587
+  angles 0 9.623 0
+ }
+}
+$grp GenericEntity : "{DEB57429CD49782D}Prefabs/Props/Construction/GravelPile_01/SandPile_01.et" {
+ {
+  coords 1864.992 62.832 5353.595
+  angles 0 -129.627 0
+  scale 0.71
+ }
+ {
+  coords 1866.081 62.832 5355.753
+  angles 0 -61.986 0
+  scale 0.71
+ }
+ {
+  coords 1864.012 62.832 5356.402
+ }
+}
+$grp StaticModelEntity : "{DF649B29EC7635F3}Prefabs/Structures/Military/Fortifications/DirtPile_01/DirtPile_01_small.et" {
+ {
+  coords 1892.785 1.103 5390.807
+  scale 2.4
+ }
+ {
+  coords 1862.485 1.276 5416.237
+  scale 2.4
+ }
+ {
+  coords 1865.273 1.277 5417.473
+  angles 0 -59.136 0
+  scale 2.4
+ }
+ {
+  coords 1868.418 1.289 5419.877
+  angles 0 -59.136 0
+  scale 2.4
+ }
+ {
+  coords 1864.146 1.251 5419.336
+  angles 0 152.972 0
+  scale 2.4
+ }
+ {
+  coords 1855.444 0.96 5399.351
+  angles 0 -59.136 0
+  scale 2.4
+ }
+ {
+  coords 1854.462 0.963 5397.018
+  angles 0 -117.972 0
+  scale 2.4
+ }
+ {
+  coords 1852.128 0.687 5395.141
+  angles 0 139.711 0
+  scale 2.4
+ }
+}
+GenericEntity : "{E249C09D69AAE6C8}Prefabs/Compositions/Slotted/SlotFlatSmall/SandbagPosition_S_USSR_02.et" {
+ coords 4235.375 54.185 4603.633
+}
+$grp StaticModelEntity : "{E8697D4489516AE0}Prefabs/Compositions/Misc/SubCompositions/Tent_Barrack_Cluttered_USSR_03.et" {
+ {
+  coords 1847.782 65.062 3225.573
+  angles 0 0 0
+ }
+ {
+  coords 1838.842 65.062 3225.596
+  angles 0 0 0
+ }
+}
+$grp GenericEntity : "{E9B678E87346C96C}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Barracks_USSR_03.et" {
+ {
+  coords 6491.375 80.834 2388.001
+  angles -1.883 -6.742 -0.678
+ }
+ {
+  coords 3460.967 82.781 7078.423
+  angles 0 -64.334 0
+ }
+ {
+  coords 5925.853 55.465 6959.117
+  angles 0 86.643 0
+ }
+}
+GenericEntity : "{EB084C400AABD1D3}Prefabs/Props/Wrecks/M151A2_wreck/M151A2_wreck.et" {
+ coords 4275.046 53.517 4543.687
+ angles -4.921 -58.508 3.479
+}
+GenericEntity : "{F2A6A3DA58AFD5D2}Prefabs/Compositions/Misc/CustomEntities/CompositionDecals/CompositionDecal_Dirt_Tracks_01.et" {
+ coords 1846.735 62.962 5365.664
+}
+GenericEntity : "{FDA26BF2F4CF5977}Prefabs/Compositions/Misc/SubCompositions/Tents/Tent_Barracks_USSR_05.et" {
+ coords 5941.711 55.944 6969.205
+ angles 0 -99.392 0
+}
+$grp SCR_DestructibleBuildingEntity : "{FF39390F2D826521}Prefabs/Structures/Infrastructure/Naval/Piers/PierWooden_01_25m.et" {
+ {
+  coords 1627.868 49.95 6143.081
+  angles 0 58.381 0
+ }
+ {
+  coords 1700.831 49.614 5945.432
+  angles 0 -86.543 0
+  scale 1.42
+ }
+}
