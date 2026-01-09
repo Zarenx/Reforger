@@ -31,6 +31,8 @@ SCR_ChimeraCharacter : "{816708334423BE88}Prefabs/Characters/Cav_Factions/Alpha/
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{66495389F6486813}" {
+    }
     ItemsInitConfigurationItem "{6649599E246F82C7}" {
      TargetStorage "Back/Backpack_511_rush12_MC.et"
      PrefabsToSpawn {
@@ -76,7 +78,7 @@ SCR_ChimeraCharacter : "{816708334423BE88}Prefabs/Characters/Cav_Factions/Alpha/
     ItemsInitConfigurationItem "{66AF5AB2834DBF3B}" {
      TargetStorage "Vest/Vest_ALSE_Pilot.et/nerd/Pouch_KBS_Admin_base.et"
      PrefabsToSpawn {
-      "{8554ED3F088BADA6}Prefabs/Items/Core/Wirecutters/wirecutters.et"
+      "{42232FFE6E7AC415}Prefabs/Items/Core/Wirecutters/wirecutters.et"
      }
     }
    }
