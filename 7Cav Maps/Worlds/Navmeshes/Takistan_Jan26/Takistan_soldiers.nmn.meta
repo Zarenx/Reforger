@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{1B7727D92A8A75EE}Worlds/Navmeshes/Takistan_Jan26/Takistan_soldiers.nmn"
+ Configurations {
+  NavMeshResourceClass PC {
+  }
+  NavMeshResourceClass XBOX_ONE : PC {
+  }
+  NavMeshResourceClass XBOX_SERIES : PC {
+  }
+  NavMeshResourceClass PS4 : PC {
+  }
+  NavMeshResourceClass PS5 : PC {
+  }
+  NavMeshResourceClass HEADLESS : PC {
+  }
+  NavMeshResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{FE32A05CD18F36C7}Worlds/Navmeshes/Takistan_Jan26/Taskistan_BTRlike.nmn"
+ Configurations {
+  NavMeshResourceClass PC {
+  }
+  NavMeshResourceClass XBOX_ONE : PC {
+  }
+  NavMeshResourceClass XBOX_SERIES : PC {
+  }
+  NavMeshResourceClass PS4 : PC {
+  }
+  NavMeshResourceClass PS5 : PC {
+  }
+  NavMeshResourceClass HEADLESS : PC {
+  }
+  NavMeshResourceClass Xbox : PC {
+  }
+ }
+}
