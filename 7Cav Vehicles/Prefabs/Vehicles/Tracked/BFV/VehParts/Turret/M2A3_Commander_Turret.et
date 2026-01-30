@@ -1,6 +1,8 @@
 Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
  ID "51ACD0965653D003"
  components {
+  RHS_ThermalManagerComponent "{687C24A7D198F900}" {
+  }
   TurretComponent "{64D523BB818CBE02}" {
    components {
     RHS_VehicleNightVisionComponent "{64E3332B3F2869C7}" {

@@ -1,0 +1,83 @@
+GenericEntity : "{89FAE23A65BBB46D}Prefabs/Props/Military/CISS/SupplyDrop/Parts/US/EquipmentBox_US.et" {
+ ID "63032425024EBE27"
+ components {
+  SCR_UniversalInventoryStorageComponent "{612AE13AABBEE866}" {
+   MultiSlots {
+    MultiSlotConfiguration "{612AE13B54E1CE4B}" {
+     SlotTemplate InventoryStorageSlot s1 {
+      Prefab "{BD30BE4A3D8B9DAC}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1_last5tracer.et"
+     }
+     NumSlots 50
+    }
+    MultiSlotConfiguration "{612AE13C63EDEC18}" {
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{612AE13C605F9CBE}" {
+     SlotTemplate InventoryStorageSlot s4 {
+      Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+     NumSlots 15
+    }
+    MultiSlotConfiguration "{612AE13C60470D74}" {
+     SlotTemplate InventoryStorageSlot s5 {
+      Prefab "{AAF51CFA75A9CF8B}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4AP_1Tracer.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{612AE13C60298A64}" {
+     SlotTemplate InventoryStorageSlot s6 {
+      Prefab "{E1CAF505C9E42E58}Prefabs/Weapons/Magazines/Magazine_762x51_BaconM110_M993.et"
+     }
+     NumSlots 5
+    }
+    MultiSlotConfiguration "{612AE13CF45ED1DE}" {
+     NumSlots 20
+    }
+    MultiSlotConfiguration "{612AE13CF26F988D}" {
+     SlotTemplate InventoryStorageSlot s8 {
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{687C4CFB0E079FA0}" {
+     SlotTemplate InventoryStorageSlot s8 {
+      Prefab "{8435F7561C0FBB44}Prefabs/Items/Medicine/SalineBag_01/SalineBag_01_base.et"
+     }
+    }
+    MultiSlotConfiguration "{612AE13CF2F54B36}" {
+     SlotTemplate InventoryStorageSlot s9 {
+      Prefab "{5B9BCFE7BBB5B55C}Prefabs/Magazine/Magazine_84mm_HEAT551.et"
+     }
+    }
+    MultiSlotConfiguration "{687C4CFBB3CA6E4D}" {
+     SlotTemplate InventoryStorageSlot s9 {
+      Prefab "{A0E2F8935E55FD92}Prefabs/Magazine/Magazine_84mm_HEDP.et"
+     }
+    }
+    MultiSlotConfiguration "{612AE13CF008ECDC}" {
+     NumSlots 15
+    }
+    MultiSlotConfiguration "{612AE13CA1B98DD7}" {
+     NumSlots 30
+    }
+    MultiSlotConfiguration "{612AE13D6C37582B}" {
+     NumSlots 25
+    }
+    MultiSlotConfiguration "{612AE13D5315E0FF}" {
+     NumSlots 25
+    }
+    MultiSlotConfiguration "{612AE13D42BCFB89}" {
+     SlotTemplate InventoryStorageSlot s14 {
+      Prefab "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{612AE13D2E06A321}" {
+     SlotTemplate InventoryStorageSlot s15 {
+      Prefab "{14C1A0F061D9DDEE}Prefabs/Weapons/Grenades/M18/Smoke_M18_Violet.et"
+     }
+     NumSlots 10
+    }
+   }
+  }
+ }
+}
