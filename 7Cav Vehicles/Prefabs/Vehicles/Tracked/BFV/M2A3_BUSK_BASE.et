@@ -76,6 +76,13 @@ Tank : "{FA1383EA7F2E8750}Prefabs/Vehicles/Tracked/BFV/M2A2_BUSK_BASE.et" {
     }
    }
   }
+  SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
+   "Additional hit zones" {
+    SCR_FlammableHitZone Hull {
+     DamageReduction 70
+    }
+   }
+  }
   VehicleWheeledSimulation "{731B26FCA2F19855}" {
    Simulation Wheeled "{4D8B26DEA5F25978}" {
     Engine Engine Engine {
@@ -122,7 +129,7 @@ Tank : "{FA1383EA7F2E8750}Prefabs/Vehicles/Tracked/BFV/M2A2_BUSK_BASE.et" {
      PivotID "passenger_r03"
      Offset 1.004 -0.0653 0.6216
      Angles 0 0 180
-     Prefab "{1B9FE4BAE1AC3C1D}PrefabLibrary/Props/Civilian/Bucket_0/Bucket_01.et"
+     Prefab "{1B9FE4BAE1AC3C1D}PrefabLibrary/DefaultLibrary/Props/Civilian/Bucket_0/Bucket_01.et"
      InheritParentSkeleton 1
      DeactivatePhysicsOnAtaching 1
     }
