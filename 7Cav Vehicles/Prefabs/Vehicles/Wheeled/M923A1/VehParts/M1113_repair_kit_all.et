@@ -1,0 +1,274 @@
+GenericEntity : "{B7DE6834C8563C93}Prefabs/Vehicles/Core/Vehicle_RepairBox_Base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{C1BFD239F9A10AF5}Assets/Items/Equipment/Compass/Compass_SY183/Compass_SY183.xob"
+  }
+  RigidBody "{4B42E71692C2FB79}" {
+   Mass 10
+  }
+  SCR_ArsenalComponent "{62E496203A6DBEEC}" {
+   Enabled 1
+   m_eSupplyCostType DEFAULT
+   m_eSupportedArsenalItemTypes 7603070
+   m_eSupportedArsenalItemModes 434
+   m_eEditableAttributeGroups AMMUNITION_MODE
+   m_eArsenalSaveType SAVING_DISABLED
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   Enabled 0
+   "Additional hit zones" {
+    SCR_DestructibleHitzone RepairBox {
+     m_pDestructionHandler SCR_DestructionBaseHandler "{5C77025948537C40}" {
+      m_sWreckModel "{8580DA405FDF9FA8}Assets/Vehicles/Wheeled/M923A1/VehParts/M923A1_repair_box_wreck.xob"
+      m_bAllowHideWreck 1
+      m_bDeleteAfterParentDestroyed 0
+     }
+    }
+   }
+   EnableDamage 0
+   m_iMinimumBurningState NONE
+  }
+  SCR_ResourceComponent "{5D82E3A383BE77A8}" {
+   Enabled 1
+   m_aContainers {
+    SCR_ResourceContainer "{5D82E3A385761B9A}" {
+     m_fResourceValueCurrent 0
+     m_fResourceValueMax 0
+    }
+   }
+   m_aEncapsulators {
+    SCR_ResourceEncapsulator "{662838A9C0E5D118}" {
+     m_sDebugName "Encapsulator - M998"
+     m_eResourceRights ALL
+     m_ContainerQueue SCR_ResourceEncapsulatorContainerQueue "{662838A9C0E5D160}" {
+      m_StoragePolicies {
+       SCR_ResourceEncapsulatorStoragePolicyGeneric "{662838A9C0E5D162}" {
+       }
+      }
+     }
+     m_aActions {
+      SCR_ResourceEncapsulatorActionChangeDecay "{662838A9C0E5D16D}" {
+       m_fResourceDecay 0
+       m_fResourceDecayTickrate 0
+       m_fResourceDecayTimeout 0
+      }
+      SCR_ResourceEncapsulatorActionChangeGain "{662838A9C0E5D168}" {
+       m_fResourceGain 0
+       m_fResourceGainTickrate 0
+       m_fResourceGainTimeout 0
+      }
+      SCR_ResourceEncapsulatorActionChangeOnEmptyBehavior "{662838A9C0E5D176}" {
+       m_eOnEmptyBehavior HIDE
+      }
+      SCR_ResourceEncapsulatorActionChangeResourceValue "{662838A9C0E5D170}" {
+       m_fResourceValueCurrent 0
+      }
+     }
+    }
+   }
+   m_aConsumers {
+    SCR_ResourceConsumerServicePoint "{662838AB7E6260BE}" {
+     m_sDebugName "Consumer - Service Vehicle"
+     m_eResourceRights ALL
+     m_eGeneratorIdentifier DEFAULT
+     m_fResourceRange 1
+     m_fSellMultiplier 0
+     m_ContainerQueue SCR_ResourceConsumerContainerQueue "{662838AB427DC3CB}" {
+      m_StoragePolicies {
+       SCR_ResourceConsumerStoragePolicy "{5DB89931E8A9AF2E}" {
+        m_StorageQueue SCR_ResourceConsumerContainerStorageQueueExtended "{662838AB51D189D2}" {
+        }
+        m_eStorageType CARGO_VEHICLE
+       }
+      }
+     }
+    }
+   }
+   m_aGenerators {
+    SCR_ResourceGeneratorServicePoint "{662838AAAEE7CC32}" {
+     m_sDebugName "Generator - Service Vehicle"
+     m_eResourceRights ALL
+     m_fResourceMultiplier 0.333
+     m_fStorageRange 5
+     m_ContainerQueue SCR_ResourceGeneratorContainerQueue "{662838AAB26BA260}" {
+      m_StoragePolicies {
+       SCR_ResourceGeneratorStoragePolicy "{5DB89931DDA5C0EB}" {
+        m_StorageQueue SCR_ResourceGeneratorContainerStorageQueueExtended "{5DB89931DDA5C0E5}" {
+        }
+        m_eStorageType CARGO_VEHICLE
+       }
+       SCR_ResourceGeneratorStoragePolicy "{5DB89931DDA5C0E7}" {
+        m_StorageQueue SCR_ResourceGeneratorContainerStorageQueueExtended "{5DB89931DDA5C0E1}" {
+        }
+       }
+      }
+     }
+     m_aActions {
+      SCR_ResourceGeneratorActionStore "{5E5CC245EF925285}" {
+      }
+      SCR_ResourceGeneratorActionDropContainers "{5E5CC245ECE3A15F}" {
+      }
+     }
+    }
+   }
+   m_bEnableDebugVisualization 0
+  }
+  SCR_ResupplySupportStationComponent "{662838AB9FDD81C2}" {
+   m_bAllowGetFactionFromParent 1
+   m_sOnUseSoundEffectFile "{7BACA57AF41F033D}Sounds/SupportStations/SupportStations_Character.acp"
+   m_sOnUseSoundEffectEventName "SOUND_RESUPPLY_AMMUNITION_SELF"
+   m_fRange -1
+   m_vOffset 0 0 0
+   m_eFactionUsageCheck 0
+  }
+  SCR_UniversalInventoryStorageComponent "{662838AFA1A97823}" {
+   Enabled 1
+   Attributes SCR_ItemAttributeCollection "{662838AFB0845372}" {
+    ItemDisplayName UIInfo "{5CE0A9599DFAFA4E}" {
+     Name "#AR-Arsenal_Name"
+     Description "#AR-Arsenal_Description"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5CE0B0214AC175D5}" {
+      CameraPreset Back
+      CameraOrbitAngles 0 -35 180
+      CameraDistanceToItem 6
+      CameraOffset 1 0.5 0
+      FOV 60
+      AspectRatio 1
+     }
+    }
+    m_Size SLOT_3x3
+    m_SlotType SLOT_LOADOUT_STORAGE
+    m_bDraggable 0
+    m_bVisible 0
+   }
+   Priority 1000
+   m_LinkedStorageLogic SCR_MirrorLinkStorageToParent "{662838AFB9C7A2CC}" {
+   }
+  }
+  SCR_VehicleWeaponSupportStationComponent "{662838ABEE4C33A5}" {
+   m_bIsVehicle 1
+   m_bAllowGetFactionFromParent 1
+   m_sOnUseSoundEffectFile "{9DD9C6279F4489B4}Sounds/SupportStations/SupportStations_Vehicles.acp"
+   m_eSupportStationPriority MEDIUM
+   m_fRange 9
+   m_bUseRangeBoundingBox 1
+   m_vOffset 0 0 -2.5
+   m_eFactionUsageCheck 0
+  }
+  UniversalInventoryStorageComponent "{62E4962006861D96}" {
+   Enabled 1
+  }
+  SlotManagerComponent "{662838A9C0E5D173}" {
+   Slots {
+    RegisteringComponentSlotInfo SupplyStorage_06 {
+     PivotID "Scene_Root"
+     Offset -0.0193 0.0029 -0.1139
+     Angles 0 -90.5526 0
+     MergePhysics 1
+     Enabled 1
+     Prefab "{5A635D3B6F5CEB3A}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Helios.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_05 {
+     PivotID "Scene_Root"
+     Offset -0.0193 0.3088 -0.1139
+     Angles 0 -87.0993 0
+     MergePhysics 1
+     Enabled 1
+     Prefab "{5A635D3B6F5CEB3A}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Helios.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_04 {
+     PivotID "Scene_Root"
+     Offset -0.0052 0.3088 0.695
+     Angles 0 -89 0
+     MergePhysics 1
+     Enabled 1
+     Prefab "{5A635D3B6F5CEB3A}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Helios.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_03 {
+     PivotID "Scene_Root"
+     Offset -0.0264 0 0.695
+     Angles 0 89 0
+     MergePhysics 1
+     Enabled 1
+     Prefab "{5A635D3B6F5CEB3A}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Helios.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_02 {
+     PivotID "Scene_Root"
+     Offset -0.0157 0.3088 1.5247
+     Angles 0 -95 0
+     MergePhysics 1
+     Enabled 1
+     Prefab "{5A635D3B6F5CEB3A}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Helios.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_01 {
+     PivotID "Scene_Root"
+     Offset 0.003 0 1.5336
+     Angles 0 92 0
+     MergePhysics 1
+     Enabled 1
+     Prefab "{5A635D3B6F5CEB3A}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Helios.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+    }
+   }
+  }
+  ActionsManagerComponent "{5DE2DEF6ECABCF45}" {
+   ActionContexts {
+    UserActionContext "{5DE2DEF6D279E725}" {
+     Position PointInfo "{5DE2DEF6DC4530F5}" {
+     }
+     FilterActionsUsingCache 0
+    }
+   }
+   additionalActions {
+    SCR_ResourceContainerVehicleLoadAction "{5DE2DEF7FA6E54BA}" : "{A0E53319BFA4E848}Configs/Resources/Supplies/Actions/Supplies_Vehicle_Load.conf" {
+     ParentContextList {
+      "cargo"
+     }
+    }
+   }
+  }
+ }
+ coords 1288.04 39 2083.844
+ scale 0.7
+ {
+  GenericEntity {
+   ID "662838A9C0E5D107"
+   components {
+    SCR_EditableEntityVehicleCompartmentVisibilityChildComponent "{662838A9C0E5D14D}" {
+     m_State 96
+    }
+    SCR_EditableEntityVisibilityChildComponent "{662838A9C0E5D148}" {
+     Enabled 0
+     m_State 96
+    }
+    SCR_SupportStationAreaMeshComponent "{662838A9C0E5D149}" {
+     m_vResolution 48
+     m_bStretchMaterial 1
+     m_Material "{0A8FAD171DB3DC49}Assets/Editor/VirtualArea/VirtualArea_01_Focused.emat"
+     m_bHideInWorkbench 1
+     m_fRadius 9
+    }
+    RplComponent "{662838A9C0E5D154}" {
+    }
+    Hierarchy "{662838A9C0E5D156}" {
+    }
+   }
+   coords 0 0.103 -0.014
+   angles 0 90 0
+  }
+ }
+}

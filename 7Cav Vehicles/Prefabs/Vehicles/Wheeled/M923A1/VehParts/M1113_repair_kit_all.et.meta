@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{72F395D6F32BC25C}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M1113_repair_kit_all.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

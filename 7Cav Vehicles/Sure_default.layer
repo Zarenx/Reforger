@@ -1,0 +1,6 @@
+Vehicle M1113_Helios1 : "{0C83247826E637DF}Prefabs/Vehicles/Wheeled/M998/M1113_Helios.et" {
+ coords 1224.997 39 2376.315
+}
+Vehicle M1114_Mule_Tan1 : "{9FAC2CB9B68DBA0E}Prefabs/Vehicles/Wheeled/M998/M1114_Mule_Tan.et" {
+ coords 1222.344 39.106 2373.699
+}

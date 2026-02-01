@@ -1,0 +1,151 @@
+GenericEntity : "{B7DE6834C8563C93}Prefabs/Vehicles/Core/Vehicle_RepairBox_Base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{C1BFD239F9A10AF5}Assets/Items/Equipment/Compass/Compass_SY183/Compass_SY183.xob"
+  }
+  RigidBody "{4B42E71692C2FB79}" {
+   Mass 10
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   Enabled 0
+   "Additional hit zones" {
+    SCR_DestructibleHitzone RepairBox {
+     m_pDestructionHandler SCR_DestructionBaseHandler "{5C77025948537C40}" {
+      m_sWreckModel "{8580DA405FDF9FA8}Assets/Vehicles/Wheeled/M923A1/VehParts/M923A1_repair_box_wreck.xob"
+      m_bAllowHideWreck 1
+      m_bDeleteAfterParentDestroyed 0
+     }
+    }
+   }
+   EnableDamage 0
+   m_iMinimumBurningState NONE
+  }
+  SCR_ResourceComponent "{5D82E3A383BE77A8}" {
+   m_aContainers {
+    SCR_ResourceContainer "{5D82E3A385761B9A}" {
+     m_fResourceValueCurrent 0
+     m_fResourceValueMax 0
+    }
+   }
+   m_aEncapsulators {
+    SCR_ResourceEncapsulator "{6622523EE8353487}" {
+     m_sDebugName "Encapsulator - M998"
+     m_eResourceRights ALL
+     m_ContainerQueue SCR_ResourceEncapsulatorContainerQueue "{5DB89930FF3D72CC}" {
+      m_StoragePolicies {
+       SCR_ResourceEncapsulatorStoragePolicyGeneric "{5DB89930672A4D0D}" {
+       }
+      }
+     }
+     m_aActions {
+      SCR_ResourceEncapsulatorActionChangeDecay "{5DDCCC7797F8906C}" {
+       m_fResourceDecay 0
+       m_fResourceDecayTickrate 0
+       m_fResourceDecayTimeout 0
+      }
+      SCR_ResourceEncapsulatorActionChangeGain "{5DDCCC77963E40D9}" {
+       m_fResourceGain 0
+       m_fResourceGainTickrate 0
+       m_fResourceGainTimeout 0
+      }
+      SCR_ResourceEncapsulatorActionChangeOnEmptyBehavior "{5DDCCC779967CAB7}" {
+       m_eOnEmptyBehavior HIDE
+      }
+      SCR_ResourceEncapsulatorActionChangeResourceValue "{5DDCCC7798CC4B30}" {
+       m_fResourceValueCurrent 0
+      }
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{6622523B0A7CD644}" {
+   Slots {
+    RegisteringComponentSlotInfo SupplyStorage_04 {
+     PivotID "Scene_Root"
+     Offset -0.0052 0.3088 0.695
+     Angles 0 -89 0
+     MergePhysics 1
+     Enabled 1
+     Prefab "{5A635D3B6F5CEB3A}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Helios.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_03 {
+     PivotID "Scene_Root"
+     Offset -0.0264 0 0.695
+     Angles 0 89 0
+     MergePhysics 1
+     Enabled 1
+     Prefab "{5A635D3B6F5CEB3A}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Helios.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_02 {
+     PivotID "Scene_Root"
+     Offset -0.0157 0.3088 1.5247
+     Angles 0 -95 0
+     MergePhysics 1
+     Enabled 1
+     Prefab "{5A635D3B6F5CEB3A}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Helios.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_01 {
+     PivotID "Scene_Root"
+     Offset 0.003 0 1.5336
+     Angles 0 92 0
+     MergePhysics 1
+     Enabled 1
+     Prefab "{5A635D3B6F5CEB3A}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Helios.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+    }
+   }
+  }
+  ActionsManagerComponent "{5DE2DEF6ECABCF45}" {
+   ActionContexts {
+    UserActionContext "{5DE2DEF6D279E725}" {
+     Position PointInfo "{5DE2DEF6DC4530F5}" {
+     }
+     FilterActionsUsingCache 0
+    }
+   }
+   additionalActions {
+    SCR_ResourceContainerVehicleLoadAction "{5DE2DEF7FA6E54BA}" : "{A0E53319BFA4E848}Configs/Resources/Supplies/Actions/Supplies_Vehicle_Load.conf" {
+     ParentContextList {
+      "cargo"
+     }
+    }
+   }
+  }
+ }
+ coords 1289.468 39 2082.818
+ {
+  GenericEntity {
+   ID "66192BE43821403C"
+   components {
+    SCR_EditableEntityVehicleCompartmentVisibilityChildComponent "{66192BE43821440E}" {
+     m_State 96
+    }
+    SCR_EditableEntityVisibilityChildComponent "{66192BE43821441D}" {
+     Enabled 0
+     m_State 96
+    }
+    SCR_SupportStationAreaMeshComponent "{66192BE438214464}" {
+     m_vResolution 48
+     m_bStretchMaterial 1
+     m_Material "{0A8FAD171DB3DC49}Assets/Editor/VirtualArea/VirtualArea_01_Focused.emat"
+     m_bHideInWorkbench 1
+     m_fRadius 9
+    }
+    RplComponent "{66192BE438214461}" {
+    }
+    Hierarchy "{66192BE43821446C}" {
+    }
+   }
+   coords 0 0.103 -0.014
+   angles 0 90 0
+  }
+ }
+}

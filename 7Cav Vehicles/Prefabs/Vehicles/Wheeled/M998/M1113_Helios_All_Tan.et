@@ -1,0 +1,525 @@
+Vehicle : "{77A1A8606999B00D}Prefabs/Vehicles/Wheeled/M1114/M1114_4.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{66284A00BAAEDAF8}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
+     AssignedMaterial "{F1FA74DCA013923C}Assets/Vehicles/Wheeled/M998/HMMWV_Body_Tan.emat"
+    }
+   }
+  }
+  RigidBody "{51DAA09FECF52BBF}" {
+   Mass 2436
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{66284A00BAAEDACF}" {
+     AnimDoorIndex 4
+     ContextName "door_rear"
+     EntryPositionInfo PointInfo "{66284A00BAAEDACA}" {
+      PivotID "v_body"
+      Offset 0 0 -2.9049
+     }
+     ExitPositionInfo PointInfo "{66284A00BAAEDAD4}" {
+      PivotID "v_body"
+      Offset 0 0 -2.9049
+      Angles 0 180 0
+     }
+     GetInTeleport 1
+     GetOutTeleport 1
+     FakeDoor 1
+    }
+   }
+   CompartmentSlots {
+    PilotCompartmentSlot PilotCompartment {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{65469718A91353BA}" {
+      m_sDefaultOccupantPrefab "{C110498284A5418F}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_GL.et"
+     }
+    }
+    CargoCompartmentSlot Passenger_r02 {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{65469718A9135353}" {
+      m_sDefaultOccupantPrefab "{6E1E87ECA5F5A7EA}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_LMG.et"
+     }
+    }
+    CargoCompartmentSlot passenger_r01 {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{654697184F533E82}" {
+      m_sDefaultOccupantPrefab "{85261D5B04BFA7EE}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_SL.et"
+     }
+    }
+    CargoCompartmentSlot Passenger_l02 {
+     m_DefaultOccupantData SCR_DefaultOccupantData "{65469718A91353A7}" {
+      m_sDefaultOccupantPrefab "{5228D8F587B5EEDC}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_RTO.et"
+     }
+    }
+    CargoCompartmentSlot passenger_l03 {
+     CompartmentAction SCR_GetInUserAction "{66284A00BAAED920}" {
+      ParentContextList {
+       "cargo" "passenger_l03"
+      }
+      UIInfo SCR_ActionUIInfo "{66284A00BAAED922}" {
+       Name "#AR-UserAction_GetIn"
+       Icon "{04EF6B438A9F69A1}UI/Textures/UserActions/getinaction.edds"
+       m_sIconName "mountAsPassengerCommand"
+      }
+      CanAggregate 1
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{66284A00BAAED928}" {
+      ParentContextList {
+       "cargo"
+      }
+      UIInfo SCR_ActionUIInfo "{66284A00BAAED929}" {
+       Name "#AR-UserAction_GetOut"
+       m_sIconName "getOutCommand"
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{66284A00BAAED934}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{66284A00BAAED936}" {
+      ParentContextList {
+       "passenger_l03"
+      }
+      UIInfo SCR_ActionUIInfo "{66284A00BAAED937}" {
+       Name "#AR-UserAction_SwitchSeat"
+       m_sIconName "mountAsPassengerCommand"
+      }
+      Duration 0.5
+      CanAggregate 1
+      "Sort Priority" 9
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{66284A00BAAED932}" {
+       ParentContextList {
+        "passenger_l03"
+       }
+       UIInfo SCR_ActionUIInfo "{66284A00BAAED93F}" {
+        Name "#AR-UserAction_RemoveCasualty"
+        m_sIconName "use"
+       }
+       Duration 1
+       CanAggregate 1
+       "Sort Priority" 8
+       m_bInteriorOnly 1
+      }
+      SCR_RemoveCasualtyUserAction "{66284A00BAAED900}" {
+       ParentContextList {
+        "cargo"
+       }
+       UIInfo SCR_ActionUIInfo "{66284A00BAAED902}" {
+        Name "#AR-UserAction_RemoveCasualty"
+        m_sIconName "use"
+       }
+       Duration 1
+       CanAggregate 1
+       "Sort Priority" 8
+       m_bExteriorOnly 1
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "passenger_01_idle"
+      Offset -0.0197 0.3736 -1.094
+      Angles 0 90 0
+     }
+     ForcedFreeLook 1
+     CharactersCanFallOutOnFlip 1
+     CharactersFallOutVectorSeatSpace 1 1 0
+     SeatType 2
+     DoorInfoList {
+      4
+     }
+     UIInfo UIInfo "{66284A00BAAED908}" {
+      Name "#AR-VehiclePosition_Passenger"
+     }
+     BaseCoverage 0
+     ContextName "passenger_l03"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{66284A00BAAED90B}" {
+      m_sDefaultOccupantPrefab "{ADC2DE949F566202}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_Sharpshooter.et"
+     }
+     m_fFreelookAimLimitOverrideLeft -160
+     m_fFreelookAimLimitOverrideRight 160
+     m_fFreelookCameraNeckFollowTraverse 1
+    }
+    CargoCompartmentSlot passenger_r03 {
+     CompartmentAction SCR_GetInUserAction "{66284A00BAAED910}" {
+      ParentContextList {
+       "cargo" "passenger_r03"
+      }
+      UIInfo SCR_ActionUIInfo "{66284A00BAAED911}" {
+       Name "#AR-UserAction_GetIn"
+       Icon "{04EF6B438A9F69A1}UI/Textures/UserActions/getinaction.edds"
+       m_sIconName "mountAsPassengerCommand"
+      }
+      CanAggregate 1
+      "Sort Priority" 9
+     }
+     GetOutAction SCR_GetOutAction "{66284A00BAAED91C}" {
+      ParentContextList {
+       "cargo"
+      }
+      UIInfo SCR_ActionUIInfo "{66284A00BAAED91E}" {
+       Name "#AR-UserAction_GetOut"
+       m_sIconName "getOutCommand"
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{66284A00BAAED918}" {
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{66284A00BAAED919}" {
+      ParentContextList {
+       "passenger_r03"
+      }
+      UIInfo SCR_ActionUIInfo "{66284A00BAAED91B}" {
+       Name "#AR-UserAction_SwitchSeat"
+       m_sIconName "mountAsPassengerCommand"
+      }
+      Duration 0.5
+      CanAggregate 1
+      "Sort Priority" 9
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{66284A00BAAED96E}" {
+       ParentContextList {
+        "passenger_r03"
+       }
+       UIInfo SCR_ActionUIInfo "{66284A00BAAED96F}" {
+        Name "#AR-UserAction_RemoveCasualty"
+        m_sIconName "use"
+       }
+       Duration 1
+       CanAggregate 1
+       "Sort Priority" 8
+       m_bInteriorOnly 1
+      }
+      SCR_RemoveCasualtyUserAction "{66284A00BAAED969}" {
+       ParentContextList {
+        "cargo"
+       }
+       UIInfo SCR_ActionUIInfo "{66284A00BAAED96B}" {
+        Name "#AR-UserAction_RemoveCasualty"
+        m_sIconName "use"
+       }
+       Duration 1
+       CanAggregate 1
+       "Sort Priority" 8
+       m_bExteriorOnly 1
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "passenger_02_idle"
+      Offset -0.073 0.3736 -1.0852
+      Angles 0 -90 0
+     }
+     ForcedFreeLook 1
+     CharactersCanFallOutOnFlip 1
+     CharactersFallOutVectorSeatSpace 1 1 0
+     SeatType 2
+     DoorInfoList {
+      4
+     }
+     UIInfo UIInfo "{66284A00BAAED977}" {
+      Name "#AR-VehiclePosition_Passenger"
+     }
+     BaseCoverage 0
+     ContextName "passenger_r03"
+     m_DefaultOccupantData SCR_DefaultOccupantData "{66284A00BAAED971}" {
+      m_sDefaultOccupantPrefab "{9A234C5857D92187}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_Medic.et"
+     }
+     m_fFreelookAimLimitOverrideLeft -160
+     m_fFreelookAimLimitOverrideRight 160
+     m_fFreelookCameraNeckFollowTraverse 1
+    }
+   }
+  }
+  SCR_CampaignBuildingProviderComponent "{66284A00BAAED97E}" {
+   m_sProviderDisplayName "#AR-Vehicle_SupplyTruck_Name-UC"
+   m_bUserActionActivationOnly 1
+   m_fBuildingRadius 35
+   m_aAvailableTraits {
+    TRAIT_FORTIFICATION THEME_MILITARY NONE
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "M1113-SB Tan"
+    Description "Helios M1113 Super Beaver"
+    m_Image "{3EBADF1873388A13}UI/EditorPreviews/M1113_Beaver_Tan.edds"
+    m_aAuthoredLabels + {
+     TRAIT_ARMED TRAIT_ARSENAL
+    }
+    m_aAutoLabels +{
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 750
+     }
+     SCR_EntityBudgetValue "{6546971C8C2D1750}" {
+      m_BudgetType RANK_LIEUTENANT
+      m_Value 4
+     }
+     SCR_EntityBudgetValue "{662C36C03B80C27C}" {
+      m_BudgetType VEHICLES
+      m_Value 1
+     }
+     SCR_EntityBudgetValue "{662C36C03B44C49F}" {
+      m_BudgetType CAMPAIGN
+      m_Value 750
+     }
+     SCR_EntityBudgetValue "{662C36C03B07BC45}" {
+      m_BudgetType COOLDOWN
+      m_Value 1
+     }
+     SCR_EntityBudgetValue "{662C36C004C65AFE}" {
+      m_BudgetType RANK_LIEUTENANT
+      m_Value 4
+     }
+     SCR_EntityBudgetValue "{662C36C3F44D7EAE}" {
+      m_BudgetType VEHICLES
+      m_Value 1
+     }
+     SCR_EntityBudgetValue "{662C36C3F433C45E}" {
+      m_BudgetType CAMPAIGN
+      m_Value 750
+     }
+     SCR_EntityBudgetValue "{662C36C3F5F8ED6E}" {
+      m_BudgetType COOLDOWN
+      m_Value 1
+     }
+     SCR_EntityBudgetValue "{662C36C3F5BC2C06}" {
+      m_BudgetType RANK_LIEUTENANT
+      m_Value 4
+     }
+    }
+    m_aOccupantFillCompartmentTypes + {
+     TURRET
+    }
+    m_aCrewEntityBudgetCost {
+     SCR_EntityBudgetValue "{65469718A9135345}" {
+      m_BudgetType AI
+      m_Value 2
+     }
+    }
+    m_aPassengerEntityBudgetCost {
+     SCR_EntityBudgetValue "{65469718A9135379}" {
+      m_BudgetType AI
+      m_Value 5
+     }
+    }
+   }
+  }
+  SCR_ResourceComponent "{65469718A9135319}" {
+   Enabled 0
+  }
+  SCR_UniversalInventoryStorageComponent "{65469718A913532A}" {
+   Enabled 1
+   MultiSlots {
+    MultiSlotConfiguration "{65469718A91352DB}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Enabled 0
+     }
+    }
+    MultiSlotConfiguration "{6576061F66BAFD44}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Enabled 0
+     }
+     NumSlots 12
+    }
+    MultiSlotConfiguration "{6576061E90027C35}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Enabled 0
+      Prefab "{9458584521CCA4E2}Prefabs/Weapons/Magazines/Magazine_M240_Coax/Box_762x51_M240_coax_200rnd_4AP_1Tracer.et"
+     }
+     NumSlots 10
+    }
+    MultiSlotConfiguration "{66284A00BAAED957}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Enabled 0
+      Prefab "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et"
+     }
+     NumSlots 14
+    }
+    MultiSlotConfiguration "{66284A00BAAED953}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Enabled 0
+      Prefab "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+     NumSlots 6
+    }
+    MultiSlotConfiguration "{66284A00BAAED95F}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Enabled 0
+      Prefab "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+     NumSlots 6
+    }
+    MultiSlotConfiguration "{66284A00BAAED95A}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Enabled 0
+      Prefab "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et"
+     }
+     NumSlots 2
+    }
+    MultiSlotConfiguration "{66284A00BAAED9A5}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Enabled 0
+      Prefab "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
+     }
+     NumSlots 1
+    }
+    MultiSlotConfiguration "{66284A00BAAED9A0}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Enabled 0
+      Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+     }
+     NumSlots 1
+    }
+   }
+   m_fMaxWeight 2100
+  }
+  VehicleWheeledSimulation "{731B26FCA2F19855}" {
+   Simulation Wheeled "{4D8B26DEA5F25978}" {
+    Engine Engine Engine {
+     Inertia 0.5
+     MaxTorque 600.4
+    }
+   }
+  }
+  WCS_Armament_DispenserManagerComponent "{6576437C9E8F7BFF}" {
+   Enabled 0
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Window_front {
+    }
+    RegisteringComponentSlotInfo Window_front_02 {
+    }
+    RegisteringComponentSlotInfo Tailgate {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Brushguard {
+     Offset 0 0 0.1565
+     MergePhysics 0
+     Prefab "{31F1CE368A39D8F7}Prefabs/Vehicles/Wheeled/M1113/VehParts/Brushguard/M1113_brushguard_Tan.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_01 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo SupplyStorage_02 {
+    }
+    RegisteringComponentSlotInfo SupplyStorage_03 {
+    }
+    RegisteringComponentSlotInfo Radiator {
+     Prefab "{4F2518B7BD660EA9}Prefabs/Vehicles/Wheeled/M1114/VehParts/Additions/Radiator/VehPart_M1114_Radiator_Tan.et"
+    }
+    RegisteringComponentSlotInfo Roof {
+     Offset 0 0 0
+     Angles 0 0 0
+     Prefab "{3F9AA21E00999058}Prefabs/Vehicles/Wheeled/M1113/VehParts/M1113_roof_M2HB_HELIOS_Hauler_Tan.et"
+    }
+    EntitySlotInfo SupplyStorage_04 {
+     Enabled 0
+    }
+    EntitySlotInfo SupplyStorage_06 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Dirt_Cover {
+    }
+    RegisteringComponentSlotInfo TEL_Left {
+    }
+    RegisteringComponentSlotInfo TEL_Right {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo SpareTire {
+    }
+    RegisteringComponentSlotInfo Bumper {
+     Enabled 0
+    }
+    WCS_Armament_DispenserSlotInfo Smoke_Front {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Stool {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Toolkit {
+     PivotID "v_body"
+     Offset 0 0.1735 -0.4473
+     Angles 0 180 0
+     MergePhysics 1
+     Prefab "{72F395D6F32BC25C}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M1113_repair_kit_all.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterCompartments 1
+    }
+    RegisteringComponentSlotInfo Step {
+     PivotID "v_body"
+     Offset 0 0.0828 -0.2198
+     Angles 0 180 0
+     Enabled 0
+     Prefab "{D55DB6D1FAA26657}Prefabs/Vehicles/Wheeled/M1113/VehParts/Step/VehPart_M1113_Step.et"
+     DeactivatePhysicsOnAtaching 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo ArsenalTest {
+     PivotID "v_body"
+     Offset 0.0885 0.1966 0.3682
+     MergePhysics 1
+     Prefab "{BB2D208D55858A9B}Prefabs/Vehicles/Wheeled/M1097/VehParts/HELIOS_RocketCrate.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     RegisterActions 1
+     RegisterCompartments 1
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{65469718A9135587}" {
+     Position PointInfo "{65469718A91355B9}" {
+      Offset 0 1.3626 -2.55
+     }
+    }
+    UserActionContext "{66284A00BAAED99C}" {
+     UIInfo SCR_ActionContextUIInfo "{6110A2800330E7A9}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+     }
+     ContextName "passenger_l03"
+     Position PointInfo "{66284A00BAAED99F}" {
+      PivotID "passenger_01_idle"
+      Offset -0.218 0.426 -1.0825
+     }
+     Radius 0.35
+    }
+    UserActionContext "{66284A00BAAED99A}" {
+     UIInfo SCR_ActionContextUIInfo "{6110A2801E1EB807}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+     }
+     ContextName "passenger_r03"
+     Position PointInfo "{66284A00BAAED9E4}" {
+      PivotID "passenger_02_idle"
+      Offset 0.1925 0.426 -1.0825
+     }
+     Radius 0.35
+    }
+   }
+   additionalActions {
+    SCR_CampaignBuildingStartUserAction "{66284A00BAAED9E1}" {
+     ParentContextList {
+      "cargo"
+     }
+     UIInfo SCR_ActionUIInfo "{66284A00BAAED9E3}" {
+      Name "#AR-Campaign_Action_ShowBuildPreview"
+      m_sIconName "use"
+     }
+     VisibilityRange 2
+     Duration 0.5
+    }
+   }
+  }
+ }
+ coords 1244.35 39.01 2385.632
+}

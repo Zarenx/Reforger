@@ -1,0 +1,38 @@
+GenericEntity : "{412CBCBED417FB62}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  InventoryItemComponent "{6882646B41862E07}" {
+   Enabled 0
+  }
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{208C4BA2BF6602D8}Assets/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01_vehicle.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   SimState Collision
+   Static 0
+  }
+  SCR_DamageManagerComponent "{5624A88D86EFE8BA}" {
+   Enabled 1
+   "Additional hit zones" {
+    SCR_HitZone Default : "{641A7E3B342CF4F9}Prefabs/Vehicles/Core/Configs/HitZones/VehiclePart_Supplies_HZ.conf" {
+     "Kinetic multiplier" 0.008
+     "Explosive multiplier" 0.8
+     "Incendiary multiplier" 0.8
+    }
+   }
+  }
+  SCR_ResourceComponent "{5D247A59598D71AE}" {
+   m_aContainers {
+    SCR_ResourceContainer "{5D3CDAE74F1A6127}" {
+     m_fResourceValueCurrent 120
+     m_fResourceValueMax 120
+     m_bEnableResourceDecay 0
+    }
+   }
+  }
+  ActionsManagerComponent "{6882646B41862E72}" {
+   Enabled 0
+  }
+ }
+ coords 1224.844 39 2380.861
+}

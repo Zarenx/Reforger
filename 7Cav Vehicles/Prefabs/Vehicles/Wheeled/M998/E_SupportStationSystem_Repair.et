@@ -1,0 +1,69 @@
+GenericEntity : "{1D7174C97DF571DC}PrefabsEditable/SupportStationSystems/E_SupportStationSystem_Base.et" {
+ ID "5B2AD5B9801EB74E"
+ components {
+  SCR_ArsenalComponent "{66187D0088B4853C}" {
+   m_eSupportedArsenalItemTypes VEHICLE
+   m_eSupportedArsenalItemModes AMMUNITION
+   m_OverwriteArsenalConfig SCR_ArsenalItemListConfig "{66187D0088B48507}" {
+    m_aArsenalItems {
+     SCR_ArsenalItemStandalone "{66187D0088B48502}" {
+      m_eItemType VEHICLE
+      m_eItemMode AMMUNITION
+      m_ItemResourceName "{8E0429589CD8A49A}Prefabs/Weapons/Magazines/Magazine_M242/Box_25x137_M242_150rnd_HEIT.et"
+     }
+     SCR_ArsenalItemStandalone "{66187D0088B4850E}" {
+      m_eItemType VEHICLE
+      m_eItemMode AMMUNITION
+      m_ItemResourceName "{06809ADCCDBAB8FB}Prefabs/Weapons/Magazines/Magazine_M242/Box_25x137_M242_60rnd_APDST.et"
+     }
+    }
+   }
+  }
+  SCR_EditableDescriptorComponent "{5B2AD5BA907797AD}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5B2AD5BA8B7D34AD}" {
+    Name "#AR-EditableEntity_SupportStationSystem_Repair_Name"
+    Description "#AR-EditableEntity_SupportStationSystem_Repair_Description"
+    Icon "{03406DAD80009A4F}UI/Textures/Editor/EditableEntities/Systems/EditableEntity_Repairing_Station.edds"
+    m_Image "{88CDC2FC3360A3C4}UI/Textures/EditorPreviews/Auto/Systems/Stations/E_Station_Repair.edds"
+    m_aAuthoredLabels {
+     ENTITYTYPE_SYSTEM TRAIT_REPAIRING TRAIT_SERVICE TRAIT_VEHICLE_REARMING
+    }
+    m_bFullBackgroundAssetCard 0
+   }
+  }
+  SCR_EditableEntityVisibilityChildComponent "{5B2AD5BBEE145EA0}" {
+   Enabled 0
+  }
+  SCR_RepairSupportStationComponent "{5E1CF31185E317FE}" : "{4B199D8AD24B5712}Prefabs/Components/SupportStations/Repair/RepairSupportStation_Zone.ct" {
+   m_fRange 9
+  }
+  SCR_ResourceComponent "{66187D0088B48511}" {
+   m_aConsumers {
+    SCR_ResourceConsumerServicePoint "{5E4ECC57998A8F1D}" : "{7A1873E287BD3800}Configs/Resources/Supplies/Consumers/Specific/Consumer_SupportStation.conf" {
+    }
+   }
+  }
+  SCR_ServicePointComponent "{5C8CAE44023804D5}" {
+   m_eType REPAIR_DEPOT
+   m_eBuildingLabel SERVICE_REPAIR
+  }
+  SCR_SupportStationAreaMeshComponent "{5B2AD5B869A9C26D}" {
+   m_bHideInWorkbench 1
+   m_fRadius 9
+  }
+  SCR_VehicleWeaponSupportStationComponent "{62E4B164B6B0244C}" : "{648DF472275AE897}Prefabs/Components/SupportStations/VehicleWeaponResupply/ZonedVehicleWeaponSupportStation.ct" {
+   m_bAllowGetFactionFromParent 1
+   m_eSupportStationPriority HIGH
+   m_iBaseSupplyCostOnUse 5
+   m_eFactionUsageCheck 3
+  }
+  UniversalInventoryStorageComponent "{66187D0088B4851E}" {
+   Enabled 0
+  }
+  SCR_ArsenalInventoryStorageManagerComponent "{66187D0088B48518}" {
+   Enabled 0
+  }
+ }
+ Flags 0 0x3
+ coords 1212.026 39 2400.933
+}

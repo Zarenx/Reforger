@@ -1,0 +1,66 @@
+GenericEntity : "{1F5BC2DEF2C65B2F}Prefabs/Vehicles/Wheeled/M1114/VehParts/M1114_roof_Early.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{657576D5374270C7}" {
+     SourceMaterial "Base"
+     AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+    }
+    MaterialAssignClass "{657576D5374270C7}" {
+     SourceMaterial "Base"
+     AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{54F2B37F3202E099}" {
+   Enabled 1
+   Slots {
+    RegisteringComponentSlotInfo Window_LR {
+    }
+    RegisteringComponentSlotInfo Window_RR {
+    }
+    RegisteringComponentSlotInfo Window_RF {
+    }
+    RegisteringComponentSlotInfo Window_LF {
+    }
+    RegisteringComponentSlotInfo Turret {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Duke_1 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Duke_2 {
+     Offset 0.8513 0.3417 -2.0656
+    }
+    RegisteringComponentSlotInfo Roof_Armor {
+     Prefab "{1AB74B3D484EC99D}Prefabs/Vehicles/Wheeled/M1114/VehParts/Armor/Roof/VehPart_M1114_Roof_Armor_Tan.et"
+    }
+    RegisteringComponentSlotInfo Hatch_Closed {
+     Enabled 1
+     Prefab "{DF05316075C7E549}Prefabs/Vehicles/Wheeled/M1114/VehParts/Armor/Roof/VehPart_M1114_Roof_Hatch_Closed_Tan.et"
+    }
+    RegisteringComponentSlotInfo Door_L01 {
+     Prefab "{71AB0CB9DF2CDE3D}Prefabs/Props/VehicleParts/Doors/M1114/Late/Door_M1114_L1_Late_Tan.et"
+    }
+    RegisteringComponentSlotInfo Door_L02 {
+     Prefab "{46E3CCC2C6C5664E}Prefabs/Props/VehicleParts/Doors/M1114/Late/Door_M1114_L2_Late_Tan.et"
+    }
+    RegisteringComponentSlotInfo Door_R01 {
+     Prefab "{B4C594A2392EB2B1}Prefabs/Props/VehicleParts/Doors/M1114/Late/Door_M1114_R1_Late_Tan.et"
+    }
+    RegisteringComponentSlotInfo Door_R02 {
+     Prefab "{DCC9F5031CC00BA9}Prefabs/Props/VehicleParts/Doors/M1114/Late/Door_M1114_R2_Late_Tan.et"
+    }
+    RegisteringComponentSlotInfo Antenna {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Antenna_02 {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 1202.319 39 2386.138
+ angles 0 148.768 0
+}

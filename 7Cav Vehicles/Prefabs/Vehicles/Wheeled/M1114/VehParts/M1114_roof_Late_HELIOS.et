@@ -1,0 +1,62 @@
+GenericEntity : "{1F5BC2DEF2C65B2F}Prefabs/Vehicles/Wheeled/M1114/VehParts/M1114_roof_Early.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{657576D5374270C7}" {
+     SourceMaterial "Base"
+     AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+    }
+    MaterialAssignClass "{657576D5374270C7}" {
+     SourceMaterial "Base"
+     AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{54F2B37F3202E099}" {
+   Slots {
+    RegisteringComponentSlotInfo Window_LR {
+    }
+    RegisteringComponentSlotInfo Window_RR {
+    }
+    RegisteringComponentSlotInfo Window_RF {
+    }
+    RegisteringComponentSlotInfo Window_LF {
+    }
+    RegisteringComponentSlotInfo Turret {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Duke_1 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Duke_2 {
+     Offset 0.8513 0.3417 -2.0656
+    }
+    RegisteringComponentSlotInfo Roof_Armor {
+    }
+    RegisteringComponentSlotInfo Hatch_Closed {
+     Enabled 1
+    }
+    RegisteringComponentSlotInfo Door_L01 {
+     Prefab "{3F66CFE4131B1273}Prefabs/Props/VehicleParts/Doors/M1114/Late/Door_M1114_L1_Late.et"
+    }
+    RegisteringComponentSlotInfo Door_L02 {
+     Prefab "{5A174DA919C63ABE}Prefabs/Props/VehicleParts/Doors/M1114/Late/Door_M1114_L2_Late.et"
+    }
+    RegisteringComponentSlotInfo Door_R01 {
+     Prefab "{C748411DD65D807C}Prefabs/Props/VehicleParts/Doors/M1114/Late/Door_M1114_R1_Late.et"
+    }
+    RegisteringComponentSlotInfo Door_R02 {
+     Prefab "{AB1C75FD6A990F52}Prefabs/Props/VehicleParts/Doors/M1114/Late/Door_M1114_R2_Late.et"
+    }
+    RegisteringComponentSlotInfo Antenna {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Antenna_02 {
+     Enabled 0
+    }
+   }
+  }
+ }
+ coords 1211.808 39 2372.144
+}
