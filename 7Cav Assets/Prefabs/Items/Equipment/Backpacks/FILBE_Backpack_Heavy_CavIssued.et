@@ -1,0 +1,31 @@
+GenericEntity : "{48602F57998AB597}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack.et" {
+ ID "511E9C6ADE70F798"
+ components {
+  MeshObject "{511E9C6ADE70F7BD}" {
+   Object "{083A994022BEAE74}Assets/Items/Equipment/Backpacks/Backpack_FILBE_Assault/Backpack_FILBE_Assault_Heavy_Item.xob"
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB03A40528FA}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB039E9715D1}" {
+    ItemDisplayName UIInfo "{5222CB03904B414C}" {
+     Name "Cav Issued FILBE Heavy"
+     Description "Cav Issued FILBE Heavy"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     ItemVolume 25001
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{52BCBDD2B54658EC}" {
+      PreviewModel "{74F4414DD3671745}Assets/Items/Equipment/Backpacks/Backpack_FILBE_Assault/Backpack_FILBE_Assault_Heavy.xob"
+     }
+    }
+   }
+   MaxCumulativeVolume 15000
+   MaxItemSize 25 25 25
+  }
+  BaseLoadoutClothComponent "{511E9C6ADE70F7BB}" {
+   WornModel "{6D140347523B035F}Assets/Items/Equipment/Backpacks/Backpack_FILBE_Assault/Backpack_FILBE_Assault_Heavy_Deflated.xob"
+   ItemModel "{083A994022BEAE74}Assets/Items/Equipment/Backpacks/Backpack_FILBE_Assault/Backpack_FILBE_Assault_Heavy_Item.xob"
+   DeflatedModel "{74F4414DD3671745}Assets/Items/Equipment/Backpacks/Backpack_FILBE_Assault/Backpack_FILBE_Assault_Heavy.xob"
+  }
+ }
+}

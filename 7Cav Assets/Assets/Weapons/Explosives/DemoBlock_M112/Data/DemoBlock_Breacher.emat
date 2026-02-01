@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.911 0.235 0.235 1
+ BCRMap "{BA81B778DAC78D37}Assets/Weapons/Explosives/DemoBlock_M112/Data/DemoBlock_M112_BCR.edds"
+ NMOMap "{5422539E86B9FD84}Assets/Weapons/Explosives/DemoBlock_M112/Data/DemoBlock_M112_NMO.edds"
+}
