@@ -1,0 +1,37 @@
+GenericEntity : "{A507D9AE39652BD6}Prefabs/Vehicles/Core/Vehicle_Part_Base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{46ABF0BCAF9CDF29}Assets/Vehicles/Wheeled/Detailing/SpareTire_Mount/kiok_humvee_spare_tire_mount .xob"
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone SpareTireHolder : "{20D6C595AE450F55}Prefabs/Vehicles/Core/Configs/HitZones/VehiclePart_HZ.conf" {
+    }
+    SCR_FuelHitZone FuelTank_02 : "{D19325BDFDD31404}Prefabs/Vehicles/Core/Configs/HitZones/FuelTank_Truck.conf" {
+     ColliderNames {
+      "UCX_FG_Fueltank_02"
+     }
+     m_SecondaryExplosionPoint PointInfo "{5E70BAEDE2572E70}" {
+      Offset -0.4166 1.512 0.5434
+     }
+     m_iFuelTankID 2
+    }
+   }
+  }
+  SlotManagerComponent "{662B2B898F11CCF2}" {
+   Slots {
+    RegisteringComponentSlotInfo Spare_Wheel_01 {
+     Offset -0.312 0.1024 2.408
+     Angles 0 90 0
+     MergePhysics 0
+     Prefab "{5C3724BBF45EB2BF}Prefabs/Vehicles/Wheeled/M998/VehParts/Wheels/M998_wheel_01.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     RegisterDamage 1
+    }
+   }
+  }
+ }
+ coords 78.007 2.216 1213.837
+}

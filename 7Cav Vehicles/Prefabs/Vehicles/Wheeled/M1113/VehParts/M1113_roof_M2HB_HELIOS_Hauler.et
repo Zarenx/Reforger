@@ -1,0 +1,162 @@
+GenericEntity : "{0B70147AE612A768}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_roof_empty.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{6625152ADE3B2E7C}" {
+     SourceMaterial "Base"
+     AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+    }
+    MaterialAssignClass "{6625152ADE3B2E70}" {
+     SourceMaterial "Base_Decals"
+     AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+    }
+    MaterialAssignClass "{6882646D9F198ABB}" {
+     SourceMaterial "HMMWV_Body_Roof_Int_38AD25796F1BEB94"
+     AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+    }
+    MaterialAssignClass "{6882646D9F198A80}" {
+     SourceMaterial "HMMWV_Decals02_Int_709BF534A2D43DAD"
+     AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{54F2B37F3202E099}" {
+   Slots {
+    RegisteringComponentSlotInfo Window_LR {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Window_RR {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Window_RF {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Window_LF {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Turret {
+     Offset 0 -0.2831 0.334
+     MergePhysics 1
+     Enabled 0
+     Prefab "{0AD553CD3BC8DEA4}Prefabs/Vehicles/Wheeled/M1113/VehParts/M1113_gun_mount_M2HB_GPK.et"
+     DisablePhysicsInteraction 0
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+    }
+    RegisteringComponentSlotInfo Turret_Rear {
+     PivotID "v_body"
+     Offset 1.0199 0.9587 -2.3948
+     Angles 0 180 0
+     MergePhysics 0
+     Enabled 0
+     Prefab "{F1C3CEB7A1D160C3}Prefabs/Vehicles/Wheeled/M1113/VehParts/M1113_weapon_mount_M240B_Rear.et"
+     DisablePhysicsInteraction 1
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+    }
+    RegisteringComponentSlotInfo Duke_1 {
+     Offset -0.942 0.0512 -2.5622
+     Enabled 0
+     Prefab "{993329E33135A53D}Prefabs/Vehicles/Wheeled/M1114/VehParts/Additions/Dukes/VehPart_M1114_Duke.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Duke_2 {
+     Offset 0.9178 0.0512 -2.5622
+     Enabled 0
+     Prefab "{993329E33135A53D}Prefabs/Vehicles/Wheeled/M1114/VehParts/Additions/Dukes/VehPart_M1114_Duke.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Roof_Armor {
+     Offset 0 -0.0355 -0.0706
+     Angles 0 180 0
+     MergePhysics 0
+     Prefab "{F2E6D6400DF584A9}Prefabs/Vehicles/Wheeled/M1113/VehParts/Armor/Roof/VehPart_M1113_Roof_Armor.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     RegisterActions 0
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Hatch_Closed {
+     Offset 0 1.1913 -0.3557
+     Angles 0 180 0
+     MergePhysics 0
+     Enabled 1
+     Prefab "{30E92D28F65621C6}Prefabs/Vehicles/Wheeled/M1114/VehParts/Armor/Roof/VehPart_M1114_Roof_Hatch_Closed.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     RegisterActions 0
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Door_L01 {
+     PivotID "v_door_L01"
+     Offset 1.1401 -1.1564 -0.4288
+     Prefab "{3F66CFE4131B1273}Prefabs/Props/VehicleParts/Doors/M1114/Late/Door_M1114_L1_Late.et"
+     DeactivatePhysicsOnAtaching 1
+     RegisterDamage 1
+     RegisterActionSignals 1
+    }
+    RegisteringComponentSlotInfo Door_L02 {
+     PivotID "v_door_L02"
+     Offset 1.1401 -1.1564 0.4976
+     Prefab "{5A174DA919C63ABE}Prefabs/Props/VehicleParts/Doors/M1114/Late/Door_M1114_L2_Late.et"
+     DeactivatePhysicsOnAtaching 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Door_R01 {
+     PivotID "v_door_R01"
+     Offset -1.1401 -1.1564 -0.4208
+     Prefab "{C748411DD65D807C}Prefabs/Props/VehicleParts/Doors/M1114/Late/Door_M1114_R1_Late.et"
+     DeactivatePhysicsOnAtaching 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Door_R02 {
+     PivotID "v_door_R02"
+     Offset -1.1401 -1.1564 0.4976
+     Prefab "{AB1C75FD6A990F52}Prefabs/Props/VehicleParts/Doors/M1114/Late/Door_M1114_R2_Late.et"
+     DeactivatePhysicsOnAtaching 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Antenna {
+     MergePhysics 1
+     Enabled 0
+     Prefab "{1C227958156F0496}Prefabs/Vehicles/Wheeled/M998/VehParts/M1114_antenna_rear.et"
+     DeactivatePhysicsOnAtaching 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Case {
+     PivotID "v_body"
+     Offset 0 0.4661 -0.4045
+     Angles 0 180 0
+     MergePhysics 0
+     Enabled 0
+     Prefab "{10CCA19BADC65A61}Prefabs/Vehicles/Wheeled/M1113/VehParts/Case/VehPart_M1113_Case.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo Rear {
+     PivotID "v_body"
+     Offset 0 -0.7144 0
+     Angles 0 180 0
+     MergePhysics 0
+     Prefab "{33F8C1F7581EDFBA}Prefabs/Vehicles/Wheeled/M1113/VehParts/Rear/VehPart_M1113_Rear.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     RegisterDamage 1
+    }
+   }
+  }
+ }
+ coords 1239.913 39.01 2378.959
+}

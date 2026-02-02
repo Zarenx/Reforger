@@ -1,0 +1,174 @@
+GenericEntity : "{B7DE6834C8563C93}Prefabs/Vehicles/Core/Vehicle_RepairBox_Base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{C1BFD239F9A10AF5}Assets/Items/Equipment/Compass/Compass_SY183/Compass_SY183.xob"
+  }
+  RigidBody "{4B42E71692C2FB79}" {
+   Mass 10
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   Enabled 0
+   "Additional hit zones" {
+    SCR_DestructibleHitzone RepairBox {
+     m_pDestructionHandler SCR_DestructionBaseHandler "{5C77025948537C40}" {
+      m_sWreckModel "{8580DA405FDF9FA8}Assets/Vehicles/Wheeled/M923A1/VehParts/M923A1_repair_box_wreck.xob"
+      m_bAllowHideWreck 1
+      m_bDeleteAfterParentDestroyed 0
+     }
+    }
+   }
+   EnableDamage 0
+   m_iMinimumBurningState NONE
+  }
+  SCR_ResourceComponent "{5D82E3A383BE77A8}" {
+   m_aContainers {
+    SCR_ResourceContainer "{5D82E3A385761B9A}" {
+     m_fResourceValueCurrent 0
+     m_fResourceValueMax 0
+    }
+   }
+   m_aEncapsulators {
+    SCR_ResourceEncapsulator "{662252201F57DC3E}" {
+     m_sDebugName "Encapsulator - M998"
+     m_eResourceRights ALL
+     m_ContainerQueue SCR_ResourceEncapsulatorContainerQueue "{662252201F57DC26}" {
+      m_StoragePolicies {
+       SCR_ResourceEncapsulatorStoragePolicyGeneric "{662252201F57DC24}" {
+       }
+      }
+     }
+     m_aActions {
+      SCR_ResourceEncapsulatorActionChangeDecay "{662252201F57DC29}" {
+       m_fResourceDecay 0
+       m_fResourceDecayTickrate 0
+       m_fResourceDecayTimeout 0
+      }
+      SCR_ResourceEncapsulatorActionChangeGain "{662252201F57DC2F}" {
+       m_fResourceGain 0
+       m_fResourceGainTickrate 0
+       m_fResourceGainTimeout 0
+      }
+      SCR_ResourceEncapsulatorActionChangeOnEmptyBehavior "{662252201F57DC2D}" {
+       m_eOnEmptyBehavior HIDE
+      }
+      SCR_ResourceEncapsulatorActionChangeResourceValue "{662252201F57DC2C}" {
+       m_fResourceValueCurrent 0
+      }
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{662252201F57DFD0}" {
+   Slots {
+    RegisteringComponentSlotInfo SupplyStorage_01 {
+     PivotID "Scene_Root"
+     Offset -0.6085 0.2098 0.6748
+     Angles 0 -93 10
+     MergePhysics 1
+     Prefab "{5A635D3B6F5CEB3A}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Helios.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_02 {
+     PivotID "Scene_Root"
+     Offset -0.6085 -0.0958 0.6211
+     Angles 0 -90 10
+     MergePhysics 1
+     Prefab "{5A635D3B6F5CEB3A}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Helios.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_03 {
+     PivotID "Scene_Root"
+     Offset 0.7945 -0.0958 0.6211
+     Angles 0 -90 10
+     MergePhysics 1
+     Prefab "{5A635D3B6F5CEB3A}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Helios.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_04 {
+     PivotID "Scene_Root"
+     Offset 0.8062 0.2131 0.686
+     Angles 0 -93 10
+     MergePhysics 1
+     Prefab "{5A635D3B6F5CEB3A}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Helios.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_06 {
+     PivotID "Scene_Root"
+     Offset 0.0843 0.3545 0.686
+     Angles 0 -5 0
+     MergePhysics 1
+     Prefab "{5A635D3B6F5CEB3A}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Helios.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_05 {
+     PivotID "Scene_Root"
+     Offset 0.0843 0.0464 0.686
+     Angles 0 0 0
+     MergePhysics 1
+     Prefab "{5A635D3B6F5CEB3A}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Helios.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_07 {
+     PivotID "Scene_Root"
+     Offset 0.0843 0.0464 0.1567
+     Angles 0 0 0
+     MergePhysics 1
+     Prefab "{5A635D3B6F5CEB3A}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Helios.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+    }
+   }
+  }
+  ActionsManagerComponent "{5DE2DEF6ECABCF45}" {
+   ActionContexts {
+    UserActionContext "{5DE2DEF6D279E725}" {
+     Position PointInfo "{5DE2DEF6DC4530F5}" {
+     }
+     FilterActionsUsingCache 0
+    }
+   }
+   additionalActions {
+    SCR_ResourceContainerVehicleLoadAction "{5DE2DEF7FA6E54BA}" : "{A0E53319BFA4E848}Configs/Resources/Supplies/Actions/Supplies_Vehicle_Load.conf" {
+     ParentContextList {
+      "cargo"
+     }
+    }
+   }
+  }
+ }
+ coords 1459.822 38 2950.111
+ {
+  GenericEntity {
+   ID "662252201F57DC00"
+   components {
+    SCR_EditableEntityVehicleCompartmentVisibilityChildComponent "{662252201F57DFC1}" {
+     m_State 96
+    }
+    SCR_EditableEntityVisibilityChildComponent "{662252201F57DFC7}" {
+     Enabled 0
+     m_State 96
+    }
+    SCR_SupportStationAreaMeshComponent "{662252201F57DFC5}" {
+     m_vResolution 48
+     m_bStretchMaterial 1
+     m_Material "{0A8FAD171DB3DC49}Assets/Editor/VirtualArea/VirtualArea_01_Focused.emat"
+     m_bHideInWorkbench 1
+     m_fRadius 9
+    }
+    RplComponent "{662252201F57DFCE}" {
+    }
+    Hierarchy "{662252201F57DFCD}" {
+    }
+   }
+   coords 0 0.103 -0.014
+   angles 0 90 0
+  }
+ }
+}

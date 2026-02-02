@@ -1,0 +1,43 @@
+GenericEntity : "{3A09537CB8082CEC}Prefabs/Vehicles/Wheeled/M1097/VehParts/M1097_ammo_box.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{8CC52F60793CFAFB}Assets/Props/Military/SupplyBox/SupplyPortableContainers/SupplyPortableContainer_01_large_vehicle.xob"
+   Materials {
+    MaterialAssignClass "{662B2B8B639C424B}" {
+     SourceMaterial "M1097_Benches"
+     AssignedMaterial "{0D6528A5ECF4E2B0}Assets/Vehicles/Wheeled/M1097/Cargo_Racks/Data/M1097_Benches_Tan.emat"
+    }
+   }
+  }
+  SCR_ArsenalComponent "{5CDEEA63CA961245}" {
+   m_eSupportedArsenalItemTypes ROCKET_LAUNCHER
+   m_eSupportedArsenalItemModes 6
+   m_eEditableAttributeGroups WEAPONS
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   Enabled 0
+  }
+  SCR_ResourceComponent "{5D82E3A3588C0389}" {
+   Enabled 0
+  }
+  SCR_ResupplySupportStationComponent "{5E2CE355B9E6412E}" {
+   Enabled 0
+  }
+  SCR_VehicleWeaponSupportStationComponent "{6478710462CF20B8}" {
+   Enabled 0
+  }
+  WCS_RearmSupportStationComponent "{6584482CF2760241}" {
+   Enabled 0
+  }
+  SlotManagerComponent "{65844132CB5D22CA}" {
+   Slots {
+    RegisteringComponentSlotInfo Canvas {
+     Enabled 0
+     Prefab "{D0E593F13E9F1980}Prefabs/Vehicles/Wheeled/M1097/VehParts/VehPart_M1097_Canvas_Tan.et"
+    }
+   }
+  }
+ }
+ coords 867.637 39 2731.757
+}
