@@ -76,6 +76,16 @@ Tank : "{FA1383EA7F2E8750}Prefabs/Vehicles/Tracked/BFV/M2A2_BUSK_BASE.et" {
     }
    }
   }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{631061774EE1DF77}" {
+      m_BudgetType RANK_SERGEANT
+      m_Value 3
+     }
+    }
+   }
+  }
   SCR_WheeledDamageManagerComponent "{141326E9FD94FE40}" {
    "Additional hit zones" {
     SCR_FlammableHitZone Hull {
