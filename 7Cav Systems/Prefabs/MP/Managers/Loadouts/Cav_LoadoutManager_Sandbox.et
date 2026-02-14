@@ -159,6 +159,10 @@ SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutMana
   }
   SCR_FactionPlayerLoadout "{66934A1DAB89EDEE}" : "{83CE2EBBD2C36642}Prefabs/Characters/Cav_Factions/Bravo/Loadouts/Helios/Loadout_B_CLS_Helios.conf" {
   }
+  SCR_FactionPlayerLoadout "{688D5B2AA4299C53}" : "{83CE2EBBD2C36642}Prefabs/Characters/Cav_Factions/Bravo/Loadouts/Helios/Loadout_B_CLS_Helios.conf" {
+   m_sLoadoutName "Combat engineer"
+   m_sLoadoutResource "{EB4A9B3E61E30139}Prefabs/Characters/Cav_Factions/Bravo/Bravo_Engineer.et"
+  }
   SCR_FactionPlayerLoadout "{66934A1DA7A24425}" : "{73AF8EED0B7F9ECB}Prefabs/Characters/Cav_Factions/Bravo/Loadouts/Pioneer/Loadout_B_CLS_Pioneer.conf" {
   }
   SCR_FactionPlayerLoadout "{66934A1DA1528BD2}" : "{1092CE90CD902787}Prefabs/Characters/Cav_Factions/Bravo/Loadouts/Viking/Loadout_B_CLS_Viking.conf" {
