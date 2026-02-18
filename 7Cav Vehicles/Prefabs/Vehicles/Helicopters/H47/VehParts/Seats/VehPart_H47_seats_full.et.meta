@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{4F23EE865AC71317}Prefabs/Characters/DnakedManBase.et"
+ Name "{EE07BF63C2D6583A}Prefabs/Vehicles/Helicopters/H47/VehParts/Seats/VehPart_H47_seats_full.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

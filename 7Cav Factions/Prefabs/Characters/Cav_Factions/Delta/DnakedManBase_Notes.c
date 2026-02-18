@@ -1,1 +1,0 @@
-This is the base character for Delta Company character prefabs.  All changes to this will affect Delta company prefabs.

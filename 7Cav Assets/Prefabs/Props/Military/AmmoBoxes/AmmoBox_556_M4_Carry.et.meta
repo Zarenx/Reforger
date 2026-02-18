@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{2E6A7178AF4D045E}Prefabs/Characters/Cav_Factions/Delta/Delta_Rifleman.et"
+ Name "{82E27075AC8B321D}Prefabs/Props/Military/AmmoBoxes/AmmoBox_556_M4_Carry.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

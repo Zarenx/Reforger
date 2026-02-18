@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{F4EBE02AB4227BD0}Prefabs/Characters/Cav_Factions/Charlie/Charlie_Grenadier.et"
+ Name "{B8474D59A2F74275}Prefabs/Props/Military/AmmoBoxes/AmmoBox_Explosives.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
