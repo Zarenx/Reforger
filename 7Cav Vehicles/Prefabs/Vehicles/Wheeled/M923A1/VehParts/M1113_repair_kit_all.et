@@ -29,6 +29,9 @@ GenericEntity : "{B7DE6834C8563C93}Prefabs/Vehicles/Core/Vehicle_RepairBox_Base.
    EnableDamage 0
    m_iMinimumBurningState NONE
   }
+  SCR_FactionAffiliationComponent "{68A53578A137C23F}" {
+   "faction affiliation" "Helios"
+  }
   SCR_ResourceComponent "{5D82E3A383BE77A8}" {
    Enabled 1
    m_aContainers {
@@ -120,7 +123,7 @@ GenericEntity : "{B7DE6834C8563C93}Prefabs/Vehicles/Core/Vehicle_RepairBox_Base.
    m_sOnUseSoundEffectEventName "SOUND_RESUPPLY_AMMUNITION_SELF"
    m_fRange -1
    m_vOffset 0 0 0
-   m_eFactionUsageCheck 0
+   m_eFactionUsageCheck 3
   }
   SCR_UniversalInventoryStorageComponent "{662838AFA1A97823}" {
    Enabled 1
@@ -156,7 +159,7 @@ GenericEntity : "{B7DE6834C8563C93}Prefabs/Vehicles/Core/Vehicle_RepairBox_Base.
    m_fRange 9
    m_bUseRangeBoundingBox 1
    m_vOffset 0 0 -2.5
-   m_eFactionUsageCheck 0
+   m_eFactionUsageCheck 3
   }
   UniversalInventoryStorageComponent "{62E4962006861D96}" {
    Enabled 1
@@ -242,7 +245,7 @@ GenericEntity : "{B7DE6834C8563C93}Prefabs/Vehicles/Core/Vehicle_RepairBox_Base.
    }
   }
  }
- coords 1288.04 39 2083.844
+ coords 1592.781 38 2904.085
  scale 0.7
  {
   GenericEntity {
