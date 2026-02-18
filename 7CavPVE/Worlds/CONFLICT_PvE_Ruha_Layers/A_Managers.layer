@@ -322,7 +322,9 @@ SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Co
  }
  coords 4080.629 67.996 3807.08
  m_iControlPointsThreshold 43
- m_iRegularSuppliesIncome 50
+ m_iQuickSuppliesReplenishThreshold 50
+ m_iSuppliesArrivalInterval 120
+ m_iRegularSuppliesIncome 30
  m_iRegularSuppliesIncomeBase 15
  m_iRegularSuppliesIncomeExtra 15
  m_iMinStartingSupplies 300
@@ -1474,7 +1476,7 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
          }
         }
         SCR_EntityCatalogEntry "{663CB818E84CDF80}" {
-         m_sEntityPrefab "{47F2921E0DACA300}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_supply.et"
+         m_sEntityPrefab "{47F2921E0DACA300}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_Supply.et"
          m_bEnabled 0
          m_aEntityDataList {
           SCR_EntityCatalogEditorData "{663CB818E84CDE10}" {
@@ -3675,6 +3677,19 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
          m_bEnabled 0
         }
         SCR_EntityCatalogInventoryItem "{65C84DB66C67BA23}" {
+         m_bEnabled 0
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{660601898AAC4DF4}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{663A1B52E39570D2}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{663A1B52EE5376C0}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{663A1B52EEF8A299}" {
          m_bEnabled 0
         }
        }

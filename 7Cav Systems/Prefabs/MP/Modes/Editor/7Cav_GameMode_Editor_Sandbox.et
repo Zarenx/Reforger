@@ -14,6 +14,11 @@ SCR_GameModeEditor : "{D2DE7F43D48A3667}Prefabs/MP/Modes/Editor/GameMode_Editor.
   }
   SCR_CommandingManagerComponent "{664AEDE1A7CEBD26}" {
   }
+  SCR_NotificationSenderComponent "{56FA84B04BE7D4C0}" {
+   m_bShowPlayerLeftNotification 0
+   m_iKillFeedType DISABLED
+   m_eFriendlyFireKillFeedType DEFAULT_SETTINGS
+  }
  }
  {
   SCR_FactionManager "664AEDE10586FF7E" : "{4A188E44289B9A51}Prefabs/MP/Managers/Factions/FactionManager_Editor_Sandbox.et" {
