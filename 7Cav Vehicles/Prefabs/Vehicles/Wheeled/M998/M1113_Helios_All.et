@@ -229,6 +229,7 @@ Vehicle : "{77A1A8606999B00D}Prefabs/Vehicles/Wheeled/M1114/M1114_4.et" {
   SCR_CampaignBuildingProviderComponent "{662838A995210106}" {
    m_sProviderDisplayName "#AR-Vehicle_SupplyTruck_Name-UC"
    m_bUserActionActivationOnly 1
+   m_bAnyFactionCanUse 1
    m_fBuildingRadius 35
    m_aAvailableTraits {
     TRAIT_FORTIFICATION THEME_MILITARY NONE
@@ -517,5 +518,5 @@ Vehicle : "{77A1A8606999B00D}Prefabs/Vehicles/Wheeled/M1114/M1114_4.et" {
    }
   }
  }
- coords 1243.25 39.011 2377.452
+ coords 1559.566 38 2889.24
 }
