@@ -240,7 +240,7 @@ Vehicle : "{77A1A8606999B00D}Prefabs/Vehicles/Wheeled/M1114/M1114_4.et" {
    m_bAnyFactionCanUse 1
    m_fBuildingRadius 35
    m_aAvailableTraits {
-    TRAIT_FORTIFICATION THEME_MILITARY VEHICLE_TURRET
+    TRAIT_FORTIFICATION THEME_MILITARY NONE
    }
   }
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
@@ -522,5 +522,5 @@ Vehicle : "{77A1A8606999B00D}Prefabs/Vehicles/Wheeled/M1114/M1114_4.et" {
    }
   }
  }
- coords 1583.489 38 2905.656
+ coords 1552.563 38 2889.667
 }

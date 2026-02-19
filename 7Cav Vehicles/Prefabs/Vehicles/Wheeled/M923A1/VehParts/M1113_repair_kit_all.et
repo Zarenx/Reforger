@@ -32,6 +32,9 @@ GenericEntity : "{B7DE6834C8563C93}Prefabs/Vehicles/Core/Vehicle_RepairBox_Base.
   SCR_FactionAffiliationComponent "{68A53578A137C23F}" {
    "faction affiliation" "Helios"
   }
+  SCR_RepairSupportStationComponent "{5E1CF55598C1E8E7}" {
+   m_iBaseSupplyCostOnUse 1
+  }
   SCR_ResourceComponent "{5D82E3A383BE77A8}" {
    Enabled 1
    m_aContainers {
@@ -118,10 +121,13 @@ GenericEntity : "{B7DE6834C8563C93}Prefabs/Vehicles/Core/Vehicle_RepairBox_Base.
    m_bEnableDebugVisualization 0
   }
   SCR_ResupplySupportStationComponent "{662838AB9FDD81C2}" {
+   m_bIsVehicle 1
    m_bAllowGetFactionFromParent 1
    m_sOnUseSoundEffectFile "{7BACA57AF41F033D}Sounds/SupportStations/SupportStations_Character.acp"
    m_sOnUseSoundEffectEventName "SOUND_RESUPPLY_AMMUNITION_SELF"
-   m_fRange -1
+   m_fRange 9
+   m_bUseRangeBoundingBox 1
+   m_iBaseSupplyCostOnUse 1
    m_vOffset 0 0 0
    m_eFactionUsageCheck 3
   }
@@ -244,8 +250,16 @@ GenericEntity : "{B7DE6834C8563C93}Prefabs/Vehicles/Core/Vehicle_RepairBox_Base.
     }
    }
   }
+  WCS_RearmSupportStationComponent "{68A7272619D3488B}" {
+   m_bIsVehicle 1
+   m_bAllowGetFactionFromParent 1
+   m_eSupportStationPriority MEDIUM
+   m_fRange 9
+   m_bUseRangeBoundingBox 1
+   m_eFactionUsageCheck 3
+  }
  }
- coords 1592.781 38 2904.085
+ coords 1548.282 38 2890.454
  scale 0.7
  {
   GenericEntity {
