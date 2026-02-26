@@ -1,0 +1,8 @@
+GameProject {
+ ID "CavIsland"
+ GUID "672143CCBB93E2DA"
+ TITLE "Cav Island"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}

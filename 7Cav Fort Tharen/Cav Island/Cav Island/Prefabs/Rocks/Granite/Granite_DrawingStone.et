@@ -1,0 +1,17 @@
+SCR_IndestructibleEnvironmentalEntity : "{B94DDC61F0B7F9D7}Prefabs/Rocks/Rock_Base.et" {
+ ID "1133272B892A2239"
+ components {
+  MeshObject "{68AF605A7D8A6BAC}" {
+   Object "{4481546ECCF3C0A9}Assets/Rocks/Granite/GraniteBeachStone_02.xob"
+   LODFactors {
+    100 50 50 30 1 1
+   }
+  }
+  RigidBody "{68AF605A7D8A6DFF}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 3049.855 0.634 3196.385
+ scale 0.5
+}

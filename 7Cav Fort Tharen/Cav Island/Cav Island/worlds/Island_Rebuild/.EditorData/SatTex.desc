@@ -1,0 +1,7 @@
+SatGenDescClass {
+ FileName "C:/Users/mcdav/Documents/My Games/ArmaReforgerWorkbench/addons/Cav Island/RESULT_SATMAP.png"
+ sRGBOutput 0
+ RenderRoads 1
+ Interpolation bilinear
+ RoadsAA "8x"
+}

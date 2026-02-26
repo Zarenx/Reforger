@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{F6A3802ACDD18F9A}Meshes/Island_Rebuild_GM.topo"
+ Configurations {
+  MapTopoResourceClass PC {
+  }
+  MapTopoResourceClass XBOX_ONE : PC {
+  }
+  MapTopoResourceClass XBOX_SERIES : PC {
+  }
+  MapTopoResourceClass PS4 : PC {
+  }
+  MapTopoResourceClass PS5 : PC {
+  }
+  MapTopoResourceClass HEADLESS : PC {
+  }
+ }
+}

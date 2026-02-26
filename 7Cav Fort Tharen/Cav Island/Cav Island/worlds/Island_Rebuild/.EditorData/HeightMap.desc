@@ -1,0 +1,7 @@
+HeightMapImportDescClass {
+ FileName "C:/Users/mcdav/Documents/My Games/ArmaReforgerWorkbench/addons/Cav Island/Island2_modified.asc"
+ Flags 1
+ MinHeight -1000000
+ ResampleMinHeight 0
+ ResampleMaxHeight 1
+}
