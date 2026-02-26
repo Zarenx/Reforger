@@ -1,0 +1,27 @@
+SCR_ChimeraCharacter : "{15F2AA58A99E90E6}Prefabs/Characters/Cav_Factions/Training/BTCnakedManBase.et" {
+ ID "520EC961A090BBD5"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{7A5A584770587B65}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_ACH_SHROUD_BTC.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{C41C60EA0CD22C53}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_MC.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68B56DB816EEAC19}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_MC.et/radio/Pouch_AVS_MBITR_Radio_MC.et"
+     PrefabsToSpawn {
+      "{D69684663E89D6EC}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_OLD.et"
+     }
+    }
+   }
+  }
+ }
+ coords 0 0 0
+ angles 0 167 0
+}

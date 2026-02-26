@@ -13,12 +13,12 @@ SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutMana
   }
   SCR_FactionPlayerLoadout "{68B4386C1F521B50}" {
    m_sLoadoutName "Drill Instructor"
-   m_sLoadoutResource "{2E6A7178AF4D045F}Prefabs/Characters/Cav_Factions/Charlie/Charlie_Rifleman.et"
+   m_sLoadoutResource "{BF76B8F54ECFF52D}Prefabs/Characters/Cav_Factions/Training/BTC_Drill_Instructor.et"
    m_sAffiliatedFaction "Bootcamp"
   }
   SCR_FactionPlayerLoadout "{68B4386C7FF76174}" {
-   m_sLoadoutName "recruit"
-   m_sLoadoutResource "{2E6A7178AF4D045F}Prefabs/Characters/Cav_Factions/Charlie/Charlie_Rifleman.et"
+   m_sLoadoutName "Recruit"
+   m_sLoadoutResource "{306D7521DFB27F9B}Prefabs/Characters/Cav_Factions/Training/BTC_recruit.et"
    m_sAffiliatedFaction "Bootcamp"
   }
   SCR_FactionPlayerLoadout "{68B515C9933270B0}" {
