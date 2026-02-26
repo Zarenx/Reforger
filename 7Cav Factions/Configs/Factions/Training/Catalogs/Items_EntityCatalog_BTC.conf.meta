@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5128F288D62C55B9}Configs/Factions/Training/Catalogs/Items_EntityCatalog_BTC.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}
