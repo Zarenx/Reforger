@@ -1,0 +1,3999 @@
+$grp SCR_FiringRangeManager : "{214BCC72DBBE1CB0}Prefabs/Props/Military/Training/FiringRangeManager.et" {
+ {
+  coords 6818.168 14.375 4200.278
+  angles 0 -180 0
+  {
+   $grp SCR_FiringRangeController : "{01ECE0C5573DB461}Prefabs/Structures/Military/Training/RangeCP_01/RangeCP_US_01.et" {
+    {
+     components {
+      Hierarchy "{6646EE053CA335C6}" {
+      }
+     }
+     coords 6.214 0.367 1.037
+     angles 0 23.263 0
+     {
+      LightEntity {
+       coords 0.009 1.1 0
+      }
+      SCR_FiringRangeLineArea {
+       components {
+        Hierarchy "{55BAA4CF86604A5E}" {
+        }
+       }
+       coords -1.82 0 -0.398
+       angles 0 -23.263 0
+       TriggerShapeType Sphere
+       SphereRadius 2.5
+       DrawShape 0
+       TriggerActivationType "Every query"
+       PeriodicQueries 1
+       UpdatePeriod 0.1
+       ClassesFilter {
+        "ChimeraCharacter"
+       }
+      }
+      $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 54.512 -0.372 -138.975
+        angles 0 -23.263 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 47.921 -0.372 -117.279
+        angles 0 -23.263 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 35.936 -0.372 -99.002
+        angles 0 -23.263 0
+        m_iTargetDistance 100
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 23.128 -0.372 -59.271
+        angles 0 -23.263 0
+        m_iTargetDistance 100
+       }
+       {
+        coords -3.398 0.668 -1.628
+        angles 0 25.097 0
+        scale 0.8
+        m_iTargetDistance 200
+        m_bIsIndicator 1
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 9.311 -0.372 -37.969
+        angles 0 -23.263 0
+        m_iTargetDistance 100
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 75.05 -0.372 -168.23
+        angles 0 -23.263 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 109.094 -0.372 -267.066
+        angles 0 -21.526 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 108.963 -0.372 -246.647
+        angles 0 -24.789 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 94.763 -0.372 -227.956
+        angles 0 -23.052 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 89.172 -0.372 -208.374
+        angles 0 -23.052 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 78.514 -0.372 -194.467
+        angles 0 -23.052 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 11.599 -0.372 -17.748
+        angles 0 -21.526 0
+        m_iTargetDistance 100
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 71.526 -0.372 -182.726
+        angles 0 -21.526 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 65.586 -0.372 -153.495
+        angles 0 -21.526 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 36.489 -0.372 -79.066
+        angles 0 -21.526 0
+        m_iTargetDistance 100
+       }
+      }
+      GenericEntity : "{8EF9A7BC7B9C732E}Prefabs/Props/Industrial/BenchDrill_01_table.et" {
+       coords -3.406 -0.006 -1.603
+       angles 0 156.737 0
+       scale 0.7
+      }
+     }
+    }
+    {
+     components {
+      Hierarchy "{6646EE053CA335C6}" {
+      }
+     }
+     coords 20.021 0.375 1.009
+     angles 0 23.263 0
+     {
+      LightEntity {
+       coords 0.009 1.1 0
+      }
+      SCR_FiringRangeLineArea {
+       components {
+        Hierarchy "{55BAA4CF86604A5E}" {
+        }
+       }
+       coords -1.82 0 -0.398
+       angles 0 -23.263 0
+       TriggerShapeType Sphere
+       SphereRadius 2.5
+       DrawShape 0
+       TriggerActivationType "Every query"
+       PeriodicQueries 1
+       UpdatePeriod 0.1
+       ClassesFilter {
+        "ChimeraCharacter"
+       }
+      }
+      $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 54.512 -0.372 -138.975
+        angles 0 -23.263 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 47.921 -0.372 -117.279
+        angles 0 -23.263 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 35.936 -0.372 -99.002
+        angles 0 -23.263 0
+        m_iTargetDistance 100
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 23.128 -0.372 -59.271
+        angles 0 -23.263 0
+        m_iTargetDistance 100
+       }
+       {
+        coords -3.398 0.668 -1.628
+        angles 0 25.097 0
+        scale 0.8
+        m_iTargetDistance 200
+        m_bIsIndicator 1
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 9.311 -0.372 -37.969
+        angles 0 -23.263 0
+        m_iTargetDistance 100
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 75.05 -0.372 -168.23
+        angles 0 -23.263 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 109.094 -0.372 -267.066
+        angles 0 -21.526 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 108.963 -0.372 -246.647
+        angles 0 -24.789 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 94.763 -0.372 -227.956
+        angles 0 -23.052 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 89.172 -0.372 -208.374
+        angles 0 -23.052 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 78.514 -0.372 -194.467
+        angles 0 -23.052 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 11.599 -0.372 -17.748
+        angles 0 -21.526 0
+        m_iTargetDistance 100
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 71.526 -0.372 -182.726
+        angles 0 -21.526 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 65.586 -0.372 -153.495
+        angles 0 -21.526 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 36.489 -0.372 -79.066
+        angles 0 -21.526 0
+        m_iTargetDistance 100
+       }
+      }
+      GenericEntity : "{8EF9A7BC7B9C732E}Prefabs/Props/Industrial/BenchDrill_01_table.et" {
+       coords -3.406 -0.006 -1.603
+       angles 0 156.737 0
+       scale 0.7
+      }
+     }
+    }
+    {
+     components {
+      Hierarchy "{6646EE053CA335C6}" {
+      }
+     }
+     coords 46.224 0.329 1.021
+     angles 0 23.263 0
+     {
+      LightEntity {
+       coords 0.009 1.1 0
+      }
+      SCR_FiringRangeLineArea {
+       components {
+        Hierarchy "{55BAA4CF86604A5E}" {
+        }
+       }
+       coords -1.82 0 -0.398
+       angles 0 -23.263 0
+       TriggerShapeType Sphere
+       SphereRadius 2.5
+       DrawShape 0
+       TriggerActivationType "Every query"
+       PeriodicQueries 1
+       UpdatePeriod 0.1
+       ClassesFilter {
+        "ChimeraCharacter"
+       }
+      }
+      $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 54.512 -0.372 -138.975
+        angles 0 -23.263 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 47.921 -0.372 -117.279
+        angles 0 -23.263 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 35.936 -0.372 -99.002
+        angles 0 -23.263 0
+        m_iTargetDistance 100
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 23.128 -0.372 -59.271
+        angles 0 -23.263 0
+        m_iTargetDistance 100
+       }
+       {
+        coords -3.398 0.668 -1.628
+        angles 0 25.097 0
+        scale 0.8
+        m_iTargetDistance 200
+        m_bIsIndicator 1
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 9.311 -0.372 -37.969
+        angles 0 -23.263 0
+        m_iTargetDistance 100
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 75.05 -0.372 -168.23
+        angles 0 -23.263 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 109.094 -0.372 -267.066
+        angles 0 -21.526 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 108.963 -0.372 -246.647
+        angles 0 -24.789 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 94.763 -0.372 -227.956
+        angles 0 -23.052 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 89.172 -0.372 -208.374
+        angles 0 -23.052 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 78.514 -0.372 -194.467
+        angles 0 -23.052 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 11.599 -0.372 -17.748
+        angles 0 -21.526 0
+        m_iTargetDistance 100
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 71.526 -0.372 -182.726
+        angles 0 -21.526 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 65.586 -0.372 -153.495
+        angles 0 -21.526 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 36.489 -0.372 -79.066
+        angles 0 -21.526 0
+        m_iTargetDistance 100
+       }
+      }
+      GenericEntity : "{8EF9A7BC7B9C732E}Prefabs/Props/Industrial/BenchDrill_01_table.et" {
+       coords -3.406 -0.006 -1.603
+       angles 0 156.737 0
+       scale 0.7
+      }
+     }
+    }
+    {
+     components {
+      Hierarchy "{6646EE053CA335C6}" {
+      }
+     }
+     coords 33.484 0.337 1.042
+     angles 0 23.263 0
+     {
+      LightEntity {
+       coords 0.009 1.1 0
+      }
+      SCR_FiringRangeLineArea {
+       components {
+        Hierarchy "{55BAA4CF86604A5E}" {
+        }
+       }
+       coords -1.82 0 -0.398
+       angles 0 -23.263 0
+       TriggerShapeType Sphere
+       SphereRadius 2.5
+       DrawShape 0
+       TriggerActivationType "Every query"
+       PeriodicQueries 1
+       UpdatePeriod 0.1
+       ClassesFilter {
+        "ChimeraCharacter"
+       }
+      }
+      $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 54.512 -0.372 -138.975
+        angles 0 -23.263 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 47.921 -0.372 -117.279
+        angles 0 -23.263 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 35.936 -0.372 -99.002
+        angles 0 -23.263 0
+        m_iTargetDistance 100
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 23.128 -0.372 -59.271
+        angles 0 -23.263 0
+        m_iTargetDistance 100
+       }
+       {
+        coords -3.398 0.668 -1.628
+        angles 0 25.097 0
+        scale 0.8
+        m_iTargetDistance 200
+        m_bIsIndicator 1
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 9.311 -0.372 -37.969
+        angles 0 -23.263 0
+        m_iTargetDistance 100
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 75.05 -0.372 -168.23
+        angles 0 -23.263 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 109.094 -0.372 -267.066
+        angles 0 -21.526 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 108.963 -0.372 -246.647
+        angles 0 -24.789 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 94.763 -0.372 -227.956
+        angles 0 -23.052 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 89.172 -0.372 -208.374
+        angles 0 -23.052 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 78.514 -0.372 -194.467
+        angles 0 -23.052 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 11.599 -0.372 -17.748
+        angles 0 -21.526 0
+        m_iTargetDistance 100
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 71.526 -0.372 -182.726
+        angles 0 -21.526 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 65.586 -0.372 -153.495
+        angles 0 -21.526 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 36.489 -0.372 -79.066
+        angles 0 -21.526 0
+        m_iTargetDistance 100
+       }
+      }
+      GenericEntity : "{8EF9A7BC7B9C732E}Prefabs/Props/Industrial/BenchDrill_01_table.et" {
+       coords -3.406 -0.006 -1.603
+       angles 0 156.737 0
+       scale 0.7
+      }
+     }
+    }
+    {
+     components {
+      Hierarchy "{6646EE053CA335C6}" {
+      }
+     }
+     coords 73.808 0.334 0.865
+     angles 0 23.263 0
+     {
+      LightEntity {
+       coords 0.009 1.1 0
+      }
+      SCR_FiringRangeLineArea {
+       components {
+        Hierarchy "{55BAA4CF86604A5E}" {
+        }
+       }
+       coords -1.82 0 -0.398
+       angles 0 -23.263 0
+       TriggerShapeType Sphere
+       SphereRadius 2.5
+       DrawShape 0
+       TriggerActivationType "Every query"
+       PeriodicQueries 1
+       UpdatePeriod 0.1
+       ClassesFilter {
+        "ChimeraCharacter"
+       }
+      }
+      $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 54.512 -0.372 -138.975
+        angles 0 -23.263 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 47.921 -0.372 -117.279
+        angles 0 -23.263 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 35.936 -0.372 -99.002
+        angles 0 -23.263 0
+        m_iTargetDistance 100
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 23.128 -0.372 -59.271
+        angles 0 -23.263 0
+        m_iTargetDistance 100
+       }
+       {
+        coords -3.398 0.668 -1.628
+        angles 0 25.097 0
+        scale 0.8
+        m_iTargetDistance 200
+        m_bIsIndicator 1
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 9.311 -0.372 -37.969
+        angles 0 -23.263 0
+        m_iTargetDistance 100
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 75.05 -0.372 -168.23
+        angles 0 -23.263 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 109.094 -0.372 -267.066
+        angles 0 -21.526 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 108.963 -0.372 -246.647
+        angles 0 -24.789 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 94.763 -0.372 -227.956
+        angles 0 -23.052 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 89.172 -0.372 -208.374
+        angles 0 -23.052 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 78.514 -0.372 -194.467
+        angles 0 -23.052 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 11.599 -0.372 -17.748
+        angles 0 -21.526 0
+        m_iTargetDistance 100
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 71.526 -0.372 -182.726
+        angles 0 -21.526 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 65.586 -0.372 -153.495
+        angles 0 -21.526 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 36.489 -0.372 -79.066
+        angles 0 -21.526 0
+        m_iTargetDistance 100
+       }
+      }
+      GenericEntity : "{8EF9A7BC7B9C732E}Prefabs/Props/Industrial/BenchDrill_01_table.et" {
+       coords -3.406 -0.006 -1.603
+       angles 0 156.737 0
+       scale 0.7
+      }
+     }
+    }
+    {
+     components {
+      Hierarchy "{6646EE053CA335C6}" {
+      }
+     }
+     coords 100.009 0.365 0.876
+     angles 0 23.263 0
+     {
+      LightEntity {
+       coords 0.009 1.1 0
+      }
+      SCR_FiringRangeLineArea {
+       components {
+        Hierarchy "{55BAA4CF86604A5E}" {
+        }
+       }
+       coords -1.82 0 -0.398
+       angles 0 -23.263 0
+       TriggerShapeType Sphere
+       SphereRadius 2.5
+       DrawShape 0
+       TriggerActivationType "Every query"
+       PeriodicQueries 1
+       UpdatePeriod 0.1
+       ClassesFilter {
+        "ChimeraCharacter"
+       }
+      }
+      $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 54.512 -0.372 -138.975
+        angles 0 -23.263 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 47.921 -0.372 -117.279
+        angles 0 -23.263 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 35.936 -0.372 -99.002
+        angles 0 -23.263 0
+        m_iTargetDistance 100
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 23.128 -0.372 -59.271
+        angles 0 -23.263 0
+        m_iTargetDistance 100
+       }
+       {
+        coords -3.398 0.668 -1.628
+        angles 0 25.097 0
+        scale 0.8
+        m_iTargetDistance 200
+        m_bIsIndicator 1
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 9.311 -0.372 -37.969
+        angles 0 -23.263 0
+        m_iTargetDistance 100
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 75.05 -0.372 -168.23
+        angles 0 -23.263 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 109.094 -0.372 -267.066
+        angles 0 -21.526 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 108.963 -0.372 -246.647
+        angles 0 -24.789 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 94.763 -0.372 -227.956
+        angles 0 -23.052 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 89.172 -0.372 -208.374
+        angles 0 -23.052 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 78.514 -0.372 -194.467
+        angles 0 -23.052 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 11.599 -0.372 -17.748
+        angles 0 -21.526 0
+        m_iTargetDistance 100
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 71.526 -0.372 -182.726
+        angles 0 -21.526 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 65.586 -0.372 -153.495
+        angles 0 -21.526 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 36.489 -0.372 -79.066
+        angles 0 -21.526 0
+        m_iTargetDistance 100
+       }
+      }
+      GenericEntity : "{8EF9A7BC7B9C732E}Prefabs/Props/Industrial/BenchDrill_01_table.et" {
+       coords -3.406 -0.006 -1.603
+       angles 0 156.737 0
+       scale 0.7
+      }
+     }
+    }
+    {
+     components {
+      Hierarchy "{6646EE053CA335C6}" {
+      }
+     }
+     coords 86.206 0.372 0.903
+     angles 0 23.263 0
+     {
+      LightEntity {
+       coords 0.009 1.1 0
+      }
+      SCR_FiringRangeLineArea {
+       components {
+        Hierarchy "{55BAA4CF86604A5E}" {
+        }
+       }
+       coords -1.82 0 -0.398
+       angles 0 -23.263 0
+       TriggerShapeType Sphere
+       SphereRadius 2.5
+       DrawShape 0
+       TriggerActivationType "Every query"
+       PeriodicQueries 1
+       UpdatePeriod 0.1
+       ClassesFilter {
+        "ChimeraCharacter"
+       }
+      }
+      $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 54.512 -0.372 -138.975
+        angles 0 -23.263 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 47.921 -0.372 -117.279
+        angles 0 -23.263 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 35.936 -0.372 -99.002
+        angles 0 -23.263 0
+        m_iTargetDistance 100
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 23.128 -0.372 -59.271
+        angles 0 -23.263 0
+        m_iTargetDistance 100
+       }
+       {
+        coords -3.398 0.668 -1.628
+        angles 0 25.097 0
+        scale 0.8
+        m_iTargetDistance 200
+        m_bIsIndicator 1
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 9.311 -0.372 -37.969
+        angles 0 -23.263 0
+        m_iTargetDistance 100
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 75.05 -0.372 -168.23
+        angles 0 -23.263 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 109.094 -0.372 -267.066
+        angles 0 -21.526 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 108.963 -0.372 -246.647
+        angles 0 -24.789 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 94.763 -0.372 -227.956
+        angles 0 -23.052 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 89.172 -0.372 -208.374
+        angles 0 -23.052 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 78.514 -0.372 -194.467
+        angles 0 -23.052 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 11.599 -0.372 -17.748
+        angles 0 -21.526 0
+        m_iTargetDistance 100
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 71.526 -0.372 -182.726
+        angles 0 -21.526 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 65.586 -0.372 -153.495
+        angles 0 -21.526 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 36.489 -0.372 -79.066
+        angles 0 -21.526 0
+        m_iTargetDistance 100
+       }
+      }
+      GenericEntity : "{8EF9A7BC7B9C732E}Prefabs/Props/Industrial/BenchDrill_01_table.et" {
+       coords -3.406 -0.006 -1.603
+       angles 0 156.737 0
+       scale 0.7
+      }
+     }
+    }
+    {
+     components {
+      Hierarchy "{6646EE053CA335C6}" {
+      }
+     }
+     coords 60.003 0.327 0.895
+     angles 0 23.263 0
+     {
+      LightEntity {
+       coords 0.009 1.1 0
+      }
+      SCR_FiringRangeLineArea {
+       components {
+        Hierarchy "{55BAA4CF86604A5E}" {
+        }
+       }
+       coords -1.82 0 -0.398
+       angles 0 -23.263 0
+       TriggerShapeType Sphere
+       SphereRadius 2.5
+       DrawShape 0
+       TriggerActivationType "Every query"
+       PeriodicQueries 1
+       UpdatePeriod 0.1
+       ClassesFilter {
+        "ChimeraCharacter"
+       }
+      }
+      $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 54.512 -0.372 -138.975
+        angles 0 -23.263 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 47.921 -0.372 -117.279
+        angles 0 -23.263 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 35.936 -0.372 -99.002
+        angles 0 -23.263 0
+        m_iTargetDistance 100
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 23.128 -0.372 -59.271
+        angles 0 -23.263 0
+        m_iTargetDistance 100
+       }
+       {
+        coords -3.398 0.668 -1.628
+        angles 0 25.097 0
+        scale 0.8
+        m_iTargetDistance 200
+        m_bIsIndicator 1
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 9.311 -0.372 -37.969
+        angles 0 -23.263 0
+        m_iTargetDistance 100
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 75.05 -0.372 -168.23
+        angles 0 -23.263 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 109.094 -0.372 -267.066
+        angles 0 -21.526 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 108.963 -0.372 -246.647
+        angles 0 -24.789 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 94.763 -0.372 -227.956
+        angles 0 -23.052 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 89.172 -0.372 -208.374
+        angles 0 -23.052 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 78.514 -0.372 -194.467
+        angles 0 -23.052 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 11.599 -0.372 -17.748
+        angles 0 -21.526 0
+        m_iTargetDistance 100
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 71.526 -0.372 -182.726
+        angles 0 -21.526 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 65.586 -0.372 -153.495
+        angles 0 -21.526 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 36.489 -0.372 -79.066
+        angles 0 -21.526 0
+        m_iTargetDistance 100
+       }
+      }
+      GenericEntity : "{8EF9A7BC7B9C732E}Prefabs/Props/Industrial/BenchDrill_01_table.et" {
+       coords -3.406 -0.006 -1.603
+       angles 0 156.737 0
+       scale 0.7
+      }
+     }
+    }
+    {
+     components {
+      Hierarchy "{6646EE053CA335C6}" {
+      }
+     }
+     coords 113.505 0.331 0.882
+     angles 0 23.263 0
+     {
+      LightEntity {
+       coords 0.009 1.1 0
+      }
+      SCR_FiringRangeLineArea {
+       components {
+        Hierarchy "{55BAA4CF86604A5E}" {
+        }
+       }
+       coords -1.82 0 -0.398
+       angles 0 -23.263 0
+       TriggerShapeType Sphere
+       SphereRadius 2.5
+       DrawShape 0
+       TriggerActivationType "Every query"
+       PeriodicQueries 1
+       UpdatePeriod 0.1
+       ClassesFilter {
+        "ChimeraCharacter"
+       }
+      }
+      $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 54.512 -0.372 -138.975
+        angles 0 -23.263 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 47.921 -0.372 -117.279
+        angles 0 -23.263 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 35.936 -0.372 -99.002
+        angles 0 -23.263 0
+        m_iTargetDistance 100
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 23.128 -0.372 -59.271
+        angles 0 -23.263 0
+        m_iTargetDistance 100
+       }
+       {
+        coords -3.398 0.668 -1.628
+        angles 0 25.097 0
+        scale 0.8
+        m_iTargetDistance 200
+        m_bIsIndicator 1
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 9.311 -0.372 -37.969
+        angles 0 -23.263 0
+        m_iTargetDistance 100
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 75.05 -0.372 -168.23
+        angles 0 -23.263 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 109.094 -0.372 -267.066
+        angles 0 -21.526 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 108.963 -0.372 -246.647
+        angles 0 -24.789 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 94.763 -0.372 -227.956
+        angles 0 -23.052 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 89.172 -0.372 -208.374
+        angles 0 -23.052 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 78.514 -0.372 -194.467
+        angles 0 -23.052 0
+        m_iTargetDistance 300
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 11.599 -0.372 -17.748
+        angles 0 -21.526 0
+        m_iTargetDistance 100
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 71.526 -0.372 -182.726
+        angles 0 -21.526 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 65.586 -0.372 -153.495
+        angles 0 -21.526 0
+        m_iTargetDistance 200
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 36.489 -0.372 -79.066
+        angles 0 -21.526 0
+        m_iTargetDistance 100
+       }
+      }
+      GenericEntity : "{8EF9A7BC7B9C732E}Prefabs/Props/Industrial/BenchDrill_01_table.et" {
+       coords -3.406 -0.006 -1.603
+       angles 0 156.737 0
+       scale 0.7
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 6855.446 14.375 4093.857
+  {
+   $grp SCR_FiringRangeController : "{01ECE0C5573DB461}Prefabs/Structures/Military/Training/RangeCP_01/RangeCP_US_01.et" {
+    {
+     components {
+      Hierarchy "{6646EE053CA335C6}" {
+      }
+     }
+     coords 6.466 -0.001 -7.272
+     angles 0 -1.737 0
+     {
+      LightEntity {
+       coords 0.009 1.1 0
+      }
+      SCR_FiringRangeLineArea {
+       components {
+        Hierarchy "{55BAA4CF86604A5E}" {
+        }
+       }
+       coords -4.1 0 -0.58
+       angles 0 1.737 0
+       TriggerShapeType Sphere
+       SphereRadius 2.5
+       DrawShape 0
+       TriggerActivationType "Every query"
+       PeriodicQueries 1
+       UpdatePeriod 0.1
+       ClassesFilter {
+        "ChimeraCharacter"
+       }
+      }
+      GenericEntity : "{0B0C600941B2A6A8}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_plastic.et" {
+       coords -0.423 0.301 -21.718
+       angles 0 1.737 0
+      }
+      GenericEntity : "{31A455F7FD8DCE84}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_plastic.et" {
+       coords -5.269 -0.353 -11.832
+       angles 0 1.737 0
+      }
+      $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 0.575 1.995 -27.945
+        angles 0 -13.263 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        coords -6.123 0.668 -0.586
+        angles 0 50.097 0
+        scale 0.8
+        m_iTargetDistance 200
+        m_bIsIndicator 1
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -5.325 0.001 -12.784
+        angles 0 1.737 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -4.701 1.878 -27.338
+        angles 0 0.211 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -2.621 1.997 -29.606
+        angles 0 -3.052 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 1.574 0.001 -10.309
+        angles 0 -13.052 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -0.112 0.001 -11.903
+        angles 0 -23.052 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -4.782 0.414 -21.399
+        angles 0 1.948 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -0.401 0.629 -22.792
+        angles 0 -13.052 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -1.821 0.017 -15.005
+        angles 0 -11.526 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -3.592 0.001 -9.214
+        angles 0 -1.526 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+      }
+      GenericEntity : "{8EF9A7BC7B9C732E}Prefabs/Props/Industrial/BenchDrill_01_table.et" {
+       coords -6.12 -0.006 -0.558
+       angles 0 -178.263 0
+       scale 0.7
+      }
+      $grp GenericEntity : "{DC4B11930753ABC2}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_base.et" {
+       {
+        coords -4.758 0.189 -20.332
+        angles 0 1.737 0
+       }
+       {
+        coords 1.349 -0.137 -9.798
+        angles 0 -33.263 0
+       }
+      }
+     }
+    }
+    {
+     components {
+      Hierarchy "{6646EE053CA335C6}" {
+      }
+     }
+     coords -2.944 0 -7.397
+     angles 0 -1.737 0
+     {
+      LightEntity {
+       coords 0.009 1.1 0
+      }
+      SCR_FiringRangeLineArea {
+       components {
+        Hierarchy "{55BAA4CF86604A5E}" {
+        }
+       }
+       coords -4.1 0 -0.58
+       angles 0 1.737 0
+       TriggerShapeType Sphere
+       SphereRadius 2.5
+       DrawShape 0
+       TriggerActivationType "Every query"
+       PeriodicQueries 1
+       UpdatePeriod 0.1
+       ClassesFilter {
+        "ChimeraCharacter"
+       }
+      }
+      GenericEntity : "{0B0C600941B2A6A8}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_plastic.et" {
+       coords -0.423 0.301 -21.718
+       angles 0 1.737 0
+      }
+      GenericEntity : "{31A455F7FD8DCE84}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_plastic.et" {
+       coords -5.269 -0.353 -11.832
+       angles 0 1.737 0
+      }
+      $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 0.575 1.995 -27.945
+        angles 0 -13.263 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        coords -6.123 0.668 -0.586
+        angles 0 50.097 0
+        scale 0.8
+        m_iTargetDistance 200
+        m_bIsIndicator 1
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -5.325 0.001 -12.784
+        angles 0 1.737 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -4.701 1.878 -27.338
+        angles 0 0.211 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -2.621 1.997 -29.606
+        angles 0 -3.052 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 1.574 0.001 -10.309
+        angles 0 -13.052 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -0.112 0.001 -11.903
+        angles 0 -23.052 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -0.401 0.629 -22.792
+        angles 0 -13.052 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -1.821 0.017 -15.005
+        angles 0 -11.526 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -3.592 0.001 -9.214
+        angles 0 -1.526 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -4.782 0.414 -21.399
+        angles 0 1.948 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+      }
+      GenericEntity : "{8EF9A7BC7B9C732E}Prefabs/Props/Industrial/BenchDrill_01_table.et" {
+       coords -6.12 -0.006 -0.558
+       angles 0 -178.263 0
+       scale 0.7
+      }
+      $grp GenericEntity : "{DC4B11930753ABC2}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_base.et" {
+       {
+        coords -4.758 0.189 -20.332
+        angles 0 1.737 0
+       }
+       {
+        coords 1.349 -0.137 -9.798
+        angles 0 -33.263 0
+       }
+      }
+     }
+    }
+    {
+     components {
+      Hierarchy "{6646EE053CA335C6}" {
+      }
+     }
+     coords -12.727 0 -7.164
+     angles 0 -1.737 0
+     {
+      LightEntity {
+       coords 0.009 1.1 0
+      }
+      SCR_FiringRangeLineArea {
+       components {
+        Hierarchy "{55BAA4CF86604A5E}" {
+        }
+       }
+       coords -4.1 0 -0.58
+       angles 0 1.737 0
+       TriggerShapeType Sphere
+       SphereRadius 2.5
+       DrawShape 0
+       TriggerActivationType "Every query"
+       PeriodicQueries 1
+       UpdatePeriod 0.1
+       ClassesFilter {
+        "ChimeraCharacter"
+       }
+      }
+      GenericEntity : "{0B0C600941B2A6A8}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_plastic.et" {
+       coords -0.423 0.301 -21.718
+       angles 0 1.737 0
+      }
+      GenericEntity : "{31A455F7FD8DCE84}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_plastic.et" {
+       coords -5.269 -0.353 -11.832
+       angles 0 1.737 0
+      }
+      $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 0.575 1.995 -27.945
+        angles 0 -13.263 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        coords -6.123 0.668 -0.586
+        angles 0 50.097 0
+        scale 0.8
+        m_iTargetDistance 200
+        m_bIsIndicator 1
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -5.325 0.001 -12.784
+        angles 0 1.737 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -4.701 1.878 -27.338
+        angles 0 0.211 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -2.621 1.997 -29.606
+        angles 0 -3.052 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 1.574 0.001 -10.309
+        angles 0 -13.052 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -0.112 0.001 -11.903
+        angles 0 -23.052 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -0.401 0.629 -22.792
+        angles 0 -13.052 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -1.821 0.017 -15.005
+        angles 0 -11.526 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -3.592 0.001 -9.214
+        angles 0 -1.526 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -4.782 0.414 -21.399
+        angles 0 1.948 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+      }
+      GenericEntity : "{8EF9A7BC7B9C732E}Prefabs/Props/Industrial/BenchDrill_01_table.et" {
+       coords -6.12 -0.006 -0.558
+       angles 0 -178.263 0
+       scale 0.7
+      }
+      $grp GenericEntity : "{DC4B11930753ABC2}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_base.et" {
+       {
+        coords -4.758 0.189 -20.332
+        angles 0 1.737 0
+       }
+       {
+        coords 1.349 -0.137 -9.798
+        angles 0 -33.263 0
+       }
+      }
+     }
+    }
+    {
+     components {
+      Hierarchy "{6646EE053CA335C6}" {
+      }
+     }
+     coords -22.27 0.001 -7.294
+     angles 0 -1.737 0
+     {
+      LightEntity {
+       coords 0.009 1.1 0
+      }
+      SCR_FiringRangeLineArea {
+       components {
+        Hierarchy "{55BAA4CF86604A5E}" {
+        }
+       }
+       coords -4.1 0 -0.58
+       angles 0 1.737 0
+       TriggerShapeType Sphere
+       SphereRadius 2.5
+       DrawShape 0
+       TriggerActivationType "Every query"
+       PeriodicQueries 1
+       UpdatePeriod 0.1
+       ClassesFilter {
+        "ChimeraCharacter"
+       }
+      }
+      GenericEntity : "{0B0C600941B2A6A8}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_plastic.et" {
+       coords -0.423 0.301 -21.718
+       angles 0 1.737 0
+      }
+      GenericEntity : "{31A455F7FD8DCE84}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_plastic.et" {
+       coords -5.269 -0.353 -11.832
+       angles 0 1.737 0
+      }
+      $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 0.575 1.995 -27.945
+        angles 0 -13.263 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        coords -6.123 0.668 -0.586
+        angles 0 50.097 0
+        scale 0.8
+        m_iTargetDistance 200
+        m_bIsIndicator 1
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -5.325 0.001 -12.784
+        angles 0 1.737 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -4.701 1.878 -27.338
+        angles 0 0.211 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -2.621 1.997 -29.606
+        angles 0 -3.052 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 1.574 0.001 -10.309
+        angles 0 -13.052 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -0.112 0.001 -11.903
+        angles 0 -23.052 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -0.401 0.629 -22.792
+        angles 0 -13.052 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -1.821 0.017 -15.005
+        angles 0 -11.526 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -3.592 0.001 -9.214
+        angles 0 -1.526 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -4.782 0.414 -21.399
+        angles 0 1.948 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+      }
+      GenericEntity : "{8EF9A7BC7B9C732E}Prefabs/Props/Industrial/BenchDrill_01_table.et" {
+       coords -6.12 -0.006 -0.558
+       angles 0 -178.263 0
+       scale 0.7
+      }
+      $grp GenericEntity : "{DC4B11930753ABC2}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_base.et" {
+       {
+        coords -4.758 0.189 -20.332
+        angles 0 1.737 0
+       }
+       {
+        coords 1.349 -0.137 -9.798
+        angles 0 -33.263 0
+       }
+      }
+     }
+    }
+    {
+     components {
+      Hierarchy "{6646EE053CA335C6}" {
+      }
+     }
+     coords -31.903 0 -7.287
+     angles 0 -1.737 0
+     {
+      LightEntity {
+       coords 0.009 1.1 0
+      }
+      SCR_FiringRangeLineArea {
+       components {
+        Hierarchy "{55BAA4CF86604A5E}" {
+        }
+       }
+       coords -4.1 0 -0.58
+       angles 0 1.737 0
+       TriggerShapeType Sphere
+       SphereRadius 2.5
+       DrawShape 0
+       TriggerActivationType "Every query"
+       PeriodicQueries 1
+       UpdatePeriod 0.1
+       ClassesFilter {
+        "ChimeraCharacter"
+       }
+      }
+      GenericEntity : "{0B0C600941B2A6A8}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_plastic.et" {
+       coords -0.423 0.301 -21.718
+       angles 0 1.737 0
+      }
+      GenericEntity : "{31A455F7FD8DCE84}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_plastic.et" {
+       coords -5.269 -0.353 -11.832
+       angles 0 1.737 0
+      }
+      $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 0.575 1.995 -27.945
+        angles 0 -13.263 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        coords -6.123 0.668 -0.586
+        angles 0 50.097 0
+        scale 0.8
+        m_iTargetDistance 200
+        m_bIsIndicator 1
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -5.325 0.001 -12.784
+        angles 0 1.737 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -4.701 1.878 -27.338
+        angles 0 0.211 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -2.621 1.997 -29.606
+        angles 0 -3.052 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 1.574 0.001 -10.309
+        angles 0 -13.052 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -0.112 0.001 -11.903
+        angles 0 -23.052 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -0.401 0.629 -22.792
+        angles 0 -13.052 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -1.821 0.017 -15.005
+        angles 0 -11.526 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -3.592 0.001 -9.214
+        angles 0 -1.526 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -4.782 0.414 -21.399
+        angles 0 1.948 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+      }
+      GenericEntity : "{8EF9A7BC7B9C732E}Prefabs/Props/Industrial/BenchDrill_01_table.et" {
+       coords -6.12 -0.006 -0.558
+       angles 0 -178.263 0
+       scale 0.7
+      }
+      $grp GenericEntity : "{DC4B11930753ABC2}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_base.et" {
+       {
+        coords -4.758 0.189 -20.332
+        angles 0 1.737 0
+       }
+       {
+        coords 1.349 -0.137 -9.798
+        angles 0 -33.263 0
+       }
+      }
+     }
+    }
+    {
+     components {
+      Hierarchy "{6646EE053CA335C6}" {
+      }
+     }
+     coords -60.417 0.002 -7.302
+     angles 0 -1.737 0
+     {
+      LightEntity {
+       coords 0.009 1.1 0
+      }
+      SCR_FiringRangeLineArea {
+       components {
+        Hierarchy "{55BAA4CF86604A5E}" {
+        }
+       }
+       coords -4.1 0 -0.58
+       angles 0 1.737 0
+       TriggerShapeType Sphere
+       SphereRadius 2.5
+       DrawShape 0
+       TriggerActivationType "Every query"
+       PeriodicQueries 1
+       UpdatePeriod 0.1
+       ClassesFilter {
+        "ChimeraCharacter"
+       }
+      }
+      GenericEntity : "{0B0C600941B2A6A8}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_plastic.et" {
+       coords -0.423 0.301 -21.718
+       angles 0 1.737 0
+      }
+      GenericEntity : "{31A455F7FD8DCE84}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_plastic.et" {
+       coords -5.269 -0.353 -11.832
+       angles 0 1.737 0
+      }
+      $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 0.575 1.995 -27.945
+        angles 0 -13.263 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        coords -6.123 0.668 -0.586
+        angles 0 50.097 0
+        scale 0.8
+        m_iTargetDistance 200
+        m_bIsIndicator 1
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -5.325 0.001 -12.784
+        angles 0 1.737 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -4.701 1.878 -27.338
+        angles 0 0.211 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -2.621 1.997 -29.606
+        angles 0 -3.052 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 1.574 0.001 -10.309
+        angles 0 -13.052 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -0.112 0.001 -11.903
+        angles 0 -23.052 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -0.401 0.629 -22.792
+        angles 0 -13.052 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -1.821 0.017 -15.005
+        angles 0 -11.526 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -3.592 0.001 -9.214
+        angles 0 -1.526 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -4.782 0.414 -21.399
+        angles 0 1.948 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+      }
+      GenericEntity : "{8EF9A7BC7B9C732E}Prefabs/Props/Industrial/BenchDrill_01_table.et" {
+       coords -6.12 -0.006 -0.558
+       angles 0 -178.263 0
+       scale 0.7
+      }
+      $grp GenericEntity : "{DC4B11930753ABC2}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_base.et" {
+       {
+        coords -4.758 0.189 -20.332
+        angles 0 1.737 0
+       }
+       {
+        coords 1.349 -0.137 -9.798
+        angles 0 -33.263 0
+       }
+      }
+     }
+    }
+    {
+     components {
+      Hierarchy "{6646EE053CA335C6}" {
+      }
+     }
+     coords -51.095 0.001 -7.179
+     angles 0 -1.737 0
+     {
+      LightEntity {
+       coords 0.009 1.1 0
+      }
+      SCR_FiringRangeLineArea {
+       components {
+        Hierarchy "{55BAA4CF86604A5E}" {
+        }
+       }
+       coords -4.1 0 -0.58
+       angles 0 1.737 0
+       TriggerShapeType Sphere
+       SphereRadius 2.5
+       DrawShape 0
+       TriggerActivationType "Every query"
+       PeriodicQueries 1
+       UpdatePeriod 0.1
+       ClassesFilter {
+        "ChimeraCharacter"
+       }
+      }
+      GenericEntity : "{0B0C600941B2A6A8}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_plastic.et" {
+       coords -0.423 0.301 -21.718
+       angles 0 1.737 0
+      }
+      GenericEntity : "{31A455F7FD8DCE84}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_plastic.et" {
+       coords -5.269 -0.353 -11.832
+       angles 0 1.737 0
+      }
+      $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 0.575 1.995 -27.945
+        angles 0 -13.263 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        coords -6.123 0.668 -0.586
+        angles 0 50.097 0
+        scale 0.8
+        m_iTargetDistance 200
+        m_bIsIndicator 1
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -5.325 0.001 -12.784
+        angles 0 1.737 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -4.701 1.878 -27.338
+        angles 0 0.211 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -2.621 1.997 -29.606
+        angles 0 -3.052 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 1.574 0.001 -10.309
+        angles 0 -13.052 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -0.112 0.001 -11.903
+        angles 0 -23.052 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -0.401 0.629 -22.792
+        angles 0 -13.052 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -1.821 0.017 -15.005
+        angles 0 -11.526 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -3.592 0.001 -9.214
+        angles 0 -1.526 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -4.782 0.414 -21.399
+        angles 0 1.948 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+      }
+      GenericEntity : "{8EF9A7BC7B9C732E}Prefabs/Props/Industrial/BenchDrill_01_table.et" {
+       coords -6.12 -0.006 -0.558
+       angles 0 -178.263 0
+       scale 0.7
+      }
+      $grp GenericEntity : "{DC4B11930753ABC2}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_base.et" {
+       {
+        coords -4.758 0.189 -20.332
+        angles 0 1.737 0
+       }
+       {
+        coords 1.349 -0.137 -9.798
+        angles 0 -33.263 0
+       }
+      }
+     }
+    }
+    {
+     components {
+      Hierarchy "{6646EE053CA335C6}" {
+      }
+     }
+     coords -41.572 0.001 -7.42
+     angles 0 -1.737 0
+     {
+      LightEntity {
+       coords 0.009 1.1 0
+      }
+      SCR_FiringRangeLineArea {
+       components {
+        Hierarchy "{55BAA4CF86604A5E}" {
+        }
+       }
+       coords -4.1 0 -0.58
+       angles 0 1.737 0
+       TriggerShapeType Sphere
+       SphereRadius 2.5
+       DrawShape 0
+       TriggerActivationType "Every query"
+       PeriodicQueries 1
+       UpdatePeriod 0.1
+       ClassesFilter {
+        "ChimeraCharacter"
+       }
+      }
+      GenericEntity : "{0B0C600941B2A6A8}Prefabs/Props/Military/Sandbags/Sandbag_01_short_high_plastic.et" {
+       coords -0.423 0.301 -21.718
+       angles 0 1.737 0
+      }
+      GenericEntity : "{31A455F7FD8DCE84}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_plastic.et" {
+       coords -5.269 -0.353 -11.832
+       angles 0 1.737 0
+      }
+      $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 0.575 1.995 -27.945
+        angles 0 -13.263 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        coords -6.123 0.668 -0.586
+        angles 0 50.097 0
+        scale 0.8
+        m_iTargetDistance 200
+        m_bIsIndicator 1
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -5.325 0.001 -12.784
+        angles 0 1.737 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -4.701 1.878 -27.338
+        angles 0 0.211 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -2.621 1.997 -29.606
+        angles 0 -3.052 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords 1.574 0.001 -10.309
+        angles 0 -13.052 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -0.112 0.001 -11.903
+        angles 0 -23.052 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -0.401 0.629 -22.792
+        angles 0 -13.052 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -1.821 0.017 -15.005
+        angles 0 -11.526 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -3.592 0.001 -9.214
+        angles 0 -1.526 0
+        m_iTargetDistance 15
+        m_fTimeInErectedPosition 1.5
+       }
+       {
+        components {
+         ProcAnimComponent "{51A276D49FB75B53}" {
+          Parameters {
+           ProcAnimParams "{51A276D49AB6138D}" {
+            SimulationDistance 400
+           }
+          }
+         }
+        }
+        coords -4.782 0.414 -21.399
+        angles 0 1.948 0
+        m_iTargetDistance 25
+        m_fTimeInErectedPosition 1.5
+       }
+      }
+      GenericEntity : "{8EF9A7BC7B9C732E}Prefabs/Props/Industrial/BenchDrill_01_table.et" {
+       coords -6.12 -0.006 -0.558
+       angles 0 -178.263 0
+       scale 0.7
+      }
+      $grp GenericEntity : "{DC4B11930753ABC2}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_base.et" {
+       {
+        coords -4.758 0.189 -20.332
+        angles 0 1.737 0
+       }
+       {
+        coords 1.349 -0.137 -9.798
+        angles 0 -33.263 0
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
