@@ -2,6 +2,7 @@ SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionMana
  ID "56B2B4776E6E4499"
  Factions {
   SCR_Faction "{56DEAC40D2DBC8B1}" : "{5EB46557DF2AA24F}Configs/Factions/US.conf" {
+   m_iOrder 50
    m_bIsPlayable 0
    m_bShowInWelcomeScreenIfNonPlayable 0
    m_sFactionBackground "{F8AC305446D5D480}UI/Textures/DeployMenu/Loadout-BG/Loadout_US_BG.imageset"
@@ -21,6 +22,7 @@ SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionMana
   SCR_Faction "{68B4386D61693353}" : "{B7EEC232A3AC9554}Configs/Factions/Training/BTC.conf" {
   }
   SCR_Faction "{68B515C9BE83AF6A}" : "{54C65F3C6D243E4A}Configs/Factions/Training/S7.conf" {
+   m_iOrder 1
   }
  }
 }
