@@ -125,9 +125,12 @@ SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutMana
   }
   SCR_FactionPlayerLoadout "{668B4E3D082FAD3A}" : "{70B415C8C2E75F42}Prefabs/Characters/Cav_Factions/Alpha/Loadouts/Loadout_A_Chaos.conf" {
   }
-  SCR_FactionPlayerLoadout "{668B4E35CA26E3BA}" : "{74E42F3583732192}Prefabs/Characters/Cav_Factions/Bravo/Loadouts/Helios/Loadout_B_Rifleman_Helios.conf" {
-  }
   SCR_FactionPlayerLoadout "{668B4E3367EABF10}" : "{DA89F8137748B6F4}Prefabs/Characters/Cav_Factions/Bravo/Loadouts/Pioneer/Loadout_B_Rifleman_Pioneer.conf" {
+  }
+  SCR_FactionPlayerLoadout "{68CB61CC962F745B}" {
+   m_sLoadoutName "RU_Rifleman"
+   m_sLoadoutResource "{9B452A52081470E3}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_USSR_MSV_Player.et"
+   m_sAffiliatedFaction "RHS_AFRF"
   }
   SCR_FactionPlayerLoadout "{668B4E33622A0E02}" : "{3961F15D2B0724B9}Prefabs/Characters/Cav_Factions/Bravo/Loadouts/Pioneer/Loadout_B_AutomaticRifleman_Pioneer.conf" {
   }
@@ -172,6 +175,16 @@ SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutMana
   SCR_FactionPlayerLoadout "{66934A1D9631D8AB}" : "{2AB683A3C739676A}Prefabs/Characters/Cav_Factions/Charlie/Loadouts/Gunslinger/Loadout_C_CLS_Gunslinger.conf" {
   }
   SCR_FactionPlayerLoadout "{66934A1D928D9F21}" : "{844FCB785BA9910D}Prefabs/Characters/Cav_Factions/Charlie/Loadouts/Misfit/Loadout_C_CLS_Misfit.conf" {
+  }
+  SCR_FactionPlayerLoadout "{68CB61CCD6E7680B}" {
+   m_sLoadoutName "Ground"
+   m_sLoadoutResource "{2E6A7178AF4D045F}Prefabs/Characters/Cav_Factions/Charlie/Charlie_Rifleman.et"
+   m_sAffiliatedFaction "Command"
+  }
+  SCR_FactionPlayerLoadout "{68CB61CC36F4C2EE}" {
+   m_sLoadoutName "Air"
+   m_sLoadoutResource "{BAE60D8B790F1DDF}Prefabs/Characters/Cav_Factions/Alpha/Alpha_Pilot.et"
+   m_sAffiliatedFaction "Command"
   }
  }
 }

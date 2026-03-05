@@ -35,14 +35,6 @@ SCR_GameModeEditor : "{D2DE7F43D48A3667}Prefabs/MP/Modes/Editor/GameMode_Editor.
   SCR_LoadoutManager : "{635B6F9940DB158A}Prefabs/MP/Managers/Loadouts/Cav_LoadoutManager_Sandbox.et" {
    ID "664AFC66ED99F445"
    coords 0 0 0
-   m_aPlayerLoadouts {
-    SCR_FactionPlayerLoadout "{68A921E58242FAB5}" {
-     m_sLoadoutName "AFRF RFM"
-     m_sLoadoutResource "{7CCAB195F5A1D9CA}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_Rifleman.et"
-     m_sLoadoutImage "{3CCBDA3F30CEF46C}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_Rifleman.edds"
-     m_sAffiliatedFaction "RHS_AFRF"
-    }
-   }
   }
  }
 }
